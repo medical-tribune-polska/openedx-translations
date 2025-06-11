@@ -3951,7 +3951,7 @@ msgstr ""
 #: cms/templates/group_configurations.html:109
 #: lms/templates/courseware/program_marketing.html:319
 msgid "Learn More"
-msgstr ""
+msgstr "Dowiedz się więcej"
 
 #: lms/djangoapps/courseware/date_summary.py:553
 msgid "Retry Verification"
@@ -14709,7 +14709,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html:81
 msgid " Learn more"
-msgstr ""
+msgstr "Dowiedz się więcej"
 
 #: cms/templates/course_outline.html:87
 msgid "Share feedback"
@@ -17889,7 +17889,7 @@ msgstr ""
 
 #: lms/templates/course.html:13
 msgid "LEARN MORE"
-msgstr ""
+msgstr "DOWIEDZ SIĘ WIĘCEJ"
 
 #: lms/templates/course.html:29 lms/templates/course.html:39
 #: lms/templates/course.html:41
@@ -23738,7 +23738,7 @@ msgstr ""
 
 #: lms/templates/widgets/cookie-consent.html:22
 msgid "Learn more"
-msgstr ""
+msgstr "Dowiedz się więcej"
 
 #: lms/templates/wiki/includes/article_menu.html:14
 #: lms/templates/wiki/includes/article_menu.html:23
