@@ -9953,7 +9953,7 @@ msgstr ""
 #: lms/templates/student_account/hinted_login.underscore:4
 #: lms/templates/student_account/login.underscore:56
 msgid "Sign in"
-msgstr ""
+msgstr "Zaloguj się"
 
 #: lms/templates/student_account/hinted_login.underscore:8
 #, python-format
@@ -10034,7 +10034,7 @@ msgstr ""
 
 #: lms/templates/student_account/login.underscore:27
 msgid "Sign In"
-msgstr ""
+msgstr "Zaloguj Się"
 
 #: lms/templates/student_account/login.underscore:34
 msgid ""
@@ -10085,7 +10085,7 @@ msgstr ""
 
 #: lms/templates/student_account/register.underscore:7
 msgid "Sign in."
-msgstr ""
+msgstr "Zaloguj się"
 
 #: lms/templates/student_account/register.underscore:18
 msgid "Create an account using"

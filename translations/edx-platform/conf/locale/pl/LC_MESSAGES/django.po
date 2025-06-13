@@ -4119,7 +4119,7 @@ msgstr ""
 #: lms/djangoapps/courseware/views/index.py:234
 #: lms/djangoapps/courseware/views/views.py:562 xmodule/discussion_block.py:187
 msgid "sign in"
-msgstr ""
+msgstr "zaloguj się"
 
 #: lms/djangoapps/courseware/views/index.py:238
 #: lms/djangoapps/courseware/views/views.py:566
@@ -4216,7 +4216,7 @@ msgstr ""
 #: lms/templates/lti_provider/user-auth-error.html:30
 #: lms/templates/navigation/navbar-not-authenticated.html:49
 msgid "Sign in"
-msgstr ""
+msgstr "Zaloguj się"
 
 #: lms/djangoapps/courseware/views/views.py:591
 #, python-brace-format
@@ -9977,7 +9977,7 @@ msgstr ""
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:70
 #: cms/templates/widgets/header.html:386
 msgid "Sign In"
-msgstr ""
+msgstr "Zaloguj Się"
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:176
 msgid "Our mailing address is"
@@ -18138,7 +18138,7 @@ msgstr ""
 #: themes/stanford-style/lms/templates/index.html:22
 #: themes/stanford-style/lms/templates/index.html:23
 msgid "Search for a course"
-msgstr ""
+msgstr "Szukaj kursu"
 
 #: lms/templates/index_overlay.html:8
 #, python-brace-format
