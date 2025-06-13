@@ -17894,12 +17894,12 @@ msgstr "DOWIEDZ SIĘ WIĘCEJ"
 #: lms/templates/course.html:29 lms/templates/course.html:39
 #: lms/templates/course.html:41
 msgid "Starts"
-msgstr ""
+msgstr "Startuje"
 
 #: lms/templates/course.html:31
 #, python-brace-format
 msgid "Starts: {date}"
-msgstr ""
+msgstr "Startuje: {date}"
 
 #: lms/templates/courses_list.html:22
 msgid "View all Courses"
