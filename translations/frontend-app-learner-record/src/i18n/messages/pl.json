@@ -35,7 +35,7 @@
   "credentials.error.issuance.init": "Nie można zainicjować wiersza wydania",
   "PageTitle": "Moje rekordy uczących się | {siteName}",
   "learnerRecords": "Moje rekordy uczących się",
-  "verifiableCredentials": ​"Weryfikowalne Poświadczenia",
+  "verifiableCredentials": "Weryfikowalne Poświadczenia",
   "link.back.to.records": "Powrót do Moich rekordów",
   "records.list.error": "Wystąpił błąd podczas próby pobrania rekordów programu. Spróbuj ponownie później.",
   "page.loading.message": "Ładowanie...",
