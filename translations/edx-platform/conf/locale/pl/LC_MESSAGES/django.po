@@ -28,9 +28,9 @@ msgstr ""
 "#-#-#-#-#  django.po (0.1a)  #-#-#-#-#\n"
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2025-06-13 08:00+0000\n"
+"PO-Revision-Date: 2025-06-13 09:00+0000\n"
+"Last-Translator: Rafał Tulwin\n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -40,9 +40,9 @@ msgstr ""
 "#-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#\n"
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2025-06-13 08:00+0000\n"
+"PO-Revision-Date: 2025-06-13 09:00+0000\n"
+"Last-Translator: Rafał Tulwin\n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -53,9 +53,9 @@ msgstr ""
 "#-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#\n"
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2025-06-13 08:00+0000\n"
+"PO-Revision-Date: 2025-06-13 09:00+0000\n"
+"Last-Translator: Rafał Tulwin\n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -77,137 +77,130 @@ msgstr ""
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
-msgstr ""
+msgstr "Użytkownik zespołu kursu nie istnieje"
 
 #: cms/djangoapps/contentstore/admin.py:47
 #, python-brace-format
 msgid ""
 "Number of course outline regenerations successfully requested: {regenerates}"
 msgstr ""
+"Liczba pomyślnie żądanych regeneracji konspektu kursu: "
+"{regenerates}"
 
 #: cms/djangoapps/contentstore/admin.py:51
 msgid "Regenerate selected course outlines"
-msgstr ""
+msgstr "Regeneruj wybrane konspekty kursu"
 
 #: cms/djangoapps/contentstore/admin.py:59
 msgid "All course outline regenerations successfully requested."
 msgstr ""
-
+"Wszystkie regeneracje konspektu kursu zostały pomyślnie zgłoszone."
 #: cms/djangoapps/contentstore/admin.py:60
 msgid "Regenerate *all* course outlines"
-msgstr ""
+msgstr "Regeneruj *wszystkie* konspekty kursu"
 
 #: cms/djangoapps/contentstore/asset_storage_handlers.py:548
 msgid "Upload completed"
-msgstr ""
+msgstr "Przesyłanie zakończone"
 
 #: cms/djangoapps/contentstore/asset_storage_handlers.py:592
 #, python-brace-format
-msgid "File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgid ""
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
 msgstr ""
-
+"Plik {filename} przekracza maksymalny rozmiar {maximum_size_in_megabytes}"
+" MB."
 #: cms/djangoapps/contentstore/course_group_config.py:27
 msgid ""
 "The groups in this configuration can be mapped to cohorts in the Instructor "
 "Dashboard."
 msgstr ""
-
-#: cms/djangoapps/contentstore/course_group_config.py:30
+"Grupy w tej konfiguracji mogą być mapowane do kohort w Panelu Instruktora."
 #: cms/templates/group_configurations.html:96
 msgid "Content Groups"
-msgstr ""
+msgstr "Grupy treści"
 
 #: cms/djangoapps/contentstore/course_group_config.py:65
 #: cms/djangoapps/contentstore/views/certificates.py:142
 msgid "invalid JSON"
-msgstr ""
+msgstr "Nieprawidłowy JSON"
 
 #: cms/djangoapps/contentstore/course_group_config.py:74
 msgid "must have name of the configuration"
-msgstr ""
+msgstr "Musi zawierać nazwę konfiguracji"
 
 #: cms/djangoapps/contentstore/course_group_config.py:76
 msgid "must have at least one group"
-msgstr ""
+msgstr "Musi zawierać co najmniej jedną grupę"
 
 #: cms/djangoapps/contentstore/course_group_config.py:114
 msgid "unable to load this type of group configuration"
-msgstr ""
+msgstr "Nie można załadować tego typu konfiguracji grup"
 
 #: cms/djangoapps/contentstore/course_info_model.py:74
 #: cms/djangoapps/contentstore/course_info_model.py:159
 msgid "Invalid course update id."
-msgstr ""
+msgstr "Nieprawidłowy identyfikator aktualizacji kursu."
 
 #: cms/djangoapps/contentstore/course_info_model.py:126
 msgid "Course update not found."
-msgstr ""
-
+msgstr "Aktualizacja kursu nie znaleziona."
 #: cms/djangoapps/contentstore/courseware_index.py:246
 msgid "Could not index item: {}"
-msgstr ""
+msgstr "Nie można indeksować elementu: {}"
 
 #: cms/djangoapps/contentstore/courseware_index.py:269
 msgid "General indexing error occurred"
-msgstr ""
-
+msgstr "Wystąpił ogólny błąd indeksowania."
 #: cms/djangoapps/contentstore/courseware_index.py:352
 msgid "(Unnamed)"
-msgstr ""
+msgstr "(Bez nazwy)"
 
 #: cms/djangoapps/contentstore/errors.py:6
 msgid "Aborting import because a course with this id: {} already exists."
 msgstr ""
-
+"Przerywanie importu, ponieważ kurs o tym identyfikatorze: {} już istnieje."
 #: cms/djangoapps/contentstore/errors.py:7
 msgid "Permission denied. You do not have write access to this course."
-msgstr ""
-
+msgstr "Odmowa dostępu. Nie masz uprawnień do zapisu w tym kursie."
 #: cms/djangoapps/contentstore/errors.py:8
 #, python-brace-format
 msgid "Could not find the {0} file in the package."
-msgstr ""
+msgstr "Nie można znaleźć pliku {0} w pakiecie."
 
 #: cms/djangoapps/contentstore/errors.py:9
 msgid "Uploaded Tar file not found. Try again."
-msgstr ""
+msgstr "Nie znaleziono przesłanego pliku Tar. Spróbuj ponownie."
 
 #: cms/djangoapps/contentstore/errors.py:10
 msgid "We only support uploading a .tar.gz file."
-msgstr ""
+msgstr "Obsługujemy tylko przesyłanie plików .tar.gz."
 
 #: cms/djangoapps/contentstore/errors.py:11
 msgid "Aborting import since a library with this id already exists."
 msgstr ""
-
+"Przerywanie importu, ponieważ biblioteka o tym identyfikatorze już istnieje."
 #: cms/djangoapps/contentstore/errors.py:12
 msgid "Course olx validation failed. Please check your email."
-msgstr ""
-
+msgstr "Walidacja kursu olx nie powiodła się. Proszę sprawdzić swój e-mail."
 #: cms/djangoapps/contentstore/errors.py:13
 msgid "Permission denied"
-msgstr ""
+msgstr "Odmowa dostępu"
 
 #: cms/djangoapps/contentstore/errors.py:14
 msgid "Unknown error while importing course."
-msgstr ""
-
+msgstr "Nieznany błąd podczas importowania kursu."
 #: cms/djangoapps/contentstore/errors.py:15
 msgid "An Unknown error occurred during the unpacking step."
-msgstr ""
-
+msgstr "Wystąpił nieznany błąd podczas etapu rozpakowywania."
 #: cms/djangoapps/contentstore/errors.py:16
 #, python-brace-format
 msgid "Unknown User ID: {0}"
-msgstr ""
-
-#: cms/djangoapps/contentstore/errors.py:17
-msgid "Unsafe archive file. Aborting import."
-msgstr ""
+msgstr "Nieznany identyfikator użytkownika: {0}"
 
 #: cms/djangoapps/contentstore/errors.py:18
 msgid "User permission denied."
-msgstr ""
+msgstr "Odmowa uprawnień użytkownika."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:36
 #, python-brace-format
@@ -215,69 +208,75 @@ msgid ""
 "GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
 "configure a different path with GIT_REPO_EXPORT_DIR"
 msgstr ""
+"GIT_REPO_EXPORT_DIR nie ustawiono lub ścieżka {0} nie istnieje, proszę ją "
+"utworzyć lub skonfigurować inną ścieżkę za pomocą GIT_REPO_EXPORT_DIR"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:39
 msgid ""
-"Non writable git url provided. Expecting something like: git@github.com:"
-"openedx/openedx-demo-course.git"
+"Non writable git url provided. Expecting something like: "
+"git@github.com:openedx/openedx-demo-course.git"
 msgstr ""
+"Podano niezapisywalny adres URL git. Oczekiwano czegoś w rodzaju: "
+"git@github.com:openedx/openedx-demo-course.git"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:41
 msgid ""
 "If using http urls, you must provide the username and password in the url. "
 "Similar to https://user:pass@github.com/user/course."
 msgstr ""
-
+"Jeśli używasz adresów URL http, musisz podać nazwę użytkownika i hasło w "
+"adresie URL. Podobnie jak https://user:pass@github.com/user/course."
 #: cms/djangoapps/contentstore/git_export_utils.py:44
 msgid "Unable to determine branch, repo in detached HEAD mode"
-msgstr ""
+msgstr "Nie można określić gałęzi, repozytorium w trybie odłączonego HEAD"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:45
 msgid "Unable to update or clone git repository."
-msgstr ""
+msgstr "Nie można zaktualizować ani sklonować repozytorium git."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:46
 msgid "Unable to export course to xml."
-msgstr ""
-
+msgstr "Nie można wyeksportować kursu do xml."
 #: cms/djangoapps/contentstore/git_export_utils.py:47
 msgid "Unable to configure git username and password"
 msgstr ""
-
+"Nie można skonfigurować nazwy użytkownika i hasła git."
 #: cms/djangoapps/contentstore/git_export_utils.py:48
 msgid ""
-"Unable to commit changes. This is usually because there are no changes to be "
-"committed"
+"Unable to commit changes. This is usually because there are no changes to be"
+" committed"
 msgstr ""
-
+"Nie można zatwierdzić zmian. Zazwyczaj dzieje się tak, ponieważ nie ma "
+"żadnych zmian do zatwierdzenia."
 #: cms/djangoapps/contentstore/git_export_utils.py:50
 msgid ""
 "Unable to push changes.  This is usually because the remote repository "
 "cannot be contacted"
 msgstr ""
-
+"Nie można wypchnąć zmian. Zazwyczaj dzieje się tak, ponieważ nie można "
+"skontaktować się z repozytorium zdalnym."
 #: cms/djangoapps/contentstore/git_export_utils.py:52
 msgid "Bad course location provided"
-msgstr ""
+msgstr "Podano nieprawidłową lokalizację kursu"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:53
 msgid "Missing branch on fresh clone"
-msgstr ""
+msgstr "Brakująca gałąź w świeżej kopii"
 
 #: cms/djangoapps/contentstore/helpers.py:203
 msgid "Vertical"
-msgstr ""
+msgstr "Pionowo"
 
 #: cms/djangoapps/contentstore/helpers.py:207
 #: cms/templates/course_outline.html:212 lms/templates/ccx/schedule.html:86
 #: lms/templates/seq_block.html:136
 msgid "Section"
-msgstr ""
+msgstr "Sekcja"
 
 #: cms/djangoapps/contentstore/helpers.py:209
 #: lms/templates/ccx/schedule.html:90
 msgid "Subsection"
-msgstr ""
+msgstr "Podsekcja"
 
 #: cms/djangoapps/contentstore/helpers.py:211
 #: lms/djangoapps/instructor/views/tools.py:241
@@ -285,85 +284,27 @@ msgstr ""
 #: lms/templates/ccx/schedule.html:94 lms/templates/seq_block.html:89
 #: lms/templates/seq_block.html:97
 msgid "Unit"
-msgstr ""
+msgstr "Jednostka"
 
 #: cms/djangoapps/contentstore/helpers.py:218
 #: cms/djangoapps/contentstore/views/component.py:283
 msgid "Problem"
-msgstr ""
+msgstr "Problem"
 
 #: cms/djangoapps/contentstore/helpers.py:220
 #: cms/djangoapps/contentstore/views/component.py:287
 msgid "Library Content"
-msgstr ""
-
-#: cms/djangoapps/contentstore/helpers.py:222
-#: cms/djangoapps/contentstore/views/component.py:288
-msgid "Problem Bank"
-msgstr ""
+msgstr "Zawartość biblioteki"
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py:33
 msgid ""
 "Take the specified course and attempt to export it to a git repository\n"
-". Course directory must already be a git repository. Usage:  git_export "
-"<course_loc> <git_url>"
+".
+Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
 msgstr ""
-
-#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:46
-msgid "COURSE_KEY"
-msgstr ""
-
-#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:48
-msgid ""
-"Recreate links for xblocks under given course keys. For eg. course-v1:"
-"edX+DemoX.1+2014"
-msgstr ""
-
-#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:55
-msgid ""
-"Recreate links for xblocks under all courses. NOTE: this can take long time "
-"depending on number of course and xblocks"
-msgstr ""
-
-#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:62
-msgid "Recreate links even for completely processed courses."
-msgstr ""
-
-#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:67
-msgid "Delete all and create links for given course(s)."
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:93
-msgid "Upstream context key i.e., learning_package/library key"
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:125
-msgid ""
-"Upstream block usage key, this value cannot be null and useful to track "
-"upstream library blocks that do not exist yet"
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:131
-msgid "Component Link"
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:132
-msgid "Component Links"
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:276
-msgid ""
-"Upstream block key (e.g. lct:...), this value cannot be null and is useful "
-"to track upstream library blocks that do not exist yet or were deleted."
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:283
-msgid "Container Link"
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:284
-msgid "Container Links"
-msgstr ""
+"Pobierz określony kurs i spróbuj wyeksportować go do repozytorium git\n"
+".
+Katalog kursu musi już być repozytorium git. Użycie: git_export <course_loc> <git_url>"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This is listed as the duration for a video that has not
@@ -373,105 +314,91 @@ msgstr ""
 #: cms/djangoapps/contentstore/video_storage_handlers.py:533
 #: openedx/core/djangoapps/api_admin/models.py:42 cms/templates/index.html:483
 msgid "Pending"
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:418
-msgid "Processing"
-msgstr ""
+msgstr "Oczekujące"
 
 #. Translators: This is the status for a video that the servers have failed to
 #. process
 #: cms/djangoapps/contentstore/models.py:419
 #: cms/djangoapps/contentstore/video_storage_handlers.py:127
 msgid "Failed"
-msgstr ""
+msgstr "Nie powiodło się"
 
 #: cms/djangoapps/contentstore/models.py:420 lms/templates/seq_block.html:76
 #: lms/templates/vert_module.html:28
 msgid "Completed"
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:432
-msgid "Linking status for course context key"
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:437
-msgid "Status of links in given learning context/course."
-msgstr ""
-
-#: cms/djangoapps/contentstore/models.py:443
-#: cms/djangoapps/contentstore/models.py:444
-msgid "Learning Context Links status"
-msgstr ""
+msgstr "Ukończono."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:47
 msgid "Marks a field as deprecated."
-msgstr ""
+msgstr "Oznacza pole jako przestarzałe."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:48
 msgid "User-friendly display name for the field"
-msgstr ""
+msgstr "Przyjazna dla użytkownika nazwa wyświetlana dla pola"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:49
-msgid "Help text that describes the setting."
-msgstr ""
+msgid "Help text that 
+describes the setting."
+msgstr "Tekst pomocy, który opisuje ustawienie."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:14
 msgid "Tab type"
-msgstr ""
+msgstr "Typ zakładki"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:15
 msgid "Default name for the tab displayed to users"
-msgstr ""
+msgstr "Domyślna nazwa zakładki wyświetlanej użytkownikom"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:18
 msgid "True if it's possible to hide the tab for a course"
-msgstr ""
+msgstr "Prawda, jeśli można ukryć zakładkę dla kursu"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:21
 msgid "True the tab is hidden for the course"
-msgstr ""
+msgstr "Prawda, zakładka jest ukryta dla kursu."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:25
 msgid "True if it's possible to reorder the tab in the list of tabs"
-msgstr ""
+msgstr "Prawda, jeśli można zmienić kolejność zakładki na liście zakładek"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:29
 msgid "True if this tab should be displayed only for instructors"
-msgstr ""
+msgstr "Prawda, jeśli ta zakładka powinna być wyświetlana tylko dla instruktorów"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:33
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:37
-msgid "Name of the tab displayed to users. Overrides title."
-msgstr ""
+msgid "Name of the tab displayed to users.
+Overrides title."
+msgstr "Nazwa zakładki wyświetlanej użytkownikom.
+Zastępuje tytuł."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:41
 msgid "Additional settings specific to the tab"
-msgstr ""
+msgstr "Dodatkowe ustawienia specyficzne dla zakładki"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:74
 msgid "ID of tab to update"
-msgstr ""
+msgstr "Identyfikator zakładki do aktualizacji"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:75
 msgid "Location (Usage Key) of tab to update"
-msgstr ""
+msgstr "Lokalizacja (klucz użycia) zakładki do aktualizacji"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:89
 msgid "Need to supply either a valid tab_id or a tab_location."
-msgstr ""
+msgstr "Należy podać prawidłowy tab_id lub tab_location."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:100
 msgid "True to hide the tab, and False to show it."
-msgstr ""
+msgstr "True, aby ukryć zakładkę, i False, aby ją pokazać."
 
 #: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py:117
 msgid "Change the visibility of tabs in a course."
-msgstr ""
+msgstr "Zmień widoczność zakładek w kursie."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:116
 msgid "The information you entered is incorrect."
-msgstr ""
+msgstr "Wprowadzone informacje są nieprawidłowe."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:138
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:228
@@ -479,31 +406,36 @@ msgstr ""
 #: xmodule/video_block/video_handlers.py:459
 #, python-brace-format
 msgid "The following parameters are required: {missing}."
-msgstr ""
+msgstr "Następujące parametry są wymagane: {missing}."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:205
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:292
 #: xmodule/video_block/video_handlers.py:600
 msgid ""
-"There is a problem with this transcript file. Try to upload a different file."
+"There is a problem with this transcript file.
+Try to upload a different "
+"file."
 msgstr ""
+"Wystąpił problem z tym plikiem transkrypcji.
+Spróbuj przesłać inny "
+"plik."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:233
 #: xmodule/video_block/video_handlers.py:463
 #, python-brace-format
 msgid "A transcript with the \"{language_code}\" language code already exists."
-msgstr ""
+msgstr "Transkrypcja z kodem języka „{language_code}” już istnieje."
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:237
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:221
 #: xmodule/video_block/video_handlers.py:467
 msgid "A transcript file is required."
-msgstr ""
+msgstr "Wymagany jest plik transkrypcji."
 
 #: cms/djangoapps/contentstore/utils.py:856
 #: cms/templates/visibility_editor.html:113
 msgid "Deleted Group"
-msgstr ""
+msgstr "Usunięta grupa"
 
 #. Translators: This is building up a list of groups. It is marked for
 #. translation because of the
@@ -511,164 +443,184 @@ msgstr ""
 #: cms/djangoapps/contentstore/utils.py:924
 #, python-brace-format
 msgid "{previous_groups}, {current_group}"
-msgstr ""
+msgstr "{previous_groups}, {current_group}"
 
 #: cms/djangoapps/contentstore/utils.py:1087
 #: cms/djangoapps/contentstore/views/block.py:277
 #: cms/djangoapps/contentstore/views/component.py:282 xmodule/html_block.py:61
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: cms/djangoapps/contentstore/utils.py:1284
 #, python-brace-format
 msgid "Duplicate of {0}"
-msgstr ""
+msgstr "Duplikat {0}"
 
 #: cms/djangoapps/contentstore/utils.py:1286
 #, python-brace-format
 msgid "Duplicate of '{0}'"
-msgstr ""
+msgstr "Duplikat '{0}'"
 
 #: cms/djangoapps/contentstore/utils.py:1342
 msgid "Invalid prerequisite course key"
-msgstr ""
+msgstr "Nieprawidłowy klucz kursu stanowiącego warunek wstępny"
 
 #: cms/djangoapps/contentstore/utils.py:1908
 msgid "Set Date"
-msgstr ""
+msgstr "Ustaw datę"
 
+#.
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This is the status of an active video upload
 #: cms/djangoapps/contentstore/video_storage_handlers.py:119
 #: cms/templates/import.html:114
 msgid "Uploading"
-msgstr ""
+msgstr "Przesyłanie"
 
+#.
 #. Translators: This is the status for a video that the servers are currently
 #. processing
 #: cms/djangoapps/contentstore/video_storage_handlers.py:121
 msgid "In Progress"
-msgstr ""
+msgstr "W toku"
 
+#.
 #. Translators: This is the status for a video that the servers have
 #. successfully processed
 #: cms/djangoapps/contentstore/video_storage_handlers.py:123
 #: openedx/core/djangoapps/content_staging/data.py:19
 msgid "Ready"
-msgstr ""
+msgstr "Gotowe"
 
+#.
 #. Translators: This is the status for a video that is uploaded completely
 #: cms/djangoapps/contentstore/video_storage_handlers.py:125
 msgid "Uploaded"
-msgstr ""
+msgstr "Przesłano"
 
+#.
 #. Translators: This is the status for a video that is cancelled during upload
 #. by user
 #: cms/djangoapps/contentstore/video_storage_handlers.py:129
 msgid "Cancelled"
-msgstr ""
+msgstr "Anulowano."
 
+#.
 #. Translators: This is the status for a video which has failed
+#.
 #. due to being flagged as a duplicate by an external or internal CMS
 #: cms/djangoapps/contentstore/video_storage_handlers.py:132
 msgid "Failed Duplicate"
-msgstr ""
+msgstr "Błąd duplikatu"
 
+#.
 #. Translators: This is the status for a video which has duplicate token for
 #. youtube
 #: cms/djangoapps/contentstore/video_storage_handlers.py:134
 msgid "YouTube Duplicate"
-msgstr ""
+msgstr "Duplikat YouTube"
 
+#.
 #. Translators: This is the status for a video for which an invalid
+#.
 #. processing token was provided in the course settings
 #: cms/djangoapps/contentstore/video_storage_handlers.py:137
 msgid "Invalid Token"
-msgstr ""
+msgstr "Nieprawidłowy token"
 
+#.
 #. Translators: This is the status for a video that was included in a course
 #. import
 #: cms/djangoapps/contentstore/video_storage_handlers.py:139
 msgid "Imported"
-msgstr ""
+msgstr "Zaimportowano"
 
+#.
 #. Translators: This is the status for a video that is in an unknown state
 #: cms/djangoapps/contentstore/video_storage_handlers.py:141
 msgid "Unknown"
-msgstr ""
+msgstr "Nieznany"
 
+#.
 #. Translators: This is the status for a video that is having its
+#.
 #. transcription in progress on servers
 #: cms/djangoapps/contentstore/video_storage_handlers.py:143
 msgid "Transcription in Progress"
-msgstr ""
+msgstr "Transkrypcja w toku"
 
+#.
 #. Translators: This is the status for a video whose transcription is complete
 #: cms/djangoapps/contentstore/video_storage_handlers.py:145
 msgid "Transcript Ready"
-msgstr ""
+msgstr "Transkrypcja gotowa"
 
+#.
 #. Translators: This is the status for a video whose transcription job was
+#.
 #. failed for some languages
 #: cms/djangoapps/contentstore/video_storage_handlers.py:147
 msgid "Partial Failure"
-msgstr ""
+msgstr "Częściowy błąd"
 
 #. Translators: This is the status for a video whose transcription job has
+#.
 #. failed altogether
 #: cms/djangoapps/contentstore/video_storage_handlers.py:149
 msgid "Transcript Failed"
-msgstr ""
+msgstr "Transkrypcja nie powiodła się"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:338
 msgid "An image file is required."
-msgstr ""
-
+msgstr "Wymagany jest plik obrazu."
 #. Translators: This is the header for a CSV file column
 #. containing URLs for video encodings for the named profile
+#.
 #. (e.g. desktop, mobile high quality, mobile low quality)
 #: cms/djangoapps/contentstore/video_storage_handlers.py:511
 #, python-brace-format
 msgid "{profile_name} URL"
-msgstr ""
+msgstr "URL {profile_name}"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:516
 #: lms/djangoapps/instructor/views/api.py:1502
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:59
 msgid "Name"
-msgstr ""
+msgstr "Nazwa"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:517
 msgid "Duration"
-msgstr ""
+msgstr "Czas trwania"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:518
 msgid "Date Added"
-msgstr ""
+msgstr "Data dodania"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:519
 #: xmodule/video_block/video_xfields.py:196
 msgid "Video ID"
-msgstr ""
+msgstr "Identyfikator wideo"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:520
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #. Translators: This is the suggested filename when downloading the URL
-#. listing for videos uploaded through Studio
+#.
+listing for videos uploaded through Studio
 #: cms/djangoapps/contentstore/video_storage_handlers.py:566
 #, python-brace-format
 msgid "{course}_video_urls"
-msgstr ""
+msgstr "{course}_video_urls"
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:954
 msgid "A non zero positive integer is expected"
-msgstr ""
+msgstr "Oczekiwana jest niezerowa liczba całkowita dodatnia"
 
 #: cms/djangoapps/contentstore/video_utils.py:42
 msgid "The image must have name, content type, and size information."
 msgstr ""
+"Obraz musi zawierać informacje o nazwie, typie zawartości i rozmiarze."
 
 #: cms/djangoapps/contentstore/video_utils.py:44
 #, python-brace-format
@@ -676,132 +628,145 @@ msgid ""
 "This image file type is not supported. Supported file types are "
 "{supported_file_formats}."
 msgstr ""
+"Ten typ pliku obrazu nie jest obsługiwany. Obsługiwane typy plików to "
+"{supported_file_formats}."
 
 #: cms/djangoapps/contentstore/video_utils.py:48
 #, python-brace-format
 msgid "This image file must be smaller than {image_max_size}."
-msgstr ""
+msgstr "Ten plik obrazu musi być mniejszy niż {image_max_size}."
 
 #: cms/djangoapps/contentstore/video_utils.py:52
 #, python-brace-format
 msgid "This image file must be larger than {image_min_size}."
-msgstr ""
+msgstr "Ten plik obrazu musi być większy niż {image_min_size}."
 
 #: cms/djangoapps/contentstore/video_utils.py:59
 #: cms/djangoapps/contentstore/video_utils.py:61
 msgid ""
 "There is a problem with this image file. Try to upload a different file."
 msgstr ""
+"Wystąpił problem z tym plikiem obrazu. Spróbuj przesłać inny plik."
 
 #: cms/djangoapps/contentstore/video_utils.py:64
 #, python-brace-format
 msgid ""
-"Recommended image resolution is {image_file_max_width}"
-"x{image_file_max_height}. The minimum resolution is {image_file_min_width}"
-"x{image_file_min_height}."
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
 msgstr ""
+"Zalecana rozdzielczość obrazu to {image_file_max_width}x{image_file_max_height}."
+" Minimalna rozdzielczość to {image_file_min_width}x{image_file_min_height}."
 
 #: cms/djangoapps/contentstore/video_utils.py:72
 #, python-brace-format
 msgid ""
-"This image file must have an aspect ratio of {video_image_aspect_ratio_text}."
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
 msgstr ""
+"Ten plik obrazu musi mieć proporcje {video_image_aspect_ratio_text}."
 
 #: cms/djangoapps/contentstore/video_utils.py:79
 msgid ""
 "The image file name can only contain letters, numbers, hyphens (-), and "
 "underscores (_)."
 msgstr ""
+"Nazwa pliku obrazu może zawierać tylko litery, cyfry, myślniki (-) i "
+"podkreślenia (_)."
 
 #: cms/djangoapps/contentstore/views/certificates.py:165
 msgid "must have name of the certificate"
-msgstr ""
+msgstr "musi zawierać nazwę certyfikatu"
 
 #: cms/djangoapps/contentstore/views/certificates.py:250
 #, python-brace-format
 msgid "Certificate dict {0} missing value key '{1}'"
-msgstr ""
+msgstr "Słownik certyfikatów {0} brakuje klucza wartości '{1}'"
 
 #: cms/djangoapps/contentstore/views/certificates.py:355
 #: cms/djangoapps/contentstore/views/certificates.py:393
 #, python-brace-format
 msgid "PermissionDenied: Failed in authenticating {user}"
-msgstr ""
+msgstr "Brak uprawnień: Nie udało się uwierzytelnić użytkownika {user}"
 
 #: cms/djangoapps/contentstore/views/component.py:277
 #, python-brace-format
 msgid "{platform_name} Support Levels:"
-msgstr ""
+msgstr "{platform_name} Poziomy wsparcia:"
 
-#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
+#.
+#- amenity-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
-#. the discussion forums
+#.
+the discussion forums
 #: cms/djangoapps/contentstore/views/component.py:281
 #: lms/djangoapps/courseware/tabs.py:241
 #: lms/djangoapps/discussion/plugins.py:27
 #: openedx/core/djangoapps/discussions/plugins.py:23
-#: openedx/core/djangoapps/notifications/email/utils.py:457
+#: openedx/core/djangoapps/notifications/email/utils.py:456
 #: openedx/features/lti_course_tab/tab.py:274 xmodule/discussion_block.py:198
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:48
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:24
 msgid "Discussion"
-msgstr ""
+msgstr "Dyskusja"
 
 #: cms/djangoapps/contentstore/views/component.py:284
 #: lms/templates/video.html:57
 msgid "Video"
-msgstr ""
+msgstr "Wideo"
 
 #: cms/djangoapps/contentstore/views/component.py:285
 msgid "Open Response"
-msgstr ""
-
-#: cms/djangoapps/contentstore/views/component.py:286
-msgid "Legacy Library"
-msgstr ""
+msgstr "Otwarta odpowiedź"
 
 #: cms/djangoapps/contentstore/views/component.py:289
 msgid "Drag and Drop"
-msgstr ""
+msgstr "Przeciągnij i upuść"
 
 #: cms/djangoapps/contentstore/views/component.py:330
 msgid "Blank"
-msgstr ""
+msgstr "Puste"
 
 #: cms/djangoapps/contentstore/views/component.py:333
 msgid "Peer Assessment Only"
-msgstr ""
+msgstr "Tylko ocena koleżeńska"
 
-#: cms/djangoapps/contentstore/views/component.py:337 xmodule/capa_block.py:183
+#: cms/djangoapps/contentstore/views/component.py:337
+#: xmodule/capa_block.py:183
 msgid "Blank Problem"
-msgstr ""
+msgstr "Pusty problem"
 
 #: cms/djangoapps/contentstore/views/component.py:462
 #: xmodule/video_block/video_block.py:154
 msgid "Advanced"
-msgstr ""
+msgstr "Zaawansowane"
 
 #: cms/djangoapps/contentstore/views/course.py:355
 msgid "Course has been successfully reindexed."
-msgstr ""
+msgstr "Kurs został pomyślnie zreindeksowany."
 
 #: cms/djangoapps/contentstore/views/course.py:884
 msgid ""
 "Special characters not allowed in organization, course number, and course "
 "run."
 msgstr ""
+"Znaki specjalne niedozwolone w nazwie organizacji, numerze kursu i cyklu "
+"kursu."
 
 #: cms/djangoapps/contentstore/views/course.py:920
 msgid ""
 "There is already a course defined with the same organization and course "
 "number. Please change either organization or course number to be unique."
 msgstr ""
+"Istnieje już kurs zdefiniowany z tą samą organizacją i numerem kursu. Proszę "
+"zmienić organizację lub numer kursu, aby był unikalny."
 
 #: cms/djangoapps/contentstore/views/course.py:925
 #: cms/djangoapps/contentstore/views/course.py:928
 msgid ""
 "Please change either the organization or course number so that it is unique."
 msgstr ""
+"Proszę zmienić organizację lub numer kursu, aby był unikalny."
 
 #: cms/djangoapps/contentstore/views/course.py:933
 #, python-brace-format
@@ -810,79 +775,83 @@ msgid ""
 "\n"
 "{err}"
 msgstr ""
+"Nie można utworzyć kursu '{name}'.\n"
+"\n"
+"{err}"
 
 #: cms/djangoapps/contentstore/views/course.py:945
 msgid ""
 "User does not have the permission to create courses in this organization or "
 "course creation is disabled"
 msgstr ""
+"Użytkownik nie ma uprawnień do tworzenia kursów w tej organizacji lub "
+"tworzenie kursów jest wyłączone"
 
 #: cms/djangoapps/contentstore/views/course.py:962
 msgid ""
 "You must link this course to an organization in order to continue. "
-"Organization you selected does not exist in the system, you will need to add "
-"it to the system"
+"Organization you selected does not exist in the system, you will need to add"
+" it to the system"
 msgstr ""
+"Musisz powiązać ten kurs z organizacją, aby kontynuować. Wybrana przez "
+"Ciebie organizacja nie istnieje w systemie, musisz ją dodać do systemu."
 
 #: cms/djangoapps/contentstore/views/course.py:1368
 msgid "An error occurred while trying to save your tabs"
-msgstr ""
+msgstr "Wystąpił błąd podczas próby zapisania zakładek"
 
 #: cms/djangoapps/contentstore/views/course.py:1369
 msgid "Tabs Exception"
-msgstr ""
+msgstr "Wyjątek zakładek"
 
 #: cms/djangoapps/contentstore/views/course.py:1587
 msgid "This group configuration is in use and cannot be deleted."
-msgstr ""
+msgstr "Ta konfiguracja grupy jest w użyciu i nie może zostać usunięta."
 
 #: cms/djangoapps/contentstore/views/course.py:1601
 msgid "This content group is in use and cannot be deleted."
-msgstr ""
+msgstr "Ta grupa treści jest w użyciu i nie może zostać usunięta."
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py:140
 #: lms/djangoapps/courseware/tabs.py:336 lms/djangoapps/courseware/tabs.py:337
 #: cms/templates/settings.html:644
 msgid "Entrance Exam"
-msgstr ""
+msgstr "Egzamin wstępny"
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py:159
 msgid "Entrance Exam - Subsection"
-msgstr ""
+msgstr "Egzamin wstępny - Podsekcja"
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py:253
 msgid "Completed Course Entrance Exam"
-msgstr ""
+msgstr "Ukończono egzamin wstępny na kurs"
 
 #: cms/djangoapps/contentstore/views/export_git.py:47
 msgid "Course successfully exported to git repository"
-msgstr ""
-
-#: cms/djangoapps/contentstore/views/import_export.py:150
-#, python-brace-format
-msgid ""
-"We support uploading files in one of the following formats: "
-"{IMPORTABLE_FILE_TYPES}"
-msgstr ""
+msgstr "Kurs pomyślnie wyeksportowany do repozytorium git"
 
 #: cms/djangoapps/contentstore/views/import_export.py:179
 msgid "Some chunks missed during file upload. Please try again"
 msgstr ""
+"Niektóre fragmenty zostały pominięte podczas przesyłania pliku. Spróbuj "
+"ponownie"
 
 #: cms/djangoapps/contentstore/views/import_export.py:190
 msgid "File upload failed. Please try again"
-msgstr ""
+msgstr "Przesyłanie pliku nie powiodło się. Spróbuj ponownie."
 
 #: cms/djangoapps/contentstore/views/library.py:240
 msgid ""
 "User does not have the permission to create library in this organization or "
 "course creation is disabled"
 msgstr ""
+"Użytkownik nie ma uprawnień do tworzenia biblioteki w tej organizacji lub "
+"tworzenie kursów jest wyłączone"
 
 #: cms/djangoapps/contentstore/views/library.py:247
 #, python-brace-format
 msgid "Unable to create library - missing required field '{field}'"
-msgstr ""
+msgstr "Nie można utworzyć biblioteki - brakuje wymaganego pola '{field}'"
 
 #: cms/djangoapps/contentstore/views/library.py:252
 #, python-brace-format
@@ -891,6 +860,8 @@ msgid ""
 "\n"
 "{err}"
 msgstr ""
+"Nie można utworzyć biblioteki '{name}'.\n"
+"{err}"
 
 #: cms/djangoapps/contentstore/views/library.py:258
 msgid ""
@@ -898,429 +869,328 @@ msgid ""
 "code. Please change your library code so that it is unique within your "
 "organization."
 msgstr ""
+"Istnieje już biblioteka zdefiniowana z tą samą organizacją i kodem "
+"biblioteki. Proszę zmienić kod biblioteki, aby był unikalny w obrębie "
+"Twojej organizacji."
 
 #: cms/djangoapps/contentstore/views/library.py:267
 #, python-brace-format
 msgid "'{organization_key}' is not a valid organization identifier."
-msgstr ""
+msgstr "'{organization_key}' nie jest prawidłowym identyfikatorem organizacji."
 
 #: cms/djangoapps/contentstore/views/preview.py:302
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
-msgstr ""
+msgstr "Dostęp ograniczony do: {list_of_groups}"
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:195
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:527
 msgid "Transcripts are supported only for \"video\" blocks."
-msgstr ""
+msgstr "Transkrypcje są obsługiwane tylko dla bloków \"wideo\"."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:198
 msgid "Cannot find item by locator."
-msgstr ""
+msgstr "Nie można znaleźć elementu według lokalizatora."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:219
 msgid "Video locator is required."
-msgstr ""
+msgstr "Wymagany jest lokalizator wideo."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:223
 msgid "This transcript file type is not supported."
-msgstr ""
+msgstr "Ten typ pliku transkrypcji nie jest obsługiwany."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:225
 msgid "Video ID is required."
-msgstr ""
+msgstr "Wymagany jest identyfikator wideo."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:520
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:561
 msgid "Incoming video data is empty."
-msgstr ""
+msgstr "Przychodzące dane wideo są puste."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:524
 msgid "Can't find item by locator."
-msgstr ""
+msgstr "Nie można znaleźć elementu według lokalizatora."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:610
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:664
 msgid "No such transcript."
-msgstr ""
+msgstr "Brak takiej transkrypcji."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:634
 msgid "There is a problem with the chosen transcript file."
-msgstr ""
+msgstr "Wystąpił problem z wybranym plikiem transkrypcji."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:689
 msgid ""
 "There is a problem with the existing transcript file. Please upload a "
 "different file."
 msgstr ""
+"Wystąpił problem z istniejącym plikiem transkrypcji. Proszę przesłać inny "
+"plik."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:710
 msgid "YouTube ID is required."
-msgstr ""
+msgstr "Wymagany jest identyfikator YouTube."
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:750
 msgid "There is a problem with the YouTube transcript file."
-msgstr ""
-
-#: cms/djangoapps/contentstore/views/transcripts_ajax.py:774
-msgid "Transcripts are not yet supported for this type of block"
-msgstr ""
+msgstr "Wystąpił problem z plikiem transkrypcji YouTube."
 
 #: cms/djangoapps/contentstore/views/user.py:98
 msgid "Insufficient permissions"
-msgstr ""
+msgstr "Niewystarczające uprawnienia"
 
 #: cms/djangoapps/contentstore/views/user.py:110
 #, python-brace-format
 msgid "Could not find user by email address '{email}'."
-msgstr ""
+msgstr "Nie można znaleźć użytkownika o adresie e-mail '{email}'."
 
 #: cms/djangoapps/contentstore/views/user.py:149
 msgid "No `role` specified."
-msgstr ""
+msgstr "Nie określono 'roli'."
 
 #: cms/djangoapps/contentstore/views/user.py:154
 #, python-brace-format
 msgid "User {email} has registered but has not yet activated their account."
 msgstr ""
+"Użytkownik {email} zarejestrował się, ale nie aktywował jeszcze swojego "
+"konta."
 
 #: cms/djangoapps/contentstore/views/user.py:175
 msgid "Invalid `role` specified."
-msgstr ""
+msgstr "Nieprawidłowa 'rola' została określona."
 
 #: cms/djangoapps/contentstore/views/user.py:179
 msgid "You may not remove the last Admin. Add another Admin first."
 msgstr ""
+"Nie możesz usunąć ostatniego administratora. Najpierw dodaj innego "
+"administratora."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/create_xblock.py:101
 #: xmodule/library_content_block.py:458
 msgid "Empty"
-msgstr ""
+msgstr "Pusty"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:229
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:631
 #, python-brace-format
 msgid "Libraries cannot have more than {limit} components"
-msgstr ""
+msgstr "Biblioteki nie mogą mieć więcej niż {limit} komponentów"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:438
 #: openedx/core/djangoapps/xblock/rest_api/views.py:334
 msgid "Invalid data"
-msgstr ""
+msgstr "Nieprawidłowe dane"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:440
 #: openedx/core/djangoapps/xblock/rest_api/views.py:336
 #, python-brace-format
 msgid "Invalid data ({details})"
-msgstr ""
+msgstr "Nieprawidłowe dane ({details})"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:605
 msgid "There was a problem pasting your component."
-msgstr ""
+msgstr "Wystąpił problem podczas wklejania komponentu."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:609
 msgid "Your clipboard is empty or invalid."
-msgstr ""
+msgstr "Twój schowek jest pusty lub nieprawidłowy."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:752
 #, python-brace-format
 msgid "You can not move {source_type} into {target_parent_type}."
-msgstr ""
+msgstr "Nie możesz przenieść {source_type} do {target_parent_type}."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:761
 msgid "Item is already present in target location."
-msgstr ""
+msgstr "Element jest już obecny w miejscu docelowym."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:763
 msgid "You can not move an item into itself."
-msgstr ""
+msgstr "Nie możesz przenieść elementu do samego siebie."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:765
 msgid "You can not move an item into it's child."
-msgstr ""
+msgstr "Nie możesz przenieść elementu do jego dziecka."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:767
 msgid "You can not move an item directly into content experiment."
-msgstr ""
+msgstr "Nie możesz przenieść elementu bezpośrednio do eksperymentu treści."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:769
 #, python-brace-format
 msgid "{source_usage_key} not found in {parent_usage_key}."
-msgstr ""
+msgstr "{source_usage_key} nie znaleziono w {parent_usage_key}."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:781
 #, python-brace-format
 msgid ""
 "You can not move {source_usage_key} at an invalid index ({target_index})."
 msgstr ""
+"Nie możesz przenieść {source_usage_key} pod nieprawidłowy indeks ({target_index})."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:788
 #, python-brace-format
 msgid "You must provide target_index ({target_index}) as an integer."
-msgstr ""
+msgstr "Musisz podać target_index ({target_index}) jako liczbę całkowitą."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1100
 #, python-brace-format
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
 msgstr ""
+"Studenci muszą uzyskać {score}{pct_sign} lub więcej punktów, aby uzyskać "
+"dostęp do materiałów kursu."
 
-#. Translators: This is the percent sign. It will be used to represent
-#. a percent value out of 100, e.g. "58%" means "58/100".
+#.
+Translators: This is the percent sign. It will be used to represent
+#. a percent value out of 100, e.g.
+"58%" means "58/100".
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1105
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1666
 #, python-brace-format
 msgid "{section_or_subsection} \"{display_name}\""
-msgstr ""
+msgstr "{section_or_subsection} \"{display_name}\""
 
 #: cms/djangoapps/course_creators/models.py:40
 msgid "unrequested"
-msgstr ""
+msgstr "niezgłoszone"
 
 #: cms/djangoapps/course_creators/models.py:41
 msgid "pending"
-msgstr ""
+msgstr "oczekujące"
 
 #: cms/djangoapps/course_creators/models.py:42
 msgid "granted"
-msgstr ""
+msgstr "przyznane"
 
 #: cms/djangoapps/course_creators/models.py:43
 msgid "denied"
-msgstr ""
+msgstr "odrzucone"
 
 #: cms/djangoapps/course_creators/models.py:46
 msgid "Studio user"
-msgstr ""
+msgstr "użytkownik Studio"
 
 #: cms/djangoapps/course_creators/models.py:48
 msgid "The date when state was last updated"
-msgstr ""
+msgstr "Data ostatniej aktualizacji statusu"
 
 #: cms/djangoapps/course_creators/models.py:50
 msgid "Current course creator state"
-msgstr ""
+msgstr "Aktualny stan twórcy kursu"
 
 #: cms/djangoapps/course_creators/models.py:51
 msgid ""
 "Optional notes about this user (for example, why course creation access was "
 "denied)"
 msgstr ""
+"Opcjonalne uwagi dotyczące tego użytkownika (na przykład, dlaczego odmówiono "
+"dostępu do tworzenia kursów)."
 
 #: cms/djangoapps/course_creators/models.py:54
 msgid "Organizations under which the user is allowed to create courses."
-msgstr ""
+msgstr "Organizacje, w których użytkownik może tworzyć kursy."
 
 #: cms/djangoapps/course_creators/models.py:57
 msgid "Grant the user the permission to create courses in ALL organizations"
 msgstr ""
+"Przyznaj użytkownikowi uprawnienia do tworzenia kursów we WSZYSTKICH "
+"organizacjach"
 
-#: cms/djangoapps/import_from_modulestore/data.py:17
-msgid "Waiting to stage content"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/data.py:18
-msgid "Staging content for import"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/data.py:19
-msgid "Failed to stage content"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/data.py:20
-msgid "Content is staged and ready for import"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/data.py:21
-msgid "Importing staged content"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/data.py:22
-msgid "Failed to import staged content"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/data.py:23
-msgid "Successfully imported content"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/data.py:24
-msgid "Canceled"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/models.py:38
-msgid "The modulestore course"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/models.py:42
-msgid "Import from modulestore"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/models.py:43
-msgid "Imports from modulestore"
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/models.py:72
-msgid "Original usage key/ID of the thing that has been imported."
-msgstr ""
-
-#: cms/djangoapps/import_from_modulestore/models.py:129
-msgid ""
-"The original Usage key of the highest-level component that was saved in "
-"StagedContent."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:32
-msgid "Edit Announcements"
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:35
-msgid ""
-"This view shows the announcement editor to create or alter announcements "
-"that are shown on the rightside of the dashboard."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:43
-msgid "Please provide course id."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:44
-msgid "Invalid course key."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:45
-msgid "No matching course found."
-msgstr ""
-
-#: cms/djangoapps/models/settings/course_metadata.py:229
+#: cms/djangoapps/models/settings/course_metadata.py:225
 #, python-brace-format
 msgid "Incorrect format for field '{name}'. {detailed_message}"
-msgstr ""
+msgstr "Nieprawidłowy format pola '{name}'. {detailed_message}"
 
 #: cms/lib/xblock/tagging/tagging.py:21
 msgid "Dictionary with the available tags"
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync.py:70
-msgid "Content is not linked to a Content Library."
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync.py:164
-msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync.py:168
-msgid "Cannot update content because it does not belong to a course."
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync.py:178
-msgid "Reference to linked library item is malformed"
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync.py:184
-msgid ""
-"Updating content with children is not yet supported unless the upstream is a "
-"container."
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync.py:190
-msgid "Linked upstream library block was not found in the system"
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync.py:198
-msgid "Linked upstream library container was not found in the system"
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync.py:209
-#, python-brace-format
-msgid ""
-"Content type mismatch: {downstream_id} ({downstream_type}) cannot be linked "
-"to {upstream_id}."
-msgstr ""
-
-#: cms/lib/xblock/upstream_sync_block.py:79
-msgid "Linked library item could not be loaded: {}"
-msgstr ""
+msgstr "Słownik z dostępnymi tagami"
 
 #: cms/templates/admin/base_site.html:4 lms/templates/admin/base_site.html:3
 msgid "Django site admin"
-msgstr ""
+msgstr "Administracja witryny Django"
 
 #: cms/templates/admin/base_site.html:6 lms/templates/admin/base_site.html:5
 msgid "Django administration"
-msgstr ""
+msgstr "Administracja Django"
 
 #: cms/templates/admin/base_site.html:11 lms/templates/admin/base_site.html:10
 msgid "View site"
-msgstr ""
+msgstr "Wyświetl witrynę"
 
 #: cms/templates/admin/base_site.html:16 lms/templates/admin/base_site.html:15
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacja"
 
 #: cms/templates/admin/base_site.html:20 lms/templates/admin/base_site.html:19
 #: wiki/templates/wiki/base.html:129
 msgid "Log out"
-msgstr ""
+msgstr "Wyloguj się"
 
 #: cms/urls.py:30
 msgid "Studio Administration"
-msgstr ""
+msgstr "Administracja Studio"
 
 #: common/djangoapps/course_modes/admin.py:40
 #: common/djangoapps/course_modes/models.py:60
 msgid "Mode"
-msgstr ""
+msgstr "Tryb"
 
 #: common/djangoapps/course_modes/admin.py:48
 #: lms/djangoapps/courseware/date_summary.py:566
 msgid "Verification Deadline"
-msgstr ""
+msgstr "Termin weryfikacji"
 
 #: common/djangoapps/course_modes/admin.py:51
 msgid ""
 "OPTIONAL: After this date/time, users will no longer be able to submit "
-"photos for verification.  This appies ONLY to modes that require "
+"photos for verification. This appies ONLY to modes that require "
 "verification."
 msgstr ""
+"OPCJONALNIE: Po tej dacie/godzinie użytkownicy nie będą już mogli przesyłać zdjęć do weryfikacji. Dotyczy to TYLKO trybów wymagających weryfikacji."
 
 #: common/djangoapps/course_modes/helpers.py:42
 msgid "You're enrolled as a verified student"
-msgstr ""
+msgstr "Jesteś zapisany jako zweryfikowany student"
 
 #: common/djangoapps/course_modes/helpers.py:43
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:16
 msgid "Verified"
-msgstr ""
+msgstr "Zweryfikowany"
 
 #: common/djangoapps/course_modes/helpers.py:45
 msgid "ID Verified Ribbon/Badge"
-msgstr ""
+msgstr "Wstążka/odznaka zweryfikowana identyfikatorem"
 
 #: common/djangoapps/course_modes/helpers.py:47
 msgid "You're enrolled as an honor code student"
 msgstr ""
+"Zapisałeś się na ten kurs jako student w trybie kodeksu honorowego"
 
 #: common/djangoapps/course_modes/helpers.py:48
 #: lms/djangoapps/branding/api.py:329 lms/djangoapps/branding/api.py:404
-#: lms/djangoapps/courseware/views/views.py:2265
+#: lms/djangoapps/courseware/views/views.py:2264
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1009
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:10
 #: themes/stanford-style/lms/templates/footer.html:20
 #: themes/stanford-style/lms/templates/static_templates/tos.html:19
 msgid "Honor Code"
-msgstr ""
+msgstr "Kodeks honorowy"
 
 #: common/djangoapps/course_modes/helpers.py:50
 msgid "You're enrolled as a professional education student"
-msgstr ""
+msgstr "Zapisałeś się jako student edukacji profesjonalnej"
 
 #: common/djangoapps/course_modes/helpers.py:51
 msgid "Professional Ed"
-msgstr ""
+msgstr "Edukacja zawodowa"
 
 #: common/djangoapps/course_modes/models.py:63 xmodule/annotatable_block.py:69
 #: xmodule/capa_block.py:178 xmodule/conditional_block.py:88
@@ -1329,75 +1199,91 @@ msgstr ""
 #: xmodule/library_content_block.py:77 xmodule/lti_block.py:131
 #: xmodule/split_test_block.py:82 xmodule/unit_block.py:38
 #: xmodule/word_cloud_block.py:63 xmodule/x_module.py:226
-#: cms/templates/container.html:167 cms/templates/library.html:51
+#: cms/templates/container.html:167
+cms/templates/library.html:51
 msgid "Display Name"
-msgstr ""
+msgstr "Wyświetlana nazwa"
 
 #: common/djangoapps/course_modes/models.py:69
 #: lms/templates/courseware/course_about.html:225
 msgid "Price"
-msgstr ""
+msgstr "Cena"
 
 #: common/djangoapps/course_modes/models.py:81
 msgid "Upgrade Deadline"
-msgstr ""
+msgstr "Termin na zmianę na opcję certyfikatu weryfikowanego"
 
 #: common/djangoapps/course_modes/models.py:83
 msgid ""
 "OPTIONAL: After this date/time, users will no longer be able to enroll in "
-"this mode. Leave this blank if users can enroll in this mode until "
+"this mode.
+Leave this blank if users can enroll in this mode until "
 "enrollment closes for the course."
 msgstr ""
+[cite_start]"OPCJONALNIE: Po tej dacie/godzinie użytkownicy nie będą już mogli zapisać się w tym trybie. [cite: 5] Pozostaw to pole puste, jeśli użytkownicy mogą zapisywać się w tym trybie do momentu zamknięcia zapisów na kurs."
 
 #: common/djangoapps/course_modes/models.py:94
 msgid "Lock upgrade deadline date"
-msgstr ""
+msgstr "Zablokuj datę ostateczną aktualizacji"
 
 #: common/djangoapps/course_modes/models.py:96
 msgid ""
 "OPTIONAL: Set to True to lock in the explicitly defined upgrade deadline "
-"date. Set to False if there is no upgrade deadline or to use the default "
+"date.
+Set to False if there is no upgrade deadline or to use the default "
 "upgrade deadline."
 msgstr ""
+[cite_start]"OPCJONALNIE: Ustaw na „Prawda”, aby zablokować wyraźnie określoną datę ostateczną aktualizacji. [cite: 7] Ustaw na „Fałsz”, jeśli nie ma daty ostatecznej aktualizacji lub aby użyć domyślnej daty ostatecznej aktualizacji."
 
 #: common/djangoapps/course_modes/models.py:121
 msgid ""
 "OPTIONAL: This is the SKU (stock keeping unit) of this mode in the external "
-"ecommerce service.  Leave this blank if the course has not yet been migrated "
-"to the ecommerce service."
+"ecommerce service.
+Leave this blank if the course has not yet been migrated"
+" to the ecommerce service."
 msgstr ""
+[cite_start]"OPCJONALNIE: To jest SKU (jednostka magazynowa) tego trybu w zewnętrznym serwisie e-commerce. [cite: 8] Pozostaw to pole puste, jeśli kurs nie został jeszcze przeniesiony do serwisu e-commerce."
 
 #: common/djangoapps/course_modes/models.py:133
 msgid ""
 "OPTIONAL: This is the Android SKU registered on play store for this mode of "
-"the course. Leave this blank if the course has not yet been migrated to the "
+"the course.
+Leave this blank if the course has not yet been migrated to the "
 "ecommerce service."
 msgstr ""
+[cite_start]"OPCJONALNIE: To jest SKU Androida zarejestrowane w sklepie Play dla tego trybu kursu. [cite: 10] Pozostaw to pole puste, jeśli kurs nie został jeszcze przeniesiony do usługi e-commerce."
 
 #: common/djangoapps/course_modes/models.py:145
 msgid ""
 "OPTIONAL: This is the iOS SKU registered on app store for this mode of the "
-"course.  Leave this blank if the course has not yet been migrated to the "
+"course.
+Leave this blank if the course has not yet been migrated to the "
 "ecommerce service."
 msgstr ""
+[cite_start]"OPCJONALNIE: To jest SKU iOS zarejestrowane w App Store dla tego trybu kursu. [cite: 12] Pozostaw to pole puste, jeśli kurs nie został jeszcze przeniesiony do usługi e-commerce."
 
 #: common/djangoapps/course_modes/models.py:158
 msgid ""
 "This is the bulk SKU (stock keeping unit) of this mode in the external "
 "ecommerce service."
 msgstr ""
+"To jest masowe SKU (jednostka magazynowa) tego trybu w zewnętrznym serwisie e-commerce."
 
 #: common/djangoapps/course_modes/models.py:249
 msgid ""
-"Professional education modes are not allowed to have expiration_datetime set."
+"Professional education modes are not allowed to have expiration_datetime "
+"set."
 msgstr ""
+"Tryby kształcenia zawodowego nie mogą mieć ustawionej daty wygaśnięcia."
 
 #: common/djangoapps/course_modes/models.py:258
 #, python-brace-format
 msgid ""
-"The {course_mode} course mode has a minimum price of {min_price}. You must "
+"The {course_mode} course mode has a minimum price of {min_price}.
+You must "
 "set a price greater than or equal to {min_price}."
 msgstr ""
+[cite_start]"Tryb kursu {course_mode} ma minimalną cenę {min_price}. [cite: 14] Musisz ustawić cenę większą lub równą {min_price}."
 
 #. Translators: This will look like '$50', where {currency_symbol} is a symbol
 #. such as '$' and {price} is a
@@ -1406,7 +1292,7 @@ msgstr ""
 #: common/djangoapps/course_modes/models.py:925
 #, python-brace-format
 msgid "{currency_symbol}{price}"
-msgstr ""
+msgstr "{currency_symbol}{price}"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This refers to the cost of the course. In this case, the
@@ -1414,43 +1300,46 @@ msgstr ""
 #: common/djangoapps/course_modes/models.py:928
 #: lms/templates/course_modes/track_selection.html:150
 msgid "Free"
-msgstr ""
+msgstr "Darmowy"
 
 #: common/djangoapps/course_modes/models.py:983
-msgid "The time period before a course ends in which a course mode will expire"
+msgid ""
+"The time period before a course ends in which a course mode will expire"
 msgstr ""
+"Okres czasu przed zakończeniem kursu, w którym tryb kursu wygaśnie"
 
 #: common/djangoapps/course_modes/views.py:268
 msgid "Enrollment is closed"
-msgstr ""
+msgstr "Zapisy są zamknięte"
 
 #: common/djangoapps/course_modes/views.py:283
 msgid "Enrollment mode not supported"
-msgstr ""
+msgstr "Nieobsługiwany tryb zapisu"
 
 #: common/djangoapps/course_modes/views.py:314
 msgid "Invalid amount selected."
-msgstr ""
+[cite_start]msgstr "Wybrano nieprawidłową kwotę. [cite: 17]"
 
 #: common/djangoapps/course_modes/views.py:323
 msgid "No selected price or selected price is too low."
 msgstr ""
+"Nie wybrano ceny lub wybrana cena jest zbyt niska."
 
-#: common/djangoapps/student/admin.py:394
+#: common/djangoapps/student/admin.py:316
 msgid "User profile"
-msgstr ""
+msgstr "Profil użytkownika"
 
-#: common/djangoapps/student/admin.py:401
-#: common/djangoapps/student/admin.py:402
+#: common/djangoapps/student/admin.py:323
+#: common/djangoapps/student/admin.py:324
 msgid "Account recovery"
-msgstr ""
+msgstr "Odzyskiwanie konta"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the login form
 #. meant to hold the user's password.
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's password.
-#: common/djangoapps/student/admin.py:417
+#: common/djangoapps/student/admin.py:339
 #: openedx/core/djangoapps/user_authn/views/login_form.py:117
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:609
 #: lms/templates/provider_login.html:48 lms/templates/provider_login.html:49
@@ -1458,46 +1347,43 @@ msgstr ""
 #: themes/stanford-style/lms/templates/register-form.html:101
 #: themes/stanford-style/lms/templates/register-form.html:108
 msgid "Password"
-msgstr ""
+msgstr "Hasło"
 
-#: common/djangoapps/student/admin.py:419
+#: common/djangoapps/student/admin.py:341
 msgid ""
-"Raw passwords are not stored, so there is no way to see this user's password."
+"Raw passwords are not stored, so there is no way to see this user's "
+"password."
 msgstr ""
+[cite_start]"Surowe hasła nie są przechowywane, więc nie ma możliwości sprawdzenia [cite: 18] hasła tego użytkownika."
 
-#: common/djangoapps/student/admin.py:531
-#, python-format
-msgid "%(count)d student account was unlocked."
-msgid_plural "%(count)d student accounts were unlocked."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/student/admin.py:588
+#: common/djangoapps/student/admin.py:498
 #, python-brace-format
 msgid ""
-"Please add a key/value 'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' in "
-"SiteConfiguration model's site_values field."
+"Please add a key/value 'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' in"
+" SiteConfiguration model's site_values field."
 msgstr ""
+"Proszę dodać parę klucz/wartość 'THIRD_PARTY_AUTH_ONLY_DOMAIN/{site_email_domain}' w polu site_values modelu SiteConfiguration."
 
-#: common/djangoapps/student/admin.py:593
+#: common/djangoapps/student/admin.py:503
 #, python-brace-format
 msgid "Email doesn't have {allowed_site_email_domain} domain name."
 msgstr ""
+"Adres e-mail nie ma nazwy domeny {allowed_site_email_domain}."
 
-#: common/djangoapps/student/admin.py:596
+#: common/djangoapps/student/admin.py:506
 msgid "User with this email doesn't exist in system."
-msgstr ""
+msgstr "Użytkownik z tym adresem e-mail nie istnieje w systemie."
 
 #: common/djangoapps/student/helpers.py:77
 #: common/djangoapps/student/helpers.py:725
 #, python-brace-format
 msgid "An account with the Email '{email}' already exists."
-msgstr ""
+[cite_start]msgstr "Konto z adresem e-mail '{email}' już istnieje. [cite: 19]"
 
 #: common/djangoapps/student/helpers.py:78
 #, python-brace-format
 msgid "An account with the Public Username '{username}' already exists."
-msgstr ""
+msgstr "Konto z publiczną nazwą użytkownika '{username}' już istnieje."
 
 #: common/djangoapps/student/middleware.py:32
 #, python-brace-format
@@ -1505,301 +1391,317 @@ msgid ""
 "Your account has been disabled. If you believe this was done in error, "
 "please contact us at {support_email}"
 msgstr ""
+[cite_start]"Twoje konto zostało wyłączone. [cite: 20] Jeśli uważasz, że nastąpiło to przez pomyłkę, skontaktuj się z nami pod adresem {support_email}"
 
 #: common/djangoapps/student/middleware.py:38
 msgid "Disabled Account"
-msgstr ""
+msgstr "Konto wyłączone"
 
 #: common/djangoapps/student/models/course_enrollment.py:1658
 msgid "Namespace of enrollment attribute"
-msgstr ""
+msgstr "Przestrzeń nazw atrybutu zapisu"
 
 #: common/djangoapps/student/models/course_enrollment.py:1662
 msgid "Name of the enrollment attribute"
-msgstr ""
+msgstr "Nazwa atrybutu rejestracji."
 
 #: common/djangoapps/student/models/course_enrollment.py:1666
 msgid "Value of the enrollment attribute"
-msgstr ""
+msgstr "Wartość atrybutu zapisu"
 
 #: common/djangoapps/student/models/course_enrollment.py:1740
 msgid ""
 "The window of time after enrolling during which users can be granted a "
-"refund, represented in microseconds. The default is 14 days."
+"refund, represented in microseconds.
+The default is 14 days."
 msgstr ""
+[cite_start]"Okno czasowe po zapisaniu, w którym użytkownicy mogą otrzymać zwrot pieniędzy, wyrażone w mikrosekundach. [cite: 22] Domyślnie jest to 14 dni."
 
 #: common/djangoapps/student/models/course_enrollment.py:1762
 msgid ""
-"It expect that the data will be provided in a csv file format "
-"with                     first row being the header and columns will be as "
+"It expect that the data will be provided in a csv file format with"
+"                     first row being the header and columns will be as "
 "follows:                     user_id, username, email, course_id, "
 "is_verified, verification_date"
 msgstr ""
+[cite_start]"Oczekuje się, że dane zostaną dostarczone w formacie pliku CSV z [cite: 24] pierwszym wierszem jako nagłówkiem, a kolumny będą następujące: user_id, username, email, course_id, is_verified, verification_date"
 
 #: common/djangoapps/student/models/course_enrollment.py:1776
 msgid ""
-"It expect that the data will be provided in a csv file format "
-"with                     first row being the header and columns will be as "
-"follows:                     course_id, username, mode"
+"It expect that the data will be provided in a csv file format with"
+"                     first row being the header and columns will be as "
+"follows:       
+              course_id, username, mode"
 msgstr ""
+"Oczekuje się, że dane zostaną dostarczone w formacie pliku CSV z pierwszym wierszem jako nagłówkiem, a kolumny będą następujące: course_id, username, mode"
 
 #: common/djangoapps/student/models/user.py:463
 msgid "Male"
-msgstr ""
+msgstr "Mężczyzna"
 
 #: common/djangoapps/student/models/user.py:464
 msgid "Female"
-msgstr ""
+msgstr "Kobieta"
 
-#. Translators: 'Other' refers to the student's gender
+#.
+Translators: 'Other' refers to the student's gender
 #: common/djangoapps/student/models/user.py:466
 msgid "Other/Prefer Not to Say"
-msgstr ""
+msgstr "Inne/Wolę nie określać"
 
 #: common/djangoapps/student/models/user.py:477
 msgid "Doctorate"
-msgstr ""
+msgstr "Doktorat"
 
 #: common/djangoapps/student/models/user.py:478
 msgid "Master's or professional degree"
-msgstr ""
+msgstr "Magister lub tytuł zawodowy"
 
 #: common/djangoapps/student/models/user.py:479
 msgid "Bachelor's degree"
-msgstr ""
+msgstr "Licencjat"
 
 #: common/djangoapps/student/models/user.py:480
 msgid "Associate degree"
-msgstr ""
+msgstr "Technik"
 
 #: common/djangoapps/student/models/user.py:481
 msgid "Secondary/high school"
-msgstr ""
+msgstr "Szkoła średnia/liceum"
 
 #: common/djangoapps/student/models/user.py:482
 msgid "Junior secondary/junior high/middle school"
-msgstr ""
+msgstr "Gimnazjum/szkoła podstawowa (starsze klasy)"
 
 #: common/djangoapps/student/models/user.py:483
 msgid "Elementary/primary school"
-msgstr ""
+msgstr "Szkoła podstawowa"
 
-#. Translators: 'None' refers to the student's level of education
+#.
+Translators: 'None' refers to the student's level of education
 #: common/djangoapps/student/models/user.py:485
 msgid "No formal education"
-msgstr ""
+msgstr "Brak formalnego wykształcenia"
 
-#. Translators: 'Other' refers to the student's level of education
+#.
+Translators: 'Other' refers to the student's level of education
 #: common/djangoapps/student/models/user.py:487
 msgid "Other education"
-msgstr ""
+msgstr "Inne wykształcenie"
 
 #: common/djangoapps/student/models/user.py:1333
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
-msgstr ""
+msgstr "{platform_name} Certyfikat Kodeksu Honorowego dla {course_name}"
 
 #: common/djangoapps/student/models/user.py:1334
 #, python-brace-format
 msgid "{platform_name} Verified Certificate for {course_name}"
-msgstr ""
+msgstr "{platform_name} Certyfikat zweryfikowany dla {course_name}"
 
 #: common/djangoapps/student/models/user.py:1335
 #: common/djangoapps/student/models/user.py:1336
 #, python-brace-format
 msgid "{platform_name} Professional Certificate for {course_name}"
-msgstr ""
+msgstr "{platform_name} Certyfikat profesjonalny dla {course_name}"
 
 #: common/djangoapps/student/models/user.py:1342
 msgid ""
-"Your organization ID (if your organization has an existing page on LinkedIn) "
-"e.g 1337. If not provided, will default to sending Platform Name (e.g. edX) "
-"instead."
+"Your organization ID (if your organization has an existing page on LinkedIn)"
+" e.g 1337. If not provided, will default to sending Platform Name (e.g.
+edX)"
+" instead."
 msgstr ""
+"ID Twojej organizacji (jeśli Twoja organizacja ma istniejącą stronę na LinkedIn), np. [cite_start]1337. [cite: 29] Jeśli nie zostanie podane, domyślnie zostanie wysłana Nazwa Platformy (np. edX)."
 
 #: common/djangoapps/student/models/user.py:1398
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
-msgstr ""
+msgstr "{platform_name} Certyfikat dla {course_name}"
 
 #: common/djangoapps/student/models/user.py:1475
 #: common/djangoapps/student/models/user.py:1507
 msgid "The ISO 639-1 language code for this language."
-msgstr ""
+msgstr "Kod języka ISO 639-1 dla tego języka"
 
 #: common/djangoapps/student/models/user.py:1538
 msgid "Name of the UTM cookie"
-msgstr ""
+msgstr "Nazwa pliku cookie UTM"
 
 #: common/djangoapps/student/models/user.py:1543
 msgid "Name of the affiliate cookie"
-msgstr ""
+msgstr "Nazwa pliku cookie partnera"
 
 #: common/djangoapps/student/models/user.py:1566
 msgid "Name of this user attribute."
-msgstr ""
+msgstr "Nazwa tego atrybutu użytkownika."
 
 #: common/djangoapps/student/models/user.py:1567
 msgid "Value of this user attribute."
-msgstr ""
+[cite_start]msgstr "Wartość tego atrybutu użytkownika. [cite: 30]"
 
 #: common/djangoapps/student/models/user.py:1632
 msgid "Secondary email address"
-msgstr ""
+msgstr "Dodatkowy adres e-mail"
 
 #: common/djangoapps/student/models/user.py:1633
 msgid "Secondary email address to recover linked account."
 msgstr ""
+"Dodatkowy adres e-mail do odzyskania połączonego konta."
 
 #: common/djangoapps/student/models/user.py:1680
 msgid ""
 "An employee (a user whose email has current site's domain name) whose email "
 "exists in this model, can be able to login from login screen through email "
-"and password. And if any employee's email doesn't exist in this model then "
+"and password.
+And if any employee's email doesn't exist in this model then "
 "that employee can login via third party authentication backend only."
 msgstr ""
+[cite_start]"Pracownik (użytkownik, którego adres e-mail ma nazwę domeny bieżącej witryny), którego adres e-mail istnieje w tym modelu, może zalogować się z ekranu logowania za pomocą adresu e-mail i hasła. [cite: 31] A jeśli adres e-mail pracownika nie istnieje w tym modelu, to pracownik może zalogować się tylko za pośrednictwem zewnętrznego systemu uwierzytelniania."
 
 #: common/djangoapps/student/models/user.py:1695
 msgid ""
-"It expect that the data will be provided in a csv file format "
-"with                     first row being the header and columns will be as "
+"It expect that the data will be provided in a csv file format with"
+"                     first row being the header and columns will be as "
 "follows:                     username, current_email, desired_email"
 msgstr ""
+[cite_start]"Oczekuje się, że dane [cite: 33] zostaną dostarczone w formacie pliku CSV, w którym pierwszy wiersz będzie nagłówkiem, a kolumny będą następujące: username, current_email, desired_email"
 
 #: common/djangoapps/student/models/user.py:1877
 msgid "Add a reason"
-msgstr ""
+msgstr "Dodaj powód"
 
 #: common/djangoapps/student/views/dashboard.py:142
 msgid " and "
-msgstr ""
+msgstr "i"
 
 #: common/djangoapps/student/views/dashboard.py:285
 msgid "Photos are mismatched"
-msgstr ""
+msgstr "Zdjęcia się nie zgadzają"
 
 #: common/djangoapps/student/views/dashboard.py:286
 msgid "Name missing from ID photo"
-msgstr ""
+msgstr "Brak imienia na zdjęciu dowodu tożsamości"
 
 #: common/djangoapps/student/views/dashboard.py:287
 msgid "ID photo not provided"
-msgstr ""
+msgstr "Nie podano zdjęcia dowodu tożsamości."
 
 #: common/djangoapps/student/views/dashboard.py:288
 msgid "ID is invalid"
-msgstr ""
+msgstr "ID jest nieprawidłowe"
 
 #: common/djangoapps/student/views/dashboard.py:289
 msgid "Learner photo is blurry"
-msgstr ""
+msgstr "Zdjęcie ucznia jest zamazane"
 
 #: common/djangoapps/student/views/dashboard.py:290
 msgid "Name on ID does not match name on account"
-msgstr ""
+msgstr
+"Nazwa na dokumencie tożsamości nie zgadza się z nazwą na koncie"
 
 #: common/djangoapps/student/views/dashboard.py:291
 msgid "Learner photo not provided"
-msgstr ""
+msgstr "Nie dostarczono zdjęcia ucznia"
 
 #: common/djangoapps/student/views/dashboard.py:292
 msgid "ID photo is blurry"
-msgstr ""
+msgstr "Zdjęcie dowodu tożsamości jest zamazane"
 
 #: common/djangoapps/student/views/dashboard.py:597
 #, python-brace-format
 msgid ""
 "Check your {email_start}{email}{email_end} inbox for an account activation "
-"link from {platform_name}. If you need help, contact {link_start}"
-"{platform_name} Support{link_end}."
+"link from {platform_name}.
+If you need help, contact "
+"{link_start}{platform_name} Support{link_end}."
 msgstr ""
-
-#: common/djangoapps/student/views/dashboard.py:622
-#, python-brace-format
-msgid ""
-"Add a recovery email to retain access when single-sign on is not available. "
-"Go to {link_start}your Account Settings{link_end}."
-msgstr ""
+[cite_start]"Sprawdź skrzynkę odbiorczą {email_start}{email}{email_end} w poszukiwaniu linku aktywacyjnego konta od {platform_name}. [cite: 35] Jeśli potrzebujesz pomocy, skontaktuj się z {link_start}Obsługą {platform_name}{link_end}."
 
 #: common/djangoapps/student/views/dashboard.py:633
 msgid ""
 "Recovery email is not activated yet. Kindly visit your email and follow the "
 "instructions to activate it."
 msgstr ""
+"Adres e-mail do odzyskiwania konta nie jest jeszcze aktywny. Odwiedź swoją pocztę e-mail i postępuj zgodnie z instrukcjami, aby go aktywować."
 
 #: common/djangoapps/student/views/dashboard.py:755
 #, python-brace-format
 msgid "The course you are looking for does not start until {date}."
-msgstr ""
+msgstr "Szukany kurs rozpoczyna się dopiero {date}."
 
 #: common/djangoapps/student/views/dashboard.py:759
 #, python-brace-format
 msgid "The course you are looking for is closed for enrollment as of {date}."
 msgstr ""
+"Zapisy na szukany kurs są zamknięte od {date}."
 
 #: common/djangoapps/student/views/management.py:369
 msgid "Course id not specified"
-msgstr ""
+msgstr "ID kursu nieokreślone"
 
 #: common/djangoapps/student/views/management.py:380
 msgid "Invalid course id"
-msgstr ""
+msgstr "Nieprawidłowe ID kursu"
 
 #: common/djangoapps/student/views/management.py:395
 msgid "Course id is invalid"
-msgstr ""
+msgstr "ID kursu jest nieprawidłowe"
 
 #: common/djangoapps/student/views/management.py:430
 msgid "Could not enroll"
-msgstr ""
+msgstr "Nie można było zapisać"
 
 #: common/djangoapps/student/views/management.py:450
 msgid "Unenrollment is currently disabled"
-msgstr ""
+msgstr "Wyrejestrowanie jest obecnie wyłączone"
 
 #: common/djangoapps/student/views/management.py:454
 msgid "You are not enrolled in this course"
-msgstr ""
+msgstr "Nie jesteś zapisany na ten kurs"
 
 #: common/djangoapps/student/views/management.py:458
 msgid "Your certificate prevents you from unenrolling from this course"
-msgstr ""
+msgstr "Twój certyfikat uniemożliwia wyrejestrowanie się z tego kursu."
 
 #: common/djangoapps/student/views/management.py:469
 msgid "Enrollment action is invalid"
-msgstr ""
+msgstr "Akcja zapisu jest nieprawidłowa"
 
 #: common/djangoapps/student/views/management.py:512
 msgid "Please enter a username"
-msgstr ""
+msgstr "Proszę wprowadzić nazwę użytkownika"
 
 #: common/djangoapps/student/views/management.py:517
 msgid "Please choose an option"
-msgstr ""
+msgstr "Proszę wybrać opcję"
 
 #: common/djangoapps/student/views/management.py:524
 msgid "User with username {} does not exist"
-msgstr ""
+msgstr "Użytkownik o nazwie {} nie istnieje"
 
 #: common/djangoapps/student/views/management.py:532
 msgid "Successfully disabled {}'s account"
-msgstr ""
+msgstr "Pomyślnie wyłączono konto {}"
 
 #: common/djangoapps/student/views/management.py:536
 msgid "Successfully reenabled {}'s account"
-msgstr ""
+msgstr "Pomyślnie ponownie włączono konto {}"
 
 #: common/djangoapps/student/views/management.py:539
 msgid "Unexpected account status"
-msgstr ""
+msgstr "Nieoczekiwany status konta"
 
 #: common/djangoapps/student/views/management.py:580
 #, python-brace-format
 msgid ""
-"{html_start}Your {account_or_email} could not be {activated_or_confirmed}"
-"{html_end}Something went wrong, please <a href=\"{support_url}\">contact "
-"support</a> to resolve this issue."
+"{html_start}Your {account_or_email} could not be "
+"{activated_or_confirmed}{html_end}Something went wrong, please <a "
+"href=\"{support_url}\">contact support</a> to resolve this issue."
 msgstr ""
+"{html_start}Twoje {account_or_email} nie mogło zostać "
+"{activated_or_confirmed}{html_end}Coś poszło nie tak, skontaktuj się z <a "
+"href=\"{support_url}\">pomocą techniczną</a>, aby rozwiązać ten problem."
 
 #: common/djangoapps/student/views/management.py:615
 #, python-brace-format
@@ -1807,6 +1709,8 @@ msgid ""
 "{html_start}This {account_or_email} has already been "
 "{activated_or_confirmed}.{html_end}"
 msgstr ""
+"{html_start}Ten {account_or_email} został już "
+"{activated_or_confirmed}.{html_end}"
 
 #: common/djangoapps/student/views/management.py:627
 #, python-brace-format
@@ -1814,6 +1718,7 @@ msgid ""
 "{html_start}Success{html_end} You have {activated_or_confirmed} your "
 "{account_or_email}."
 msgstr ""
+"{html_start}Sukces{html_end} Twoje {account_or_email} zostało {activated_or_confirmed}."
 
 #: common/djangoapps/student/views/management.py:640
 #, python-brace-format
@@ -1822,56 +1727,61 @@ msgid ""
 "{account_or_email}.{html_end}You will now receive email updates and alerts "
 "from us related to the courses you are enrolled in. Sign In to continue."
 msgstr ""
+"{html_start}Sukces! Twoje {account_or_email} zostało {activated_or_confirmed}.{html_end}Będziesz teraz otrzymywać od nas aktualizacje i alerty e-mail dotyczące kursów, na które jesteś zapisany. Zaloguj się, aby kontynuować."
 
 #: common/djangoapps/student/views/management.py:731
 #: common/djangoapps/student/views/management.py:746
 msgid "Valid e-mail address required."
-msgstr ""
+msgstr "Wymagany jest prawidłowy adres e-mail."
 
 #: common/djangoapps/student/views/management.py:734
 #: common/djangoapps/student/views/management.py:751
 msgid "Old email is the same as the new email."
-msgstr ""
+msgstr "Stary adres e-mail jest taki sam jak nowy."
 
 #: common/djangoapps/student/views/management.py:755
 msgid "Cannot be same as your sign in email address."
-msgstr ""
+msgstr "Nie może być taki sam jak Twój adres e-mail do logowania."
 
 #: common/djangoapps/student/views/management.py:825
 msgid "Unable to send email activation link. Please try again later."
 msgstr ""
+"Nie udało się wysłać linku aktywacyjnego e-mail. Proszę spróbować ponownie później."
 
 #: common/djangoapps/third_party_auth/admin.py:73
 msgid "Deleted the selected configuration(s)."
-msgstr ""
+msgstr "Usunięto wybraną konfigurację(e)."
 
 #: common/djangoapps/third_party_auth/admin.py:93
 msgid "Delete the selected configuration"
-msgstr ""
+msgstr "Usuń wybraną konfigurację"
 
 #: common/djangoapps/third_party_auth/middleware.py:45
 msgid "Unable to connect with the external provider, please try again"
 msgstr ""
+"Nie udało się połączyć z zewnętrznym dostawcą, spróbuj ponownie."
 
 #: common/djangoapps/third_party_auth/models.py:86
 msgid "Authentication with {} is currently unavailable."
-msgstr ""
+msgstr "Uwierzytelnianie za pomocą {} jest obecnie niedostępne."
 
 #: common/djangoapps/third_party_auth/models.py:148
 msgid ""
 "Secondary providers are displayed less prominently, in a separate list of "
 "\"Institution\" login providers."
 msgstr ""
+"Dostawcy dodatkowi są wyświetlani mniej wyraźnie, na osobnej liście dostawców logowania „Instytucja”."
 
 #: common/djangoapps/third_party_auth/models.py:158
 msgid ""
 "optional. If this provider is an Organization, this attribute can be used "
 "reference users in that Organization"
 msgstr ""
+"opcjonalne. Jeśli ten dostawca jest Organizacją, ten atrybut może być użyty do odwoływania się do użytkowników w tej Organizacji"
 
 #: common/djangoapps/third_party_auth/models.py:167
 msgid "The Site that this provider configuration belongs to."
-msgstr ""
+msgstr "Witryna, do której należy ta konfiguracja dostawcy."
 
 #: common/djangoapps/third_party_auth/models.py:174
 #: common/djangoapps/third_party_auth/models.py:721
@@ -1881,14 +1791,16 @@ msgid ""
 "forwarded directly to the login URL of the provider instead of being first "
 "prompted with a login dialog."
 msgstr ""
+"Jeśli ta opcja jest włączona, użytkownicy, którzy odwiedzą adres URL „sugerowany przez TPA” dla tego dostawcy (np. adres URL kończący się na `?tpa_hint=[nazwa_dostawcy]`), zostaną przekierowani bezpośrednio do adresu URL logowania dostawcy, zamiast być najpierw proszeni o okno dialogowe logowania."
 
 #: common/djangoapps/third_party_auth/models.py:182
 #: common/djangoapps/third_party_auth/models.py:729
 msgid ""
 "If this option is enabled, users will not be asked to confirm their details "
-"(name, email, etc.) during the registration process. Only select this option "
-"for trusted providers that are known to provide accurate user information."
+"(name, email, etc.) during the registration process. Only select this option"
+" for trusted providers that are known to provide accurate user information."
 msgstr ""
+"Jeśli ta opcja jest włączona, użytkownicy nie będą proszeni o potwierdzenie swoich danych (imię i nazwisko, adres e-mail itp.) podczas procesu rejestracji. Wybierz tę opcję tylko dla zaufanych dostawców, którzy, jak wiadomo, dostarczają dokładne informacje o użytkownikach."
 
 #: common/djangoapps/third_party_auth/models.py:190
 #: common/djangoapps/third_party_auth/models.py:737
@@ -1896,12 +1808,14 @@ msgid ""
 "If this option is selected, users will not be required to confirm their "
 "email, and their account will be activated immediately upon registration."
 msgstr ""
+"Jeśli ta opcja zostanie wybrana, użytkownicy nie będą musieli potwierdzać swojego adresu e-mail, a ich konto zostanie aktywowane natychmiast po rejestracji."
 
 #: common/djangoapps/third_party_auth/models.py:197
 msgid ""
 "If this option is selected, users will be sent a welcome email upon "
 "registration."
 msgstr ""
+"Jeśli ta opcja zostanie wybrana, użytkownicy otrzymają e-mail powitalny po rejestracji."
 
 #: common/djangoapps/third_party_auth/models.py:203
 msgid ""
@@ -1909,14 +1823,16 @@ msgid ""
 "provider as an option to authenticate with on the login screen, but manual "
 "authentication using the correct link is still possible."
 msgstr ""
+"Jeśli ta opcja nie zostanie wybrana, dostawca nie będzie wyświetlany użytkownikom jako opcja uwierzytelniania na ekranie logowania, ale ręczne uwierzytelnianie za pomocą prawidłowego linku jest nadal możliwe."
 
 #: common/djangoapps/third_party_auth/models.py:214
 msgid ""
 "If this option is set, then users logging in using this SSO provider will "
 "have their session length limited to no longer than this value. If set to 0 "
-"(zero), the session will expire upon the user closing their browser. If left "
-"blank, the Django platform session default length will be used."
+"(zero), the session will expire upon the user closing their browser. If left"
+" blank, the Django platform session default length will be used."
 msgstr ""
+"Jeśli ta opcja jest ustawiona, użytkownicy logujący się za pomocą tego dostawcy SSO będą mieli ograniczoną długość sesji do tej wartości. Jeśli ustawiona na 0 (zero), sesja wygaśnie po zamknięciu przeglądarki przez użytkownika. Jeśli pozostawiona pusta, zostanie użyta domyślna długość sesji platformy Django."
 
 #: common/djangoapps/third_party_auth/models.py:223
 #: common/djangoapps/third_party_auth/models.py:744
@@ -1925,6 +1841,7 @@ msgid ""
 "immediately after authenticating with the third party instead of the login "
 "page."
 msgstr ""
+"Jeśli ta opcja zostanie wybrana, użytkownicy zostaną przekierowani na stronę rejestracji natychmiast po uwierzytelnieniu się u strony trzeciej, zamiast na stronę logowania."
 
 #: common/djangoapps/third_party_auth/models.py:230
 msgid ""
@@ -1933,404 +1850,483 @@ msgid ""
 "address associated with their account is changed as a part of this "
 "synchronization."
 msgstr ""
+"Synchronizuj dane profilu użytkownika otrzymane od dostawcy tożsamości z kontem użytkownika edX przy każdym logowaniu SSO. Użytkownik zostanie powiadomiony, jeśli adres e-mail powiązany z jego kontem zostanie zmieniony w ramach tej synchronizacji."
 
 #: common/djangoapps/third_party_auth/models.py:244
 msgid ""
 "IDPs with this set to True will be excluded from the dropdown IDP selection "
 "in the EnterpriseCustomer Django Admin form."
 msgstr ""
+"Dostawcy tożsamości z tą opcją ustawioną na True zostaną wykluczeni z rozwijanej listy wyboru dostawcy tożsamości w formularzu EnterpriseCustomer Django Admin."
 
 #: common/djangoapps/third_party_auth/models.py:479
 msgid "The Site that this SAML configuration belongs to."
-msgstr ""
+msgstr "Witryna, do której należy ta konfiguracja SAML."
 
 #: common/djangoapps/third_party_auth/models.py:574
 #, python-brace-format
 msgid "{platform_name} Support"
-msgstr ""
+msgstr "Wsparcie {platform_name}"
 
 #: common/djangoapps/third_party_auth/models.py:629
 msgid "A configuration nickname."
-msgstr ""
+msgstr "Pseudonim konfiguracji."
 
 #: common/djangoapps/third_party_auth/templates/third_party_auth/post_custom_auth_entry.html:5
 #: lms/templates/student_account/finish_auth.html:16
 msgid "Please wait"
-msgstr ""
+msgstr "Proszę czekać"
 
 #. Translators: the translation for "LONG_DATE_FORMAT" must be a format
-#. string for formatting dates in a long form.  For example, the
+#.
+string for formatting dates in a long form. For example, the
 #. American English form is "%A, %B %d %Y".
-#. See http://strftime.org for details.
+#.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:145
 msgid "LONG_DATE_FORMAT"
-msgstr ""
+msgstr "LONG_DATE_FORMAT"
 
 #. Translators: the translation for "DATE_TIME_FORMAT" must be a format
-#. string for formatting dates with times.  For example, the American
+#.
+string for formatting dates with times. For example, the American
 #. English form is "%b %d, %Y at %H:%M".
-#. See http://strftime.org for details.
+#.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:153
 msgid "DATE_TIME_FORMAT"
-msgstr ""
+msgstr "DATE_TIME_FORMAT"
 
 #. Translators: the translation for "SHORT_DATE_FORMAT" must be a
-#. format string for formatting dates in a brief form.  For example,
+#.
+format string for formatting dates in a brief form. For example,
 #. the American English form is "%b %d %Y".
-#. See http://strftime.org for details.
+#.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:189
 msgid "SHORT_DATE_FORMAT"
-msgstr ""
+msgstr "SHORT_DATE_FORMAT"
 
 #. Translators: the translation for "TIME_FORMAT" must be a format
-#. string for formatting times.  For example, the American English
+#.
+string for formatting times. For example, the American English
 #. form is "%H:%M:%S". See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:201
 msgid "TIME_FORMAT"
-msgstr ""
+msgstr "TIME_FORMAT"
 
-#. Translators: This is an AM/PM indicator for displaying times.  It is
-#. used for the %p directive in date-time formats. See http://strftime.org
+#.
+Translators: This is an AM/PM indicator for displaying times. It is
+#. used for the %p directive in date-time formats.
+See http://strftime.org
 #. for details.
 #: common/djangoapps/util/date_utils.py:263
 msgctxt "am/pm indicator"
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
-#. Translators: This is an AM/PM indicator for displaying times.  It is
+#. Translators: This is an AM/PM indicator for displaying times.
+It is
 #. used for the %p directive in date-time formats. See http://strftime.org
 #. for details.
 #: common/djangoapps/util/date_utils.py:267
 msgctxt "am/pm indicator"
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
-#. Translators: this is a weekday name that will be used when displaying
-#. dates, as in "Monday Februrary 10, 2014". It is used for the %A
+#.
+Translators: this is a weekday name that will be used when displaying
+#. dates, as in "Monday Februrary 10, 2014".
+It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:274
 msgctxt "weekday name"
 msgid "Monday"
-msgstr ""
+msgstr "Poniedziałek"
 
-#. Translators: this is a weekday name that will be used when displaying
-#. dates, as in "Tuesday Februrary 11, 2014". It is used for the %A
+#.
+Translators: this is a weekday name that will be used when displaying
+#. dates, as in "Tuesday Februrary 11, 2014".
+It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:278
 msgctxt "weekday name"
 msgid "Tuesday"
-msgstr ""
+msgstr "Wtorek"
 
-#. Translators: this is a weekday name that will be used when displaying
-#. dates, as in "Wednesday Februrary 12, 2014". It is used for the %A
+#.
+Translators: this is a weekday name that will be used when displaying
+#. dates, as in "Wednesday Februrary 12, 2014".
+It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:282
 msgctxt "weekday name"
 msgid "Wednesday"
-msgstr ""
+msgstr "Środa"
 
-#. Translators: this is a weekday name that will be used when displaying
-#. dates, as in "Thursday Februrary 13, 2014". It is used for the %A
+#.
+Translators: this is a weekday name that will be used when displaying
+#. dates, as in "Thursday Februrary 13, 2014".
+It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:286
 msgctxt "weekday name"
 msgid "Thursday"
-msgstr ""
+msgstr "Czwartek"
 
-#. Translators: this is a weekday name that will be used when displaying
-#. dates, as in "Friday Februrary 14, 2014". It is used for the %A
+#.
+Translators: this is a weekday name that will be used when displaying
+#. dates, as in "Friday Februrary 14, 2014".
+It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:290
 msgctxt "weekday name"
 msgid "Friday"
-msgstr ""
+msgstr "Piątek"
 
-#. Translators: this is a weekday name that will be used when displaying
-#. dates, as in "Saturday Februrary 15, 2014". It is used for the %A
+#.
+Translators: this is a weekday name that will be used when displaying
+#. dates, as in "Saturday Februrary 15, 2014".
+It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:294
 msgctxt "weekday name"
 msgid "Saturday"
-msgstr ""
+msgstr "Sobota"
 
-#. Translators: this is a weekday name that will be used when displaying
-#. dates, as in "Sunday Februrary 16, 2014". It is used for the %A
+#.
+Translators: this is a weekday name that will be used when displaying
+#. dates, as in "Sunday Februrary 16, 2014".
+It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:298
 msgctxt "weekday name"
 msgid "Sunday"
-msgstr ""
+msgstr "Niedziela"
 
-#. Translators: this is an abbreviated weekday name that will be used when
-#. displaying dates, as in "Mon Feb 10, 2014". It is used for the %a
+#.
+Translators: this is an abbreviated weekday name that will be used when
+#. displaying dates, as in "Mon Feb 10, 2014".
+It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:305
 msgctxt "abbreviated weekday name"
 msgid "Mon"
-msgstr ""
+msgstr "Pon"
 
 #. Translators: this is an abbreviated weekday name that will be used when
-#. displaying dates, as in "Tue Feb 11, 2014". It is used for the %a
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Tue Feb 11, 2014". It is used for the %a
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:309
 msgctxt "abbreviated weekday name"
 msgid "Tue"
-msgstr ""
+msgstr "Wt"
 
-#. Translators: this is an abbreviated weekday name that will be used when
-#. displaying dates, as in "Wed Feb 12, 2014". It is used for the %a
+#.
+Translators: this is an abbreviated weekday name that will be used when
+#. displaying dates, as in "Wed Feb 12, 2014".
+It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:313
 msgctxt "abbreviated weekday name"
 msgid "Wed"
-msgstr ""
+msgstr "Śr"
 
 #. Translators: this is an abbreviated weekday name that will be used when
-#. displaying dates, as in "Thu Feb 13, 2014". It is used for the %a
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Thu Feb 13, 2014". It is used for the %a
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:317
 msgctxt "abbreviated weekday name"
 msgid "Thu"
-msgstr ""
+msgstr "Czw"
 
-#. Translators: this is an abbreviated weekday name that will be used when
-#. displaying dates, as in "Fri Feb 14, 2014". It is used for the %a
+#.
+Translators: this is an abbreviated weekday name that will be used when
+#. displaying dates, as in "Fri Feb 14, 2014".
+It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:321
 msgctxt "abbreviated weekday name"
 msgid "Fri"
-msgstr ""
+msgstr "Pt"
 
 #. Translators: this is an abbreviated weekday name that will be used when
-#. displaying dates, as in "Sat Feb 15, 2014". It is used for the %a
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Sat Feb 15, 2014". It is used for the %a
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:325
 msgctxt "abbreviated weekday name"
 msgid "Sat"
-msgstr ""
+msgstr "Sob"
 
-#. Translators: this is an abbreviated weekday name that will be used when
-#. displaying dates, as in "Sun Feb 16, 2014". It is used for the %a
+#.
+Translators: this is an abbreviated weekday name that will be used when
+#. displaying dates, as in "Sun Feb 16, 2014".
+It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:329
 msgctxt "abbreviated weekday name"
 msgid "Sun"
-msgstr ""
+msgstr "Ndz"
 
 #. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Jan 10, 2014". It is used for the %b
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Jan 10, 2014". It is used for the %b
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:336
 msgctxt "abbreviated month name"
 msgid "Jan"
-msgstr ""
+msgstr "Sty"
 
-#. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Feb 10, 2014". It is used for the %b
+#.
+Translators: this is an abbreviated month name that will be used when
+#. displaying dates, as in "Feb 10, 2014".
+It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:340
 msgctxt "abbreviated month name"
 msgid "Feb"
-msgstr ""
+msgstr "Lut"
 
 #. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Mar 10, 2014". It is used for the %b
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Mar 10, 2014". It is used for the %b
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:344
 msgctxt "abbreviated month name"
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
-#. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Apr 10, 2014". It is used for the %b
+#.
+Translators: this is an abbreviated month name that will be used when
+#. displaying dates, as in "Apr 10, 2014".
+It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:348
 msgctxt "abbreviated month name"
 msgid "Apr"
-msgstr ""
+msgstr "Kwi"
 
 #. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "May 10, 2014". It is used for the %b
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "May 10, 2014". It is used for the %b
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:352
 msgctxt "abbreviated month name"
 msgid "May"
-msgstr ""
+msgstr "Maj"
 
-#. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Jun 10, 2014". It is used for the %b
+#.
+Translators: this is an abbreviated month name that will be used when
+#. displaying dates, as in "Jun 10, 2014".
+It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:356
 msgctxt "abbreviated month name"
 msgid "Jun"
-msgstr ""
+msgstr "Cze"
 
 #. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Jul 10, 2014". It is used for the %b
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Jul 10, 2014". It is used for the %b
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:360
 msgctxt "abbreviated month name"
 msgid "Jul"
-msgstr ""
+msgstr "Lip"
 
-#. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Aug 10, 2014". It is used for the %b
+#.
+Translators: this is an abbreviated month name that will be used when
+#. displaying dates, as in "Aug 10, 2014".
+It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:364
 msgctxt "abbreviated month name"
 msgid "Aug"
-msgstr ""
+msgstr "Sie"
 
 #. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Sep 10, 2014". It is used for the %b
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Sep 10, 2014". It is used for the %b
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:368
 msgctxt "abbreviated month name"
 msgid "Sep"
-msgstr ""
+msgstr "Wrz"
 
 #. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Oct 10, 2014". It is used for the %b
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Oct 10, 2014". It is used for the %b
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:372
 msgctxt "abbreviated month name"
 msgid "Oct"
-msgstr ""
+msgstr "Paź"
 
-#. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Nov 10, 2014". It is used for the %b
+#.
+Translators: this is an abbreviated month name that will be used when
+#. displaying dates, as in "Nov 10, 2014".
+It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:376
 msgctxt "abbreviated month name"
 msgid "Nov"
-msgstr ""
+msgstr "Lis"
 
 #. Translators: this is an abbreviated month name that will be used when
-#. displaying dates, as in "Dec 10, 2014". It is used for the %b
-#. directive in date-time formats. See http://strftime.org for details.
+#.
+displaying dates, as in "Dec 10, 2014". It is used for the %b
+#. directive in date-time formats.
+See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:380
 msgctxt "abbreviated month name"
 msgid "Dec"
-msgstr ""
+msgstr "Gru"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "January 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "January 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:387
 msgctxt "month name"
 msgid "January"
-msgstr ""
+msgstr "Styczeń"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "February 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "February 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:391
 msgctxt "month name"
 msgid "February"
-msgstr ""
+msgstr "Luty"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "March 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "March 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:395
 msgctxt "month name"
 msgid "March"
-msgstr ""
+msgstr "Marzec"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "April 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "April 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:399
 msgctxt "month name"
 msgid "April"
-msgstr ""
+msgstr "Kwiecień"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "May 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "May 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:403
 msgctxt "month name"
 msgid "May"
-msgstr ""
+msgstr "Maj"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "June 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "June 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:407
 msgctxt "month name"
 msgid "June"
-msgstr ""
+msgstr "Czerwiec"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "July 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "July 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:411
 msgctxt "month name"
 msgid "July"
-msgstr ""
+msgstr "Lipiec"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "August 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "August 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:415
 msgctxt "month name"
 msgid "August"
-msgstr ""
+msgstr "Sierpień"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "September 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "September 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:419
 msgctxt "month name"
 msgid "September"
-msgstr ""
+msgstr "Wrzesień"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "October 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "October 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:423
 msgctxt "month name"
 msgid "October"
-msgstr ""
+msgstr "Październik"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "November 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "November 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:427
 msgctxt "month name"
 msgid "November"
-msgstr ""
+msgstr "Listopad"
 
-#. Translators: this is a month name that will be used when displaying
-#. dates, as in "December 10, 2014". It is used for the %B directive in
+#.
+Translators: this is a month name that will be used when displaying
+#. dates, as in "December 10, 2014".
+It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:431
 msgctxt "month name"
 msgid "December"
-msgstr ""
-
-#: common/djangoapps/util/file.py:67
-#, python-brace-format
-msgid "The file must end with the extension '{file_types}'."
-msgid_plural ""
-"The file must end with one of the following extensions: '{file_types}'."
-msgstr[0] ""
-msgstr[1] ""
+msgstr "Grudzień"
 
 #: common/djangoapps/util/file.py:73
 #, python-brace-format
 msgid "Maximum upload file size is {file_size} bytes."
-msgstr ""
-
+msgstr "Maksymalny rozmiar przesyłanego pliku to {file_size} bajtów."
 #: common/djangoapps/util/milestones_helpers.py:60
 #, python-brace-format
 msgid "Course {course_id} requires {prerequisite_course_id}"
-msgstr ""
+msgstr "Kurs {course_id} wymaga {prerequisite_course_id}"
 
 #: common/djangoapps/util/milestones_helpers.py:67
 #: openedx/core/lib/gating/api.py:191
 msgid "System defined milestone"
-msgstr ""
+msgstr "Kamień milowy zdefiniowany przez system"
 
 #: common/djangoapps/util/password_policy_validators.py:68
 #, python-brace-format
@@ -2338,175 +2334,17 @@ msgid ""
 "Your password must contain {length_instruction}, including "
 "{complexity_instructions}."
 msgstr ""
+"Twoje hasło musi zawierać {length_instruction}, w tym "
+"{complexity_instructions}."
 
 #: common/djangoapps/util/password_policy_validators.py:73
 #, python-brace-format
 msgid "Your password must contain {length_instruction}."
-msgstr ""
+msgstr "Twoje hasło musi zawierać {length_instruction}."
 
 #: common/djangoapps/util/password_policy_validators.py:101
 msgid "Invalid password."
-msgstr ""
-
-#: common/djangoapps/util/password_policy_validators.py:149
-#, python-format
-msgid "at least %(min_length)d character"
-msgid_plural "at least %(min_length)d characters"
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:175
-#, python-format
-msgid ""
-"This password is too long. It must contain no more than %(max_length)d "
-"character."
-msgid_plural ""
-"This password is too long. It must contain no more than %(max_length)d "
-"characters."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:185
-#, python-format
-msgid "Your password must contain no more than %(max_length)d character."
-msgid_plural ""
-"Your password must contain no more than %(max_length)d characters."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:213
-#, python-format
-msgid "This password must contain at least %(min_alphabetic)d letter."
-msgid_plural "This password must contain at least %(min_alphabetic)d letters."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:223
-#, python-format
-msgid "Your password must contain at least %(min_alphabetic)d letter."
-msgid_plural "Your password must contain at least %(min_alphabetic)d letters."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:231
-#, python-format
-msgid "%(num)d letter"
-msgid_plural "%(num)d letters"
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:261
-#, python-format
-msgid "This password must contain at least %(min_numeric)d number."
-msgid_plural "This password must contain at least %(min_numeric)d numbers."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:271
-#, python-format
-msgid "Your password must contain at least %(min_numeric)d number."
-msgid_plural "Your password must contain at least %(min_numeric)d numbers."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:279
-#, python-format
-msgid "%(num)d number"
-msgid_plural "%(num)d numbers"
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:309
-#, python-format
-msgid "This password must contain at least %(min_upper)d uppercase letter."
-msgid_plural ""
-"This password must contain at least %(min_upper)d uppercase letters."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:319
-#, python-format
-msgid "Your password must contain at least %(min_upper)d uppercase letter."
-msgid_plural ""
-"Your password must contain at least %(min_upper)d uppercase letters."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:327
-#, python-format
-msgid "%(num)d uppercase letter"
-msgid_plural "%(num)d uppercase letters"
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:357
-#, python-format
-msgid "This password must contain at least %(min_lower)d lowercase letter."
-msgid_plural ""
-"This password must contain at least %(min_lower)d lowercase letters."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:367
-#, python-format
-msgid "Your password must contain at least %(min_lower)d lowercase letter."
-msgid_plural ""
-"Your password must contain at least %(min_lower)d lowercase letters."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:375
-#, python-format
-msgid "%(num)d lowercase letter"
-msgid_plural "%(num)d lowercase letters"
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:406
-#, python-format
-msgid ""
-"This password must contain at least %(min_punctuation)d punctuation mark."
-msgid_plural ""
-"This password must contain at least %(min_punctuation)d punctuation marks."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:416
-#, python-format
-msgid ""
-"Your password must contain at least %(min_punctuation)d punctuation mark."
-msgid_plural ""
-"Your password must contain at least %(min_punctuation)d punctuation marks."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:424
-#, python-format
-msgid "%(num)d punctuation mark"
-msgid_plural "%(num)d punctuation marks"
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:454
-#, python-format
-msgid "This password must contain at least %(min_symbol)d symbol."
-msgid_plural "This password must contain at least %(min_symbol)d symbols."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:464
-#, python-format
-msgid "Your password must contain at least %(min_symbol)d symbol."
-msgid_plural "Your password must contain at least %(min_symbol)d symbols."
-msgstr[0] ""
-msgstr[1] ""
-
-#: common/djangoapps/util/password_policy_validators.py:472
-#, python-format
-msgid "%(num)d symbol"
-msgid_plural "%(num)d symbols"
-msgstr[0] ""
-msgstr[1] ""
+msgstr "Nieprawidłowe hasło."
 
 #: common/djangoapps/xblock_django/admin.py:22
 msgid ""
@@ -2514,6 +2352,8 @@ msgid ""
 "deselected; for clarity, update XBlockStudioConfiguration support state "
 "accordingly."
 msgstr ""
+"Aby wyłączyć XBlock i zapobiec jego renderowaniu w LMS, pozostaw pole „Włączone” "
+"niezaznaczone; dla jasności, zaktualizuj odpowiednio stan obsługi XBlockStudioConfiguration."
 
 #: common/djangoapps/xblock_django/admin.py:27
 msgid ""
@@ -2522,6 +2362,10 @@ msgid ""
 "accordingly, as deprecated does not impact whether or not new XBlock "
 "instances can be created in Studio."
 msgstr ""
+"Tylko XBlocki wymienione na liście zaawansowanych modułów kursu mogą być oznaczone jako "
+"nieaktualne. Pamiętaj, aby odpowiednio zaktualizować stan obsługi XBlockStudioConfiguration, "
+"ponieważ status „nieaktualne” nie wpływa na to, czy nowe instancje XBlock "
+"mogą być tworzone w Studio."
 
 #: common/djangoapps/xblock_django/admin.py:45
 msgid ""
@@ -2529,6 +2373,9 @@ msgid ""
 "regardless of support level. Remember to also check if all instances of the "
 "XBlock are disabled in XBlockConfiguration."
 msgstr ""
+"Wyłączone kombinacje XBlock/szablonów nie mogą być edytowane w Studio, "
+"niezależnie od poziomu wsparcia. Pamiętaj, aby sprawdzić również, czy wszystkie instancje "
+"XBlocku są wyłączone w XBlockConfiguration."
 
 #: common/djangoapps/xblock_django/admin.py:52
 msgid ""
@@ -2536,31 +2383,36 @@ msgid ""
 "always be created in Studio. Unsupported XBlock/template combinations "
 "require course author opt-in."
 msgstr ""
+"Włączone kombinacje XBlock/szablonów z pełnym lub tymczasowym wsparciem "
+"mogą zawsze być tworzone w Studio. Nieobsługiwane kombinacje XBlock/szablonów "
+"wymagają zgody autora kursu."
 
 #: common/djangoapps/xblock_django/models.py:27
 msgid "show deprecation messaging in Studio"
-msgstr ""
+msgstr "Pokaż wiadomość o wycofaniu w Studio"
 
 #: common/djangoapps/xblock_django/models.py:65
 msgid "Fully Supported"
-msgstr ""
+msgstr "W pełni obsługiwane"
 
 #: common/djangoapps/xblock_django/models.py:66
 msgid "Provisionally Supported"
-msgstr ""
+msgstr "Wspierane tymczasowo"
 
 #: common/djangoapps/xblock_django/models.py:67
 msgid "Unsupported"
-msgstr ""
+msgstr "Nieobsługiwane"
 
 #: common/templates/admin/student/loginfailures/change_form_template.html:7
 #: common/templates/admin/student/loginfailures/change_form_template.html:22
 msgid "Unlock Account"
-msgstr ""
+msgstr "Odblokuj konto"
 
-#. #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
+#.
+#-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 #. Translators: this is a control to allow users to exit out of this modal
-#. interface (a menu or piece of UI that takes the full focus of the screen)
+#.
+interface (a menu or piece of UI that takes the full focus of the screen)
 #: common/templates/admin/student/loginfailures/change_form_template.html:13
 #: common/templates/admin/student/loginfailures/change_form_template.html:29
 #: lms/templates/wiki/edit.html:47 lms/templates/wiki/history.html:203
@@ -2578,7 +2430,7 @@ msgstr ""
 #: lms/templates/modal/_modal-settings-language.html:15
 #: lms/templates/signup_modal.html:20
 msgid "Close"
-msgstr ""
+msgstr "Zamknij"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:13
 #, python-format
@@ -2586,28 +2438,37 @@ msgid ""
 "This is a routed Account Activation email for %(routed_user)s "
 "(%(routed_user_email)s): %(routed_profile_name)s"
 msgstr ""
+"To jest przekierowany e-mail aktywacyjny konta dla %(routed_user)s "
+"(%(routed_user_email)s): %(routed_profile_name)s"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:23
 msgid "Account activation"
-msgstr ""
+msgstr "Aktywacja konta"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:27
 #, python-format
 msgid ""
-"You're almost there! Use the link below to activate your account to access "
-"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"You're almost there!
+Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses.
+Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
+"Jesteś już prawie na miejscu!
+Użyj poniższego linku, aby aktywować swoje konto i uzyskać dostęp "
+"do angażujących, wysokiej jakości kursów %(platform_name)s.
+Pamiętaj, że nie będziesz "
+"mógł ponownie zalogować się na swoje konto, dopóki go nie aktywujesz."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:33
 msgid "Activate your account"
-msgstr ""
+msgstr "Aktywuj swoje konto"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:42
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:6
 #, python-format
 msgid "Enjoy learning with %(platform_name)s."
-msgstr ""
+msgstr "Ciesz się nauką z %(platform_name)s."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:50
 #, python-format, python-brace-format
@@ -2616,22 +2477,35 @@ msgid ""
 "{start_anchor_web}%(support_url)s{end_anchor} or email "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 msgstr ""
+"Jeśli potrzebujesz pomocy, skorzystaj z naszego formularza internetowego pod adresem "
+"{start_anchor_web}%(support_url)s{end_anchor} lub wyślij e-mail "
+"na adres {start_anchor_email}%(support_email)s{end_anchor}."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:64
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:10
 #, python-format
 msgid ""
 "This email message was automatically sent by %(lms_url)s because someone "
-"attempted to create an account on %(platform_name)s using this email address."
+"attempted to create an account on %(platform_name)s using this email "
+"address."
 msgstr ""
+"Ten e-mail został automatycznie wysłany przez %(lms_url)s, ponieważ ktoś "
+"próbował utworzyć konto na %(platform_name)s przy użyciu tego adresu e-mail."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:2
 #, python-format
 msgid ""
-"You’re almost there! Use the link below to activate your account to access "
-"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"You’re almost there!
+Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses.
+Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
+"Jesteś już prawie na miejscu!
+Użyj poniższego linku, aby aktywować swoje konto i uzyskać dostęp "
+"do angażujących, wysokiej jakości kursów %(platform_name)s.
+Pamiętaj, że nie będziesz "
+"mógł ponownie zalogować się na swoje konto, dopóki go nie aktywujesz."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:8
 #, python-format
@@ -2639,16 +2513,18 @@ msgid ""
 "If you need help, please use our web form at %(support_url)s or email "
 "%(support_email)s."
 msgstr ""
+"Jeśli potrzebujesz pomocy, skorzystaj z naszego formularza internetowego pod adresem %(support_url)s lub wyślij "
+"e-mail na adres %(support_email)s."
 
 #: common/templates/student/edx_ace/accountactivation/email/subject.txt:3
 #, python-format
 msgid "Action Required: Activate your %(platform_name)s account"
-msgstr ""
+msgstr "Wymagane działanie: aktywuj swoje konto %(platform_name)s"
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:10
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:39
 msgid "Create Password"
-msgstr ""
+msgstr "Utwórz hasło"
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:14
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt:2
@@ -2657,6 +2533,8 @@ msgid ""
 "You're receiving this e-mail because you requested to create a password for "
 "your user account at %(platform_name)s."
 msgstr ""
+"Otrzymujesz ten e-mail, ponieważ poprosiłeś o utworzenie hasła"
+" do swojego konta użytkownika na %(platform_name)s."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:21
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt:4
@@ -2665,6 +2543,8 @@ msgid ""
 "We've restored access to your %(platform_name)s account using the recovery "
 "email you provided at registration."
 msgstr ""
+"Przywróciliśmy dostęp do Twojego konta %(platform_name)s, używając "
+"e-maila do odzyskiwania, który podałeś podczas rejestracji."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:28
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt:6
@@ -2673,6 +2553,8 @@ msgid ""
 "Once you've created a password [below], you will be able to log in to "
 "%(platform_name)s with this email (%(email)s) and your new password."
 msgstr ""
+"Po utworzeniu hasła [poniżej], będziesz mógł zalogować się do "
+"%(platform_name)s za pomocą tego adresu e-mail (%(email)s) i nowego hasła."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:34
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt:8
@@ -2682,69 +2564,92 @@ msgid ""
 "If you didn't request this change, you can disregard this email - we have "
 "not yet reset your password."
 msgstr ""
+"Jeśli nie prosiłeś o tę zmianę, możesz zignorować ten e-mail - nie zresetowaliśmy "
+"jeszcze Twojego hasła."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt:12
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt:15
 msgid "Thanks for using our site!"
-msgstr ""
+msgstr "Dziękujemy za korzystanie z naszej strony!"
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt:13
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt:17
 #, python-format
 msgid "The %(platform_name)s Team"
-msgstr ""
+msgstr "Zespół %(platform_name)s"
 
 #: common/templates/student/edx_ace/accountrecovery/email/subject.txt:3
 #, python-format
 msgid "Password creation on %(platform_name)s"
-msgstr ""
+msgstr "Tworzenie hasła na %(platform_name)s"
 
 #: common/templates/student/edx_ace/emailchange/email/body.html:10
 msgid "Email Change"
-msgstr ""
+msgstr "Zmiana adresu e-mail"
 
 #: common/templates/student/edx_ace/emailchange/email/body.html:14
 #: common/templates/student/edx_ace/emailchange/email/body.txt:2
 #, python-format
 msgid ""
 "We received a request to change the e-mail associated with your "
-"%(platform_name)s account from %(old_email)s to %(new_email)s. If this is "
+"%(platform_name)s account from %(old_email)s to %(new_email)s.
+If this is "
 "correct, please confirm your new e-mail address by visiting:"
 msgstr ""
+"Otrzymaliśmy prośbę o zmianę adresu e-mail powiązanego z Twoim "
+"kontem %(platform_name)s z %(old_email)s na %(new_email)s.
+Jeśli to jest poprawne, "
+"potwierdź swój nowy adres e-mail, odwiedzając:"
 
 #: common/templates/student/edx_ace/emailchange/email/body.html:20
 msgid "Confirm Email Change"
-msgstr ""
+msgstr "Potwierdź zmianę adresu e-mail"
 
 #: common/templates/student/edx_ace/emailchange/email/body.html:26
 #: common/templates/student/edx_ace/emailchange/email/body.txt:6
 #, python-format
 msgid ""
-"If you didn't request this, you don't need to do anything; you won't receive "
-"any more email from us. Please do not reply to this e-mail; if you require "
+"If you didn't request this, you don't need to do anything;
+you won't receive"
+" any more email from us. Please do not reply to this e-mail;
+if you require "
 "assistance, check the help section of the %(platform_name)s web site."
 msgstr ""
+"Jeśli nie prosiłeś o to, nie musisz nic robić;
+nie będziesz już otrzymywać "
+"żadnych wiadomości e-mail od nas. Prosimy nie odpowiadać na ten e-mail;
+jeśli potrzebujesz "
+"pomocy, sprawdź sekcję pomocy na stronie internetowej %(platform_name)s."
 
 #: common/templates/student/edx_ace/emailchange/email/subject.txt:3
 #, python-format
 msgid "Request to change %(platform_name)s account e-mail"
 msgstr ""
+"Prośba o zmianę adresu e-mail konta %(platform_name)s"
 
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html:11
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/subject.txt:3
 #, python-format
 msgid "Email Change Confirmation for %(platform_name)s"
-msgstr ""
+msgstr "Potwierdzenie zmiany adresu e-mail dla %(platform_name)s"
 
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html:16
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.txt:2
 #, python-format
 msgid ""
 "This is to confirm that you changed the e-mail associated with "
-"%(platform_name)s from %(old_email)s to %(new_email)s. If you did not make "
-"this request, please contact us immediately. Contact information is listed "
+"%(platform_name)s from %(old_email)s to %(new_email)s.
+If you did not make "
+"this request, please contact us immediately.
+Contact information is listed "
 "at:"
 msgstr ""
+"Niniejszym potwierdzamy, że zmieniłeś adres e-mail powiązany z "
+"%(platform_name)s z %(old_email)s na %(new_email)s.
+Jeśli nie złożyłeś tej "
+"prośby, skontaktuj się z nami natychmiast.
+Informacje kontaktowe znajdują się "
+"pod adresem:"
 
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html:25
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.txt:6
@@ -2753,6 +2658,8 @@ msgid ""
 "We keep a log of old e-mails, so if this request was unintentional, we can "
 "investigate."
 msgstr ""
+"Prowadzimy rejestr starych wiadomości e-mail; dlatego, jeśli ta prośba była nieumyślna, możemy "
+"przeprowadzić dochodzenie."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:12
 #, python-format
@@ -2761,6 +2668,8 @@ msgid ""
 "                    Proctoring requirements for %(course_name)s\n"
 "                "
 msgstr ""
+"\n"
+"Wymagania dotyczące nadzoru dla %(course_name)s"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:20
 #, python-format
@@ -2769,33 +2678,43 @@ msgid ""
 "                    Hello %(full_name)s,\n"
 "                "
 msgstr ""
+"\n"
+"Witaj %(full_name)s,"
 
-#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
+#:
+common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
 #, python-format
 msgid ""
 "\n"
-"                    You are enrolled in %(course_name)s at "
-"%(platform_name)s. This course contains proctored exams.\n"
+"                    You are enrolled in %(course_name)s at %(platform_name)s.
+This course contains proctored exams.\n"
 "                "
 msgstr ""
+"\n"
+"Jesteś zapisany na kurs %(course_name)s na %(platform_name)s.
+Ten kurs zawiera egzaminy nadzorowane."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
 #, python-format
 msgid ""
 "\n"
-"                    Proctored exams are timed exams that you take while "
-"proctoring software monitors your computer's desktop, webcam video, and "
-"audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
+"                    Proctored exams are timed exams that you take while proctoring software monitors your computer's desktop, webcam video, and audio.
+Your course uses %(proctoring_provider)s software for proctoring.\n"
 "                "
 msgstr ""
+"\n"
+"Egzaminy nadzorowane to egzaminy czasowe, które zdajesz, podczas gdy oprogramowanie nadzorujące monitoruje pulpit Twojego komputera, obraz z kamery internetowej i dźwięk.
+Twój kurs wykorzystuje oprogramowanie %(proctoring_provider)s do nadzoru."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:46
 msgid ""
 "\n"
-"                    Carefully review the system requirements as well as the "
-"steps to take a proctored exam in order to ensure that you are prepared.\n"
+"                    Carefully review the system requirements as well as the steps to take a proctored exam in order to ensure that you are prepared.\n"
 "                "
 msgstr ""
+"\n"
+"Dokładnie zapoznaj się z wymaganiami systemowymi oraz krokami do przystąpienia do egzaminu nadzorowanego, aby upewnić się, że jesteś przygotowany.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:53
 msgid ""
@@ -2803,6 +2722,8 @@ msgid ""
 "                Proctoring Instructions and Requirements\n"
 "            "
 msgstr ""
+"\n"
+"Instrukcje i wymagania dotyczące nadzoru"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:60
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:11
@@ -2812,7 +2733,7 @@ msgstr ""
 #: lms/templates/emails/order_confirmation_email.txt:13
 #: lms/templates/emails/photo_submission_confirmation.txt:11
 msgid "Thank you,"
-msgstr ""
+msgstr "Dziękujemy,"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:63
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:12
@@ -2826,33 +2747,44 @@ msgstr ""
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:8
 #, python-format
 msgid "The %(platform_name)s Team "
-msgstr ""
+msgstr "Zespół %(platform_name)s"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:1
 #, python-format
 msgid "Hello %(full_name)s"
-msgstr ""
+msgstr "Witaj %(full_name)s"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:3
 #, python-format
 msgid ""
-"You are enrolled in %(course_name)s at %(platform_name)s. This course "
+"You are enrolled in %(course_name)s at %(platform_name)s.
+[cite_start][cite: 2] This course "
 "contains proctored exams."
 msgstr ""
+"Jesteś zapisany na kurs %(course_name)s na %(platform_name)s.
+[cite_start][cite: 3] Ten kurs zawiera "
+"egzaminy nadzorowane."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:5
 #, python-format
 msgid ""
 "Proctored exams are timed exams that you take while proctoring software "
-"monitors your computer's desktop, webcam video, and audio. Your course uses "
+"monitors your computer's desktop, webcam video, and audio.
+[cite_start][cite: 4] Your course uses "
 "%(proctoring_provider)s software for proctoring."
 msgstr ""
+"Egzaminy nadzorowane to egzaminy na czas, które zdajesz, podczas gdy oprogramowanie nadzorujące"
+" monitoruje pulpit Twojego komputera, obraz z kamery internetowej "
+"i dźwięk.
+[cite_start][cite: 5] Twój kurs wykorzystuje oprogramowanie %(proctoring_provider)s do nadzoru."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:7
 msgid ""
 "Carefully review the system requirements as well as the steps to take a "
 "proctored exam in order to ensure that you are prepared."
 msgstr ""
+"Dokładnie zapoznaj się z wymaganiami systemowymi oraz krokami do podjęcia "
+"egzaminu nadzorowanego, aby upewnić się, że jesteś przygotowany."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:9
 #, python-format
@@ -2860,27 +2792,34 @@ msgid ""
 "To view proctoring instructions and requirements, please visit: "
 "%(proctoring_requirements_url)s"
 msgstr ""
+"Aby wyświetlić instrukcje i wymagania dotyczące nadzoru, odwiedź: "
+"%(proctoring_requirements_url)s"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:14
 #, python-format
 msgid ""
 "This email was automatically sent from %(platform_name)s to %(full_name)s."
 msgstr ""
+"Ten e-mail został wysłany automatycznie z %(platform_name)s "
+"do %(full_name)s."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/subject.txt:3
 #, python-format
-msgid "Proctoring requirements for %(course_name)s"
-msgstr ""
+msgid "Proctoring 
+[cite_start][cite: 6] requirements for %(course_name)s"
+msgstr "Wymagania dotyczące nadzoru dla %(course_name)s"
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html:10
 msgid "Create Recovery Email"
-msgstr ""
+msgstr "Utwórz e-mail do odzyskiwania"
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html:14
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.txt:2
 #, python-format
 msgid "You've registered this recovery email address for %(platform_name)s."
 msgstr ""
+"Zarejestrowałeś ten adres e-mail do odzyskiwania dla "
+"%(platform_name)s."
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html:18
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.txt:4
@@ -2888,6 +2827,10 @@ msgid ""
 "If you set this email address, click \"confirm email.\"  If you didn't "
 "request this change, you can disregard this email."
 msgstr ""
+"Jeśli ustawiłeś ten adres e-mail, kliknij "
+"&quot;Potwierdź adres e-mail&quot;.
+[cite_start][cite: 7] Jeśli nie prosiłeś o tę zmianę, możesz "
+"zignorować ten e-mail."
 
 #. Translators: This label appears above a field on the registration form
 #. meant to confirm the user's email address.
@@ -2895,12 +2838,12 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:360
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:533
 msgid "Confirm Email"
-msgstr ""
+msgstr "Potwierdź adres e-mail"
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/subject.txt:3
 #, python-format
 msgid "Confirm your recovery email for %(platform_name)s"
-msgstr ""
+msgstr "Potwierdź swój adres e-mail do odzyskiwania dla %(platform_name)s"
 
 #: lms/djangoapps/badges/events/course_complete.py:43
 #, python-brace-format
@@ -2908,81 +2851,91 @@ msgid ""
 "Completed the course \"{course_name}\" ({course_mode}, {start_date} - "
 "{end_date})"
 msgstr ""
+"Ukończono kurs \"{course_name}\" ({course_mode}, {start_date} - "
+"{end_date})"
 
 #: lms/djangoapps/badges/events/course_complete.py:50
 #, python-brace-format
 msgid "Completed the course \"{course_name}\" ({course_mode})"
-msgstr ""
+msgstr "Ukończono kurs \"{course_name}\" ({course_mode})"
 
 #: lms/djangoapps/badges/models.py:15
 msgid "The badge image must be square."
-msgstr ""
+msgstr "Obraz odznaki musi być kwadratowy."
 
 #: lms/djangoapps/badges/models.py:17
-msgid "The badge image file size must be less than 250KB."
-msgstr ""
+msgid 
+[cite_start][cite: 8] "The badge image file size must be less than 250KB."
+msgstr "Obraz odznaki musi mieć rozmiar mniejszy niż 250KB"
 
 #: lms/djangoapps/badges/models.py:25
 msgid "This value must be all lowercase."
-msgstr ""
+msgstr "Ta wartość musi być napisana małymi literami."
 
-#. Translators: This string is used across Open edX installations
-#. as a callback to edX. Please do not translate `edX.org`
+#.
+[cite_start][cite: 9] Translators: This string is used across Open edX installations
+#. as a callback to edX.
+[cite_start][cite: 10] Please do not translate `edX.org`
 #: lms/djangoapps/branding/api.py:117
 msgid "Take free online courses at edX.org"
-msgstr ""
+msgstr "Weź udział w darmowych kursach online na edX.org"
 
-#. Translators: 'edX' and 'Open edX' are trademarks of 'edX Inc.'.
-#. Please do not translate any of these trademarks and company names.
-#: lms/djangoapps/branding/api.py:131
+#.
+[cite_start][cite: 11] Translators: 'edX' and 'Open edX' are trademarks of 'edX Inc.'.
+#.
+[cite_start][cite: 12] Please do not translate any of these trademarks and company names.
+[cite_start][cite: 13] #: lms/djangoapps/branding/api.py:131
 #, python-brace-format
 msgid ""
 "© {org_name}.  All rights reserved except where noted.  edX, Open edX and "
 "their respective logos are registered trademarks of edX Inc."
-msgstr ""
-
-#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
+[cite_start][cite: 14] msgstr ""
+"© {org_name}. Wszelkie prawa zastrzeżone, chyba że zaznaczono inaczej. edX, "
+"Open edX i ich odpowiednie logotypy są zastrzeżonymi znakami towarowymi edX Inc."
+[cite_start][cite: 15] #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: 'Open edX' is a trademark, please keep this untranslated.
-#. See http://openedx.org for more information.
+#.
+[cite_start][cite: 16] See http://openedx.org for more information.
 #. #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
-#. Translators: 'Open edX' is a brand, please keep this untranslated. See
+#.
+[cite_start][cite: 17] Translators: 'Open edX' is a brand, please keep this untranslated. See
 #. http://openedx.org for more information.
-#: lms/djangoapps/branding/api.py:147 cms/templates/widgets/footer.html:58
+[cite_start][cite: 18] #: lms/djangoapps/branding/api.py:147 cms/templates/widgets/footer.html:58
 #: cms/templates/widgets/footer.html:59
 #: themes/red-theme/lms/templates/footer.html:113
 msgid "Powered by Open edX"
-msgstr ""
+msgstr "Zasilane przez Open edX"
 
 #: lms/djangoapps/branding/api.py:254 lms/djangoapps/branding/api.py:291
 #: lms/templates/static_templates/blog.html:5
 #: lms/templates/static_templates/blog.html:10
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: lms/djangoapps/branding/api.py:255 cms/templates/widgets/sock_links.html:35
 #: themes/stanford-style/lms/templates/static_templates/about.html:96
 msgid "Contact Us"
-msgstr ""
+msgstr "Skontaktuj się z nami"
 
 #: lms/djangoapps/branding/api.py:256 lms/djangoapps/branding/api.py:292
 msgid "Help Center"
-msgstr ""
+msgstr "Centrum pomocy"
 
 #: lms/djangoapps/branding/api.py:257
 msgid "Security"
-msgstr ""
+msgstr "Bezpieczeństwo"
 
 #: lms/djangoapps/branding/api.py:261 lms/djangoapps/branding/api.py:320
 #: lms/templates/static_templates/media-kit.html:5
 #: lms/templates/static_templates/media-kit.html:10
 msgid "Media Kit"
-msgstr ""
+msgstr "Zestaw dla mediów"
 
 #: lms/djangoapps/branding/api.py:262 lms/djangoapps/branding/api.py:295
 #: lms/templates/static_templates/donate.html:5
 #: lms/templates/static_templates/donate.html:10
 msgid "Donate"
-msgstr ""
+msgstr "Wspieraj"
 
 #: lms/djangoapps/branding/api.py:286 lms/djangoapps/branding/api.py:362
 #: lms/templates/footer.html:18 lms/templates/footer.html:92
@@ -2995,12 +2948,12 @@ msgstr ""
 #: themes/stanford-style/lms/templates/static_templates/about.html:41
 #: themes/stanford-style/lms/templates/static_templates/about.html:58
 msgid "About"
-msgstr ""
+msgstr "O nas"
 
 #: lms/djangoapps/branding/api.py:289 lms/djangoapps/branding/api.py:365
 #, python-brace-format
 msgid "{platform_name} for Business"
-msgstr ""
+msgstr "{platform_name} dla Firm"
 
 #: lms/djangoapps/branding/api.py:293
 #: lms/templates/static_templates/contact.html:5
@@ -3009,28 +2962,31 @@ msgstr ""
 #: themes/stanford-style/lms/templates/footer.html:17
 #: themes/stanford-style/lms/templates/static_templates/about.html:43
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: lms/djangoapps/branding/api.py:294 lms/djangoapps/branding/api.py:373
 #: themes/stanford-style/lms/templates/footer.html:16
 #: themes/stanford-style/lms/templates/static_templates/about.html:42
 #: themes/stanford-style/lms/templates/static_templates/about.html:77
 msgid "Careers"
-msgstr ""
+msgstr "Kariera"
 
 #: lms/djangoapps/branding/api.py:300 lms/djangoapps/branding/api.py:374
 #: themes/red-theme/lms/templates/footer.html:37
 msgid "News"
-msgstr ""
+msgstr "Aktualności"
 
 #: lms/djangoapps/branding/api.py:317 lms/djangoapps/branding/api.py:391
 #: lms/djangoapps/certificates/views/webview.py:187
-msgid "Terms of Service & Honor Code"
-msgstr ""
+msgid "Terms 
+[cite_start][cite: 19] of Service & Honor Code"
+msgstr "Warunki świadczenia usług i kodeks honorowy"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
-#. Translators: A 'Privacy Policy' is a legal document/statement describing a
-#. website's use of personal information
+#.
+[cite_start][cite: 20] Translators: A 'Privacy Policy' is a legal document/statement describing a
+#.
+[cite_start][cite: 21] website's use of personal information
 #: lms/djangoapps/branding/api.py:318 lms/djangoapps/branding/api.py:392
 #: lms/djangoapps/certificates/views/webview.py:190
 #: cms/templates/widgets/footer.html:30
@@ -3040,15 +2996,17 @@ msgstr ""
 #: themes/stanford-style/lms/templates/footer.html:19
 #: themes/stanford-style/lms/templates/static_templates/tos.html:15
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Polityka prywatności"
 
 #: lms/djangoapps/branding/api.py:319 lms/djangoapps/branding/api.py:394
 msgid "Accessibility Policy"
-msgstr ""
+msgstr "Polityka dostępności"
 
-#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
+#.
+[cite_start][cite: 22] #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This is a legal document users must agree to
-#. in order to register a new account.
+#.
+[cite_start][cite: 23] in order to register a new account.
 #: lms/djangoapps/branding/api.py:328 lms/djangoapps/branding/api.py:403
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:331
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1082
@@ -3060,87 +3018,94 @@ msgstr ""
 #: themes/stanford-style/lms/templates/static_templates/tos.html:8
 #: themes/stanford-style/lms/templates/static_templates/tos.html:11
 msgid "Terms of Service"
-msgstr ""
+msgstr "Warunki świadczenia usług"
 
 #: lms/djangoapps/branding/api.py:334 lms/djangoapps/branding/api.py:409
 msgid "Sitemap"
-msgstr ""
+msgstr "Mapa strony"
 
 #: lms/djangoapps/branding/api.py:370
 msgid "Affiliates"
-msgstr ""
+msgstr "Partnerzy"
 
-#. Translators: 'Open edX' is a trademark, please keep this untranslated
+#.
+[cite_start][cite: 24] Translators: 'Open edX' is a trademark, please keep this untranslated
 #: lms/djangoapps/branding/api.py:372
 msgid "Open edX"
-msgstr ""
+msgstr "Open edX"
 
 #: lms/djangoapps/branding/api.py:393
 msgid "Cookie Policy"
-msgstr ""
+msgstr "Polityka plików cookie"
 
 #: lms/djangoapps/branding/api.py:395
 msgid "Your Privacy Choices"
-msgstr ""
+msgstr "Twoje wybory dotyczące prywatności"
 
 #: lms/djangoapps/branding/api.py:408
 msgid "Trademark Policy"
-msgstr ""
+msgstr "Polityka znaków towarowych"
 
 #: lms/djangoapps/branding/api.py:439
 #, python-brace-format
 msgid "Download the {platform_name} mobile app from the Apple App Store"
 msgstr ""
+"Pobierz aplikację mobilną {platform_name} z Apple App Store"
 
 #: lms/djangoapps/branding/api.py:447
 #, python-brace-format
 msgid "Download the {platform_name} mobile app from Google Play"
 msgstr ""
+"Pobierz aplikację mobilną {platform_name} z Google Play"
 
-#. Translators: Bulk email from address e.g. ("Physics 101" Course Staff)
+#.
+[cite_start][cite: 25] Translators: Bulk email from address e.g. ("Physics 101" Course Staff)
 #: lms/djangoapps/bulk_email/tasks.py:399
 #, python-brace-format
 msgid "\"{course_title}\" Course Staff"
-msgstr ""
+msgstr "Personel kursu \"{course_title}\""
 
 #: lms/djangoapps/ccx/plugins.py:22
 msgid "CCX Coach"
-msgstr ""
+msgstr "Trener CCX"
 
 #: lms/djangoapps/ccx/utils.py:50
 msgid ""
 "A CCX can only be created on this course through an external service. "
 "Contact a course admin to give you access."
-msgstr ""
-
-#: lms/djangoapps/ccx/utils.py:267
+[cite_start][cite: 26] msgstr ""
+"CCX może być utworzony na tym kursie tylko za pośrednictwem usługi zewnętrznej. "
+"Skontaktuj się z administratorem kursu, aby uzyskać dostęp."
+[cite_start][cite: 27] #: lms/djangoapps/ccx/utils.py:267
 #, python-brace-format
 msgid "The course is full: the limit is {max_student_enrollments_allowed}"
-msgstr ""
+msgstr "Kurs jest pełny: limit to {max_student_enrollments_allowed}"
 
 #: lms/djangoapps/ccx/views.py:97
 msgid "You must be a CCX Coach to access this view."
-msgstr ""
-
-#: lms/djangoapps/ccx/views.py:102
+[cite_start][cite: 28] msgstr "Musisz być trenerem CCX, aby uzyskać dostęp do tego widoku."
+[cite_start][cite: 29] #: lms/djangoapps/ccx/views.py:102
 msgid "You must be the coach for this ccx to access this view"
-msgstr ""
+msgstr "Musisz być trenerem tego CCX, aby uzyskać dostęp do tego widoku"
 
 #: lms/djangoapps/ccx/views.py:180
 msgid ""
-"You cannot create a CCX from a course using a deprecated id. Please create a "
-"rerun of this course in the studio to allow this action."
-msgstr ""
-
-#. Translators: This is a past-tense verb that is used for task action
+"You cannot create a CCX from a course using a deprecated id. Please create a"
+" rerun of this course in the studio to allow this action."
+[cite_start][cite: 30] msgstr ""
+"Nie możesz utworzyć CCX z kursu używając przestarzałego ID. Utwórz "
+"ponowne uruchomienie tego kursu w studiu, aby zezwolić na tę "
+"akcję."
+[cite_start][cite: 31] #. Translators: This is a past-tense verb that is used for task action
 #. messages.
 #: lms/djangoapps/certificates/models.py:567
 msgid "regenerated"
-msgstr ""
+msgstr "zregenerowany"
 
-#. Translators: This is a past-tense verb that is inserted into task progress
+#.
+[cite_start][cite: 32] Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
-#: lms/djangoapps/certificates/models.py:567
+[cite_start][cite: 33] #: lms/djangoapps/certificates/models.py:567
 #: lms/djangoapps/instructor_task/tasks.py:178
 #: lms/djangoapps/instructor_task/tasks.py:226
 #: lms/djangoapps/instructor_task/tasks.py:239
@@ -3148,146 +3113,145 @@ msgstr ""
 #: lms/djangoapps/instructor_task/tasks.py:319
 #: lms/djangoapps/instructor_task/tasks.py:342
 msgid "generated"
-msgstr ""
+msgstr "wygenerowany"
 
 #. Translators: This string represents task was executed for all learners.
-#: lms/djangoapps/certificates/models.py:583
+[cite_start][cite: 34] #: lms/djangoapps/certificates/models.py:583
 #: lms/djangoapps/certificates/models.py:604
 msgid "All learners"
-msgstr ""
+msgstr "Wszyscy uczestnicy"
 
 #. Translators: This string represents task was executed for students having
 #. exceptions.
-#: lms/djangoapps/certificates/models.py:602
+[cite_start][cite: 35] #: lms/djangoapps/certificates/models.py:602
 msgid "For exceptions"
-msgstr ""
+msgstr "Dla wyjątków"
 
 #: lms/djangoapps/certificates/models.py:832
 msgid ""
 "A human-readable description of the example certificate.  For example, "
 "'verified' or 'honor' to differentiate between two types of certificates."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:847
+[cite_start][cite: 36] msgstr ""
+"Czytelny opis przykładowego certyfikatu. Na przykład, "
+"'zweryfikowany' lub 'honorowy', aby odróżnić dwa typy certyfikatów."
+[cite_start][cite: 37] #: lms/djangoapps/certificates/models.py:847
 msgid ""
 "A unique identifier for the example certificate.  This is used when we "
-"receive a response from the queue to determine which example certificate was "
-"processed."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:858
+"receive a response from the queue to determine which example certificate was"
+" processed."
+[cite_start][cite: 38] msgstr ""
+"Unikalny identyfikator przykładowego certyfikatu. Służy do "
+"określenia, który przykładowy certyfikat został przetworzony, gdy otrzymamy "
+"odpowiedź z kolejki."
+[cite_start][cite: 39] #: lms/djangoapps/certificates/models.py:858
 msgid ""
 "An access key for the example certificate.  This is used when we receive a "
 "response from the queue to validate that the sender is the same entity we "
 "asked to generate the certificate."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:868
+[cite_start][cite: 40] msgstr ""
+"Klucz dostępu do przykładowego certyfikatu. Służy do weryfikacji, czy "
+"nadawca jest tą samą jednostką, którą poprosiliśmy o wygenerowanie certyfikatu, "
+"gdy otrzymamy odpowiedź z kolejki."
+[cite_start][cite: 41] #: lms/djangoapps/certificates/models.py:868
 msgid "The full name that will appear on the certificate."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:873
+msgstr "Pełne imię i nazwisko, które pojawi się na certyfikacie."
+[cite_start][cite: 42] #: lms/djangoapps/certificates/models.py:873
 msgid "The template file to use when generating the certificate."
-msgstr ""
+[cite_start][cite: 43] msgstr "Plik szablonu do wykorzystania przy generowaniu certyfikatu."
 
 #: lms/djangoapps/certificates/models.py:885
 msgid "The status of the example certificate."
-msgstr ""
+[cite_start][cite: 44] msgstr "Status przykładowego certyfikatu."
 
 #: lms/djangoapps/certificates/models.py:891
 msgid "The reason an error occurred during certificate generation."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:898
+[cite_start][cite: 45] msgstr ""
+"Przyczyna błędu, który wystąpił podczas generowania certyfikatu."
+[cite_start][cite: 46] #: lms/djangoapps/certificates/models.py:898
 msgid "The download URL for the generated certificate."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:1137
+msgstr "Adres URL do pobrania wygenerowanego certyfikatu."
+[cite_start][cite: 47] #: lms/djangoapps/certificates/models.py:1137
 msgid "Name of template."
-msgstr ""
+msgstr "Nazwa szablonu."
 
 #: lms/djangoapps/certificates/models.py:1143
 msgid "Description and/or admin notes."
-msgstr ""
+[cite_start][cite: 48] msgstr "Opis i/lub uwagi administratora."
 
 #: lms/djangoapps/certificates/models.py:1146
 msgid "Django template HTML."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:1152
+msgstr "Kod HTML szablonu Django."
+[cite_start][cite: 49] #: lms/djangoapps/certificates/models.py:1152
 msgid "Organization of template."
-msgstr ""
+msgstr "Organizacja szablonu."
 
 #: lms/djangoapps/certificates/models.py:1166
 msgid "The course mode for this template."
-msgstr ""
+[cite_start][cite: 50] msgstr "Tryb kursu dla tego szablonu."
 
 #: lms/djangoapps/certificates/models.py:1169
 msgid "On/Off switch."
-msgstr ""
+[cite_start][cite: 51] msgstr "Przełącznik Wł./Wył."
 
 #: lms/djangoapps/certificates/models.py:1216
 msgid "Description of the asset."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:1221
+msgstr "Opis zasobu."
+[cite_start][cite: 52] #: lms/djangoapps/certificates/models.py:1221
 msgid "Asset file. It could be an image or css file."
-msgstr ""
-
-#: lms/djangoapps/certificates/models.py:1227
+[cite_start][cite: 53] msgstr "Plik zasobu. Może to być obraz lub plik CSS."
+[cite_start][cite: 54] #: lms/djangoapps/certificates/models.py:1227
 msgid ""
 "Asset's unique slug. We can reference the asset in templates using this "
 "value."
-msgstr ""
-
-#: lms/djangoapps/certificates/views/support.py:94
+[cite_start][cite: 55] msgstr ""
+"Unikalny identyfikator zasobu. Możemy odwoływać się do zasobu w szablonach za pomocą tej "
+"wartości."
+[cite_start][cite: 56] #: lms/djangoapps/certificates/views/support.py:94
 msgid "user is not given."
-msgstr ""
-
-#: lms/djangoapps/certificates/views/support.py:100
+msgstr "Użytkownik nie został podany."
+[cite_start][cite: 57] #: lms/djangoapps/certificates/views/support.py:100
 #, python-brace-format
 msgid "user '{user}' does not exist"
-msgstr ""
+msgstr "Użytkownik '{user}' nie istnieje"
 
 #: lms/djangoapps/certificates/views/support.py:114
 #, python-brace-format
 msgid "Course id '{course_id}' is not valid"
-msgstr ""
-
-#: lms/djangoapps/certificates/views/support.py:118
+msgstr "Identyfikator kursu '{course_id}' jest nieprawidłowy."
+[cite_start][cite: 58] #: lms/djangoapps/certificates/views/support.py:118
 #, python-brace-format
 msgid "The course does not exist against the given key '{course_key}'"
-msgstr ""
+msgstr "Kurs nie istnieje dla podanego klucza '{course_key}'"
 
 #: lms/djangoapps/certificates/views/support.py:144
 #, python-brace-format
 msgid "User {username} does not exist"
-msgstr ""
+msgstr "Użytkownik {username} nie istnieje"
 
 #: lms/djangoapps/certificates/views/support.py:151
 #, python-brace-format
 msgid "{course_key} is not a valid course key"
-msgstr ""
+msgstr "{course_key} nie jest prawidłowym kluczem kursu"
 
 #: lms/djangoapps/certificates/views/support.py:192
 #: lms/djangoapps/certificates/views/support.py:257
 #, python-brace-format
 msgid "The course {course_key} does not exist"
-msgstr ""
+msgstr "Kurs {course_key} nie istnieje"
 
 #: lms/djangoapps/certificates/views/support.py:197
 #, python-brace-format
 msgid "User {user_id} is not enrolled in the course {course_key}"
-msgstr ""
+msgstr "Użytkownik {user_id} nie jest zapisany na kurs {course_key}"
 
 #: lms/djangoapps/certificates/views/support.py:218
 msgid "An unexpected error occurred while regenerating certificates."
-msgstr ""
+[cite_start][cite: 59] msgstr "Wystąpił nieoczekiwany błąd podczas ponownego generowania certyfikatów."
 
 #: lms/djangoapps/certificates/views/support.py:262
 #, python-brace-format
 msgid "User {username} is not enrolled in the course {course_key}"
-msgstr ""
+msgstr "Użytkownik {username} nie jest zapisany na kurs {course_key}"
 
 #. Translators:  This text describes the 'Honor' course certificate type.
 #: lms/djangoapps/certificates/views/webview.py:72
@@ -3297,11 +3261,13 @@ msgid ""
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines."
 msgstr ""
-
+"Certyfikat {cert_type} oznacza, że uczeń zgodził się przestrzegać kodeksu honorowego ustalonego przez {platform_name} i ukończył wszystkie wymagane zadania dla tego kursu zgodnie z jego wytycznymi."
 #. Translators:  This text describes the 'ID Verified' course certificate
 #. type, which is a higher level of
-#. verification offered by edX.  This type of verification is useful for
-#. professional education/certifications
+#.
+verification offered by edX.  This type of verification is useful for
+#.
+professional education/certifications
 #: lms/djangoapps/certificates/views/webview.py:80
 #, python-brace-format
 msgid ""
@@ -3309,25 +3275,29 @@ msgid ""
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines. "
 msgstr ""
-
+"Certyfikat {cert_type} oznacza, że uczeń zgodził się przestrzegać kodeksu honorowego ustalonego przez {platform_name} i ukończył wszystkie wymagane zadania dla tego kursu zgodnie z jego wytycznymi."
 #: lms/djangoapps/certificates/views/webview.py:86
 #, python-brace-format
 msgid ""
 "A {cert_type} certificate also indicates that the identity of the learner "
 "has been checked and is valid."
 msgstr ""
+"Certyfikat {cert_type} oznacza również, że tożsamość ucznia została zweryfikowana i jest ważna."
 
-#. Translators:  This text describes the 'XSeries' course certificate type.
+#.
+Translators:  This text describes the 'XSeries' course certificate type.
 #. An XSeries is a collection of
-#. courses related to each other in a meaningful way, such as a specific topic
-#. or theme, or even an organization
+#.
+courses related to each other in a meaningful way, such as a specific topic
+#.
+or theme, or even an organization
 #: lms/djangoapps/certificates/views/webview.py:93
 #, python-brace-format
 msgid ""
 "An {cert_type} certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
 msgstr ""
-
+"Certyfikat {cert_type} świadczy o wysokim poziomie osiągnięć w programie nauczania i obejmuje weryfikację tożsamości studenta."
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:127
 #, python-brace-format
@@ -3335,17 +3305,22 @@ msgid ""
 "This is a valid {platform_name} certificate for {user_name}, who "
 "participated in {partner_short_name} {course_number}"
 msgstr ""
+"To jest ważny certyfikat {platform_name} dla {user_name}, który uczestniczył w {partner_short_name} {course_number}"
 
-#. Translators:  This text is bound to the HTML 'title' element of the page
-#. and appears in the browser title bar
+#.
+Translators:  This text is bound to the HTML 'title' element of the page
+#.
+and appears in the browser title bar
 #: lms/djangoapps/certificates/views/webview.py:136
 #, python-brace-format
 msgid "{partner_short_name} {course_number} Certificate | {platform_name}"
-msgstr ""
+msgstr "{partner_short_name} {course_number} Certyfikat | {platform_name}"
 
-#. Translators:  This text fragment appears after the student's name
+#.
+Translators:  This text fragment appears after the student's name
 #. (displayed in a large font) on the certificate
-#. screen.  The text describes the accomplishment represented by the
+#. screen.
+The text describes the accomplishment represented by the
 #. certificate information displayed to the user
 #: lms/djangoapps/certificates/views/webview.py:144
 #, python-brace-format
@@ -3353,57 +3328,69 @@ msgid ""
 "successfully completed, received a passing grade, and was awarded this "
 "{platform_name} {certificate_type} Certificate of Completion in "
 msgstr ""
+"pomyślnie ukończył, otrzymał ocenę pozytywną i został nagrodzony niniejszym certyfikatem ukończenia {platform_name} {certificate_type} w"
 
-#. Translators: This text describes the purpose (and therefore, value) of a
-#. course certificate
+#.
+Translators: This text describes the purpose (and therefore, value) of a
+#.
+course certificate
 #: lms/djangoapps/certificates/views/webview.py:157
 #, python-brace-format
 msgid ""
 "{platform_name} acknowledges achievements through certificates, which are "
 "awarded for course activities that {platform_name} students complete."
 msgstr ""
-
+"{platform_name} potwierdza osiągnięcia za pomocą certyfikatów, które są przyznawane za ukończone przez studentów {platform_name} działania związane z kursem."
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
-#. protect published content
+#.
+protect published content
 #: lms/djangoapps/certificates/views/webview.py:176
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:231
 #: openedx/core/djangoapps/notifications/templates/notifications/digest_footer.html:50
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:174
 msgid "All rights reserved"
-msgstr ""
+msgstr "Wszystkie prawa zastrzeżone"
 
-#. Translators:  This text is bound to the HTML 'title' element of the page
+#.
+Translators:  This text is bound to the HTML 'title' element of the page
 #. and appears
-#. in the browser title bar when a requested certificate is not found or
+#.
+in the browser title bar when a requested certificate is not found or
 #. recognized
 #: lms/djangoapps/certificates/views/webview.py:185
 msgid "Invalid Certificate"
-msgstr ""
+msgstr "Nieprawidłowy Certyfikat"
 
-#. Translators: This line appears as a byline to a header image and describes
-#. the purpose of the page
+#.
+Translators: This line appears as a byline to a header image and describes
+#.
+the purpose of the page
 #: lms/djangoapps/certificates/views/webview.py:193
 msgid "Certificate Validation"
-msgstr ""
+msgstr "Walidacja certyfikatu"
 
 #. Translators: Accomplishments describe the awards/certifications obtained by
-#. students on this platform
+#.
+students on this platform
 #: lms/djangoapps/certificates/views/webview.py:196
 #, python-brace-format
 msgid "About {platform_name} Accomplishments"
-msgstr ""
+msgstr "O osiągnięciach {platform_name}"
 
-#. Translators:  This line appears on the page just before the generation date
-#. for the certificate
+#.
+Translators:  This line appears on the page just before the generation date
+#.
+for the certificate
 #: lms/djangoapps/certificates/views/webview.py:201
 msgid "Issued On:"
-msgstr ""
+msgstr "Wydano dnia:"
 
 #. Translators:  The Certificate ID Number is an alphanumeric value unique to
-#. each individual certificate
+#.
+each individual certificate
 #: lms/djangoapps/certificates/views/webview.py:204
 msgid "Certificate ID Number"
-msgstr ""
+msgstr "Numer identyfikacyjny certyfikatu"
 
 #: lms/djangoapps/certificates/views/webview.py:206
 #: lms/templates/certificates/invalid.html:15
@@ -3411,15 +3398,17 @@ msgstr ""
 #: lms/templates/certificates/valid.html:12
 #, python-brace-format
 msgid "About {platform_name} Certificates"
-msgstr ""
+msgstr "O certyfikatach {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:210
 #, python-brace-format
 msgid "How {platform_name} Validates Student Certificates"
-msgstr ""
+msgstr "Jak {platform_name} weryfikuje certyfikaty studentów"
 
-#. Translators:  This text describes the validation mechanism for a
-#. certificate file (known as GPG security)
+#.
+Translators:  This text describes the validation mechanism for a
+#.
+certificate file (known as GPG security)
 #: lms/djangoapps/certificates/views/webview.py:215
 #, python-brace-format
 msgid ""
@@ -3428,145 +3417,158 @@ msgid ""
 "key. For independent verification, {platform_name} uses what is called a "
 "\"detached signature\"&quot;\"."
 msgstr ""
+"Certyfikaty wydawane przez {platform_name} są podpisywane kluczem gpg, dzięki czemu mogą być niezależnie walidowane przez każdego, kto posiada klucz publiczny {platform_name}."
+Do niezależnej weryfikacji {platform_name} używa tak zwanego „odłączonego podpisu”&quot;”."
 
 #: lms/djangoapps/certificates/views/webview.py:221
 msgid "Validate this certificate for yourself"
-msgstr ""
+msgstr "Sam zweryfikuj ten certyfikat"
 
 #. Translators:  This text describes (at a high level) the mission and charter
 #. the edX platform and organization
 #: lms/djangoapps/certificates/views/webview.py:224
 #, python-brace-format
 msgid "{platform_name} offers interactive online classes and MOOCs."
-msgstr ""
+msgstr "{platform_name} oferuje interaktywne zajęcia online i MOOC-i."
 
 #: lms/djangoapps/certificates/views/webview.py:227
 #, python-brace-format
 msgid "About {platform_name}"
-msgstr ""
+msgstr "O {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:229
 #, python-brace-format
 msgid "Learn more about {platform_name}"
-msgstr ""
+msgstr "Dowiedz się więcej o {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:231
 #, python-brace-format
 msgid "Learn with {platform_name}"
-msgstr ""
+msgstr "Ucz się z {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:233
 #, python-brace-format
 msgid "Work at {platform_name}"
-msgstr ""
+msgstr "Pracuj w {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:235
 #, python-brace-format
 msgid "Contact {platform_name}"
-msgstr ""
+msgstr "Skontaktuj się z {platform_name}"
 
-#. Translators:  This text appears near the top of the certificate and
-#. describes the guarantee provided by edX
+#.
+Translators:  This text appears near the top of the certificate and
+#.
+describes the guarantee provided by edX
 #: lms/djangoapps/certificates/views/webview.py:238
 #, python-brace-format
 msgid "{platform_name} acknowledges the following student accomplishment"
-msgstr ""
+msgstr "{platform_name} potwierdza następujące osiągnięcie studenta"
 
-#. Translators:  This text represents the description of course
+#.
+Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:256
 #, python-brace-format
 msgid ""
 "a course of study offered by {partner_short_name}, an online learning "
 "initiative of {partner_long_name}."
 msgstr ""
+"kurs oferowany przez {partner_short_name}, inicjatywę nauki online firmy {partner_long_name}."
 
-#. Translators:  This text represents the description of course
+#.
+Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:264
 #, python-brace-format
 msgid "a course of study offered by {partner_short_name}."
-msgstr ""
+msgstr "kurs oferowany przez {partner_short_name}."
 
 #: lms/djangoapps/certificates/views/webview.py:279
 #, python-brace-format
 msgid "I completed the {course_title} course on {platform_name}."
-msgstr ""
+msgstr "Ukończyłem kurs {course_title} na {platform_name}."
 
 #: lms/djangoapps/certificates/views/webview.py:287
 #, python-brace-format
-msgid "I completed a course at {platform_name}. Take a look at my certificate."
-msgstr ""
+msgid ""
+"I completed a course at {platform_name}. Take a look at my certificate."
+msgstr "Ukończyłem kurs na {platform_name}. Spójrz na mój certyfikat."
 
 #: lms/djangoapps/certificates/views/webview.py:324
 #, python-brace-format
 msgid "More Information About {user_name}'s Certificate:"
-msgstr ""
+msgstr "Więcej informacji o certyfikacie {user_name}:"
 
-#. Translators: This line is displayed to a user who has completed a course
-#. and achieved a certification
+#.
+Translators: This line is displayed to a user who has completed a course
+#.
+and achieved a certification
 #: lms/djangoapps/certificates/views/webview.py:328
 #, python-brace-format
 msgid "{fullname}, you earned a certificate!"
-msgstr ""
+msgstr "{fullname}, zdobyłeś certyfikat!"
 
-#. Translators: This line congratulates the user and instructs them to share
-#. their accomplishment on social networks
+#.
+Translators: This line congratulates the user and instructs them to share
+#.
+their accomplishment on social networks
 #: lms/djangoapps/certificates/views/webview.py:333
 msgid ""
 "Congratulations! This page summarizes what you accomplished. Show it off to "
 "family, friends, and colleagues in your social and professional networks."
 msgstr ""
-
+"Gratulacje! Ta strona podsumowuje Twoje osiągnięcia. Pochwal się nimi rodzinie, przyjaciołom i współpracownikom w swoich sieciach społecznościowych i zawodowych."
 #. Translators: This line leads the reader to understand more about the
-#. certificate that a student has been awarded
+#.
+certificate that a student has been awarded
 #: lms/djangoapps/certificates/views/webview.py:338
 #, python-brace-format
 msgid "More about {fullname}'s accomplishment"
-msgstr ""
+msgstr "Więcej o osiągnięciach {fullname}"
 
 #: lms/djangoapps/commerce/api/v1/serializers.py:50
 #, python-brace-format
 msgid "{course_id} is not a valid course key."
-msgstr ""
+msgstr "{course_id} nie jest prawidłowym kluczem kursu."
 
 #: lms/djangoapps/commerce/api/v1/serializers.py:57
 #, python-brace-format
 msgid "Course {course_id} does not exist."
-msgstr ""
+msgstr "Kurs {course_id} nie istnieje."
 
 #: lms/djangoapps/commerce/models.py:29
 msgid "Use the checkout page hosted by the E-Commerce service."
 msgstr ""
-
+"Użyj strony płatności hostowanej przez usługę e-commerce."
 #: lms/djangoapps/commerce/models.py:35
 msgid "Path to course(s) checkout page hosted by the E-Commerce service."
 msgstr ""
-
+"Ścieżka do strony płatności za kurs(y) hostowanej przez usługę e-commerce."
 #: lms/djangoapps/commerce/models.py:38
 #: openedx/core/djangoapps/catalog/models.py:31
 #: openedx/core/djangoapps/credentials/models.py:60
 #: openedx/core/djangoapps/credit/models.py:785
 msgid "Cache Time To Live"
-msgstr ""
+msgstr "Czas życia pamięci podręcznej"
 
 #: lms/djangoapps/commerce/models.py:41
 #: openedx/core/djangoapps/credentials/models.py:63
 #: openedx/core/djangoapps/credit/models.py:788
 msgid ""
-"Specified in seconds. Enable caching by setting this to a value greater than "
-"0."
+"Specified in seconds. Enable caching by setting this to a value greater than"
+" 0."
 msgstr ""
-
+"Podano w sekundach. Włącz buforowanie, ustawiając wartość większą niż 0."
 #: lms/djangoapps/commerce/models.py:49
 msgid "Path to order receipt page."
-msgstr ""
-
+msgstr "Ścieżka do strony potwierdzenia zamówienia."
 #: lms/djangoapps/commerce/models.py:53
 msgid "Automatically approve valid refund requests, without manual processing"
 msgstr ""
+"Automatyczne zatwierdzanie ważnych wniosków o zwrot pieniędzy, bez ręcznego przetwarzania"
 
 #: lms/djangoapps/commerce/utils.py:413
 msgid "[Refund] User-Requested Refund"
-msgstr ""
+msgstr "[Zwrot] Zwrot zainicjowany przez użytkownika"
 
 #: lms/djangoapps/commerce/utils.py:423
 #, python-brace-format
@@ -3574,26 +3576,26 @@ msgid ""
 "A refund request has been initiated for {username} ({email}). To process "
 "this request, please visit the link(s) below."
 msgstr ""
-
+"Została zainicjowana prośba o zwrot pieniędzy dla {username} ({email}). Aby przetworzyć tę prośbę, odwiedź poniższe linki."
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py:191
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:88
 msgid "Practice Exam"
-msgstr ""
+msgstr "Egzamin próbny"
 
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py:193
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:90
 msgid "Proctored Exam"
-msgstr ""
+msgstr "Egzamin nadzorowany"
 
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py:195
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:92
 msgid "Timed Exam"
-msgstr ""
+msgstr "Egzamin na czas"
 
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py:198
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:95
 msgid "Exam"
-msgstr ""
+msgstr "Egzamin"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:45
 msgid ""
@@ -3601,38 +3603,29 @@ msgid ""
 "                            There’s still time to reach your goal\n"
 "                        "
 msgstr ""
-
-#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:55
-#, python-format, python-brace-format
-msgid ""
 "\n"
-"                                You set a goal of learning "
-"{start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. "
-"You’re not quite there, but there's still time to reach that goal!\n"
-"                                "
-msgid_plural ""
-"\n"
-"                                You set a goal of learning "
-"{start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. "
-"You're not quite there, but there's still time to reach that goal!\n"
-"                            "
-msgstr[0] ""
-msgstr[1] ""
+"Nadal masz czas, aby osiągnąć swój cel"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:80
 msgid ""
 "\n"
-"                                Jump back in\n"
+"       
+                         Jump back in\n"
 "                            "
 msgstr ""
+"\n"
+"Wróć do tego"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:90
 msgid ""
 "\n"
-"                            Remember, you can always change your learning "
-"goal. The best goal is one that you can stick to.\n"
+"                            Remember, you can always change your learning goal.
+The best goal is one that you can stick to.\n"
 "                        "
 msgstr ""
+"\n"
+"Pamiętaj, zawsze możesz zmienić swój cel nauki.
+Najlepszym celem jest ten, którego możesz się trzymać."
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:109
 msgid ""
@@ -3640,73 +3633,83 @@ msgid ""
 "                            Adjust my goal\n"
 "                        "
 msgstr ""
+"\n"
+"Dostosuj mój cel"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:129
 msgid ""
 "\n"
-"                            Unsubscribe from goal reminder emails for this "
-"course\n"
+"                            Unsubscribe 
+from goal reminder emails for this course\n"
 "                        "
 msgstr ""
+"\n"
+"Anuluj subskrypcję e-maili przypominających o celu dla tego kursu"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
 msgid "You're almost there!"
-msgstr ""
+msgstr "Już prawie!"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:3
 msgid "There's still time to reach your goal"
-msgstr ""
+msgstr "Nadal masz czas, aby osiągnąć swój cel"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:5
 #, python-format
 msgid ""
 "You set a goal of learning %(days_per_week)s times a week in "
-"%(course_name)s. You're not quite there, but there's still time to reach "
+"%(course_name)s.
+You're not quite there, but there's still time to reach "
 "that goal!"
 msgstr ""
+"Ustawiłeś cel nauki %(days_per_week)s razy w tygodniu w kursie %(course_name)s.
+Jeszcze nie do końca, ale nadal masz czas, aby osiągnąć ten cel!"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:9
 msgid ""
-"Remember, you can always change your learning goal. The best goal is one "
+"Remember, you can always change your learning goal.
+The best goal is one "
 "that you can stick to.  "
 msgstr ""
+"Pamiętaj, zawsze możesz zmienić swój cel nauki.
+Najlepszym celem jest ten, którego możesz się trzymać. "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/subject.txt:3
 #, python-format
 msgid "You've almost reached your goal in %(course_name)s"
-msgstr ""
+msgstr "Prawie osiągnąłeś swój cel w kursie %(course_name)s"
 
 #: lms/djangoapps/course_home_api/admin.py:21
 msgid ""
-"These define the context to disable the frontend-app-learning progress page."
-"If no values are set, then the configuration applies globally. If a single "
-"value is set, then the configuration applies to all courses within that "
-"context. At most one value can be set at a time.<br>If multiple contexts "
-"apply to a course (for example, if configuration is specified for the course "
-"specifically, and for the org that the course is in, then the more specific "
-"context overrides the more general context."
+"These define the context to disable the frontend-app-learning progress "
+"page.If no values are set, then the configuration applies globally.
+If a "
+"single value is set, then the configuration applies to all courses within "
+"that context.
+At most one value can be set at a time.<br>If multiple "
+"contexts apply to a course (for example, if configuration is specified for "
+"the course specifically, and for the org that the course is in, then the "
+"more specific context overrides the more general context."
 msgstr ""
+"Definiują one kontekst do wyłączenia strony postępów w nauce aplikacji frontendowej. Jeśli nie ustawiono żadnych wartości, konfiguracja ma zastosowanie globalne. Jeśli ustawiono pojedynczą wartość, konfiguracja ma zastosowanie do wszystkich kursów w tym kontekście. W danym momencie można ustawić maksymalnie jedną wartość.<br>
+Jeśli do kursu stosuje się wiele kontekstów (na przykład, jeśli konfiguracja jest określona specjalnie dla kursu i dla organizacji, w której znajduje się kurs, wówczas bardziej szczegółowy kontekst zastępuje bardziej ogólny kontekst."
 
 #: lms/djangoapps/course_home_api/admin.py:33
 #: openedx/features/discounts/admin.py:34
 msgid ""
 "If any of these values is left empty or \"Unknown\", then their value at "
-"runtime will be retrieved from the next most specific context that applies. "
+"runtime will be retrieved from the next most specific context that applies.
+"
 "For example, if \"Disabled\" is left as \"Unknown\" in the course context, "
 "then that course will be Disabled only if the org that it is in is Disabled."
 msgstr ""
+"Jeśli którakolwiek z tych wartości zostanie pozostawiona pusta lub jako „Nieznana”, ich wartość w czasie wykonywania zostanie pobrana z następnego, najbardziej szczegółowego kontekstu, który ma zastosowanie.
+Na przykład, jeśli „Wyłączone” zostanie pozostawione jako „Nieznane” w kontekście kursu, to ten kurs zostanie wyłączony tylko wtedy, gdy organizacja, do której należy, jest wyłączona."
 
 #: lms/djangoapps/course_home_api/models.py:22
 #: openedx/features/discounts/models.py:25
 msgid "Disabled"
-msgstr ""
-
-#: lms/djangoapps/course_home_api/outline/serializers.py:33
-#, python-brace-format
-msgid "({number} Question)"
-msgid_plural "({number} Questions)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr "Wyłączone"
 
 #: lms/djangoapps/course_home_api/outline/views.py:293
 #, python-brace-format
@@ -3714,59 +3717,63 @@ msgid ""
 "Please contact your degree administrator or {platform_name} Support if you "
 "have questions."
 msgstr ""
+"W razie pytań skontaktuj się z administratorem swojego kierunku studiów lub działem wsparcia {platform_name}."
 
 #: lms/djangoapps/course_home_api/outline/views.py:300
 #: lms/templates/courseware/course_about.html:97
 msgid "Course is full"
-msgstr ""
+msgstr "Kurs jest pełny"
 
 #: lms/djangoapps/course_home_api/outline/views.py:640
 msgid "'course_id' is required."
-msgstr ""
+msgstr "Wymagane jest 'course_id'."
 
 #: lms/djangoapps/course_home_api/outline/views.py:644
 msgid "Only 'course_id' is expected."
-msgstr ""
+msgstr "Oczekiwano tylko 'course_id'."
 
 #: lms/djangoapps/course_home_api/outline/views.py:650
 msgid "Welcome message successfully dismissed."
-msgstr ""
+msgstr "Wiadomość powitalna została pomyślnie odrzucona."
 
 #: lms/djangoapps/course_home_api/outline/views.py:680
-msgid "Your course goal has been successfully set."
-msgstr ""
+msgid "Your course goal 
+has been successfully set."
+msgstr "Twój cel kursu został pomyślnie ustawiony."
 
 #: lms/djangoapps/course_home_api/outline/views.py:681
 msgid "Course goal updated successfully."
-msgstr ""
+msgstr "Cel kursu został pomyślnie zaktualizowany."
 
 #: lms/djangoapps/course_wiki/plugins/course_app.py:31
-#: lms/djangoapps/course_wiki/tab.py:19 lms/djangoapps/course_wiki/views.py:125
-#: lms/templates/wiki/base.html:6
+#: lms/djangoapps/course_wiki/tab.py:19
+#: lms/djangoapps/course_wiki/views.py:125 lms/templates/wiki/base.html:6
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:27
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #: lms/djangoapps/course_wiki/plugins/course_app.py:32
 msgid ""
 "Enable learners to access, and collaborate on course-related information."
 msgstr ""
+"Umożliwienie uczniom dostępu do informacji związanych z kursem i współpracy nad nimi."
 
-#. Translators: this string includes wiki markup.  Leave the ** and the _
+#.
+Translators: this string includes wiki markup.  Leave the ** and the _
 #. alone.
 #: lms/djangoapps/course_wiki/views.py:80
 #, python-brace-format
 msgid "This is the wiki for **{organization}**'s _{course_name}_."
-msgstr ""
+msgstr "To jest wiki dla kursu **{organization}** _{course_name}_."
 
 #: lms/djangoapps/course_wiki/views.py:90
 msgid "Course page automatically created."
-msgstr ""
+msgstr "Strona kursu została automatycznie utworzona."
 
 #: lms/djangoapps/course_wiki/views.py:118
 #, python-brace-format
 msgid "Welcome to the {platform_name} Wiki"
-msgstr ""
+msgstr "Witamy na Wiki {platform_name}"
 
 #: lms/djangoapps/course_wiki/views.py:122
 msgid "Visit a course wiki to add an article."
@@ -18308,7 +18315,7 @@ msgstr ""
 
 #: lms/templates/preview_menu.html:75
 msgid "Username or email:"
-msgstr ""
+msgstr "Nazwa uytkownika lub email"
 
 #: lms/templates/preview_menu.html:78
 msgid "Set preview mode"
