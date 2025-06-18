@@ -5886,7 +5886,8 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Ten e-mail został wysłany automatycznie z %(platform_name)s.\n"
+"            Ten e-mail został wysłany automatycznie z %(platform_name)s.\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
 #, python-format
@@ -5896,7 +5897,8 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Otrzymujesz ten e-mail na adres %(email)s, ponieważ jesteś zapisany w\n"
+"            Otrzymujesz ten e-mail na adres %(email)s, ponieważ jesteś zapisany w\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
 msgid ""
@@ -5905,7 +5907,8 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Aby przestać otrzymywać e-maile tego typu, zaktualizuj ustawienia e-mail swojego kursu\n"
+"            Aby przestać otrzymywać e-maile tego typu, zaktualizuj ustawienia e-mail swojego kursu\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:33
 msgid "here"
@@ -6012,7 +6015,8 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Zostałeś zaproszony do udziału w testach beta dla %(course_name)s na %(site_name)s\n"
+"                    Zostałeś zaproszony do udziału w testach beta dla %(course_name)s na %(site_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:20
 msgid "The invitation has been sent by a member of the course staff."
@@ -9151,7 +9155,10 @@ msgid ""
 "locked.{li_end}{li_start}If you've forgotten your password, click "
 "{link_start}here{link_end} to reset.{li_end}"
 msgstr ""
-"Nieprawidłowy adres e-mail lub hasło.{li_start}Masz {remaining_attempts} więcej prób logowania przed tymczasowym zablokowaniem konta.{li_end}{li_start}Jeśli zapomniałeś hasła, kliknij {link_start}tutaj{link_end], aby je zresetować.{li_end}"
+"Nieprawidłowy adres e-mail lub hasło.{li_start}Masz {remaining_attempts} więcej "
+"prób logowania przed tymczasowym zablokowaniem "
+"konta.{li_end}{li_start}Jeśli zapomniałeś hasła, kliknij "
+"{link_start}tutaj{link_end], aby je zresetować.{li_end}"
 
 #: openedx/core/djangoapps/user_authn/views/login.py:393
 #, python-brace-format
