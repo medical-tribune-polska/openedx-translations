@@ -3461,7 +3461,8 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"Anuluj subskrypcję e-maili przypominających o celu dla tego kursu\n"
+"                            Anuluj subskrypcję e-maili przypominających o celu dla tego kursu\n"
+"                        "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
 msgid "You're almost there!"
@@ -10044,8 +10045,6 @@ msgstr "Błąd {err} podczas oceny funkcji podpowiedzi {hintfn}."
 #: xmodule/capa/responsetypes.py:490
 msgid "(Source code line unavailable)"
 msgstr "(Linia kodu źródłowego niedostępna)"
-
-
 
 #: xmodule/capa/responsetypes.py:491
 #, python-brace-format
