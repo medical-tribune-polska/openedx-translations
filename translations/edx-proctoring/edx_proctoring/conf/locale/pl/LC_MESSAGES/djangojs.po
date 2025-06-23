@@ -9,23 +9,23 @@ msgstr ""
 "Project-Id-Version: edx-proctoring\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 00:42+0000\n"
-"PO-Revision-Date: 2018-03-14 17:16-0500\n"
+"PO-Revision-Date: 2025-06-23 16:16-0500\n"
 "Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: static/proctoring/js/exam_action_handler.js:44
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: static/proctoring/js/exam_action_handler.js:130
 #: static/proctoring/js/exam_action_handler.js:195
 #: static/proctoring/js/exam_action_handler.js:206
 msgid "Error Ending Exam"
-msgstr ""
+msgstr "Błąd podczas kończenia egzaminu"
 
 #: static/proctoring/js/exam_action_handler.js:132
 #: static/proctoring/js/exam_action_handler.js:208
@@ -33,200 +33,208 @@ msgid ""
 "Something has gone wrong ending your exam. Please reload the page and start "
 "again."
 msgstr ""
+"Coś poszło nie tak podczas kończenia egzaminu. Proszę odświeżyć stronę i rozpocząć ponownie."
 
 #: static/proctoring/js/exam_action_handler.js:159
 #: static/proctoring/js/exam_action_handler.js:170
 msgid "Error Starting Exam"
-msgstr ""
+msgstr "Błąd podczas rozpoczynania egzaminu"
 
 #: static/proctoring/js/exam_action_handler.js:161
 msgid ""
 "Something has gone wrong starting your exam. Please double-check that the "
 "application is running."
 msgstr ""
+"Coś poszło nie tak podczas rozpoczynania egzaminu. Proszę dokładnie sprawdzić, czy aplikacja jest uruchomiona."
 
 #: static/proctoring/js/exam_action_handler.js:172
 msgid ""
 "Something has gone wrong starting your exam. Please reload the page and "
 "start again."
 msgstr ""
+"Coś poszło nie tak podczas rozpoczynania egzaminu. Proszę odświeżyć stronę i rozpocząć ponownie."
 
 #: static/proctoring/js/exam_action_handler.js:197
 msgid ""
 "Something has gone wrong ending your exam. Please double-check that the "
 "application is running."
 msgstr ""
+"Coś poszło nie tak podczas kończenia egzaminu. Proszę dokładnie sprawdzić, czy aplikacja jest uruchomiona."
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:218
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:13
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:82
 msgid "Review Policy Exception"
-msgstr ""
+msgstr "Przejrzyj wyjątek od zasad"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:224
 msgid "Add Time(Minutes)"
-msgstr ""
+msgstr "Dodaj czas (minuty)"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:226
 msgid "Add Multiplier as a Number Greater Than 1"
-msgstr ""
+msgstr "Dodaj mnożnik jako liczbę większą niż 1"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:228
 msgid "Add Policy Exception"
-msgstr ""
+msgstr "Dodaj wyjątek od zasad"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:268
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276
 #: static/proctoring/js/views/proctored_exam_edit_allowance_view.js:118
 msgid "Required field"
-msgstr ""
+msgstr "Pole wymagane"
 
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:12
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:81
 msgid "Additional Time (minutes)"
-msgstr ""
+msgstr "Dodatkowy czas (minuty)"
 
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:14
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:83
 msgid "Time Multiplier"
-msgstr ""
+msgstr "Mnożnik czasu"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:10
 msgid "Eligible"
-msgstr ""
+msgstr "Uprawniony"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:11
 msgid "Created"
-msgstr ""
+msgstr "Utworzono"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:12
 msgid "Download Software Clicked"
-msgstr ""
+msgstr "Kliknięto Pobierz Oprogramowanie"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:13
 msgid "Ready to start"
-msgstr ""
+msgstr "Gotowy do rozpoczęcia"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:14
 #: static/proctoring/js/views/proctored_exam_info.js:17
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:33
 msgid "Started"
-msgstr ""
+msgstr "Rozpoczęty"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:15
 msgid "Ready to submit"
-msgstr ""
+msgstr "Gotowy do przesłania"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:16
 msgid "Declined"
-msgstr ""
+msgstr "Odrzucony"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:17
 msgid "Timed out"
-msgstr ""
+msgstr "Upłynął czas"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:18
 msgid "Second Review Required"
-msgstr ""
+msgstr "Wymagana druga recenzja"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:19
 #: static/proctoring/js/views/proctored_exam_info.js:21
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:34
 msgid "Submitted"
-msgstr ""
+msgstr "Przesłano"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:20
 #: static/proctoring/js/views/proctored_exam_info.js:34
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:35
 msgid "Verified"
-msgstr ""
+msgstr "Zweryfikowany"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:21
 #: static/proctoring/js/views/proctored_exam_info.js:38
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:36
 msgid "Rejected"
-msgstr ""
+msgstr "Odrzucony"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:22
 #: static/proctoring/js/views/proctored_exam_info.js:42
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:37
 msgid "Error"
-msgstr ""
+msgstr "Błąd"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:23
 msgid "Onboarding Missing"
-msgstr ""
+msgstr "Brak wdrożenia"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:24
 msgid "Onboarding Pending"
-msgstr ""
+msgstr "Wdrożenie w toku"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:25
 msgid "Onboarding Failed"
-msgstr ""
+msgstr "Wdrożenie nie powiodło się"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:26
 msgid "Onboarding Expired"
-msgstr ""
+msgstr "Wdrożenie wygasło"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:179
 msgid "Practice"
-msgstr ""
+msgstr "Praktyka"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:179
 msgid "Proctored"
-msgstr ""
+msgstr "Nadzorowany"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:181
 msgid "Timed"
-msgstr ""
+msgstr "Limitowany czasowo"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:214
 msgid "Are you sure you want to remove this student's exam attempt?"
 msgstr ""
+"Czy na pewno chcesz usunąć próbę egzaminu tego studenta?"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:248
 msgid "Are you sure you want to resume this student's exam attempt?"
 msgstr ""
+"Czy na pewno chcesz wznowić próbę egzaminu tego studenta?"
 
 #: static/proctoring/js/views/proctored_exam_info.js:13
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:29
 msgid "Not Started"
-msgstr ""
+msgstr "Nie rozpoczęto"
 
 #: static/proctoring/js/views/proctored_exam_info.js:14
 msgid "You have not started your onboarding exam."
-msgstr ""
+msgstr "Nie rozpocząłeś jeszcze egzaminu wprowadzającego."
 
 #: static/proctoring/js/views/proctored_exam_info.js:18
 msgid "You have started your onboarding exam."
-msgstr ""
+msgstr "Rozpocząłeś egzamin wprowadzający."
 
 #: static/proctoring/js/views/proctored_exam_info.js:22
 msgid "You have submitted your onboarding exam."
-msgstr ""
+msgstr "Przesłałeś swój egzamin wprowadzający."
 
 #: static/proctoring/js/views/proctored_exam_info.js:35
 msgid "Your onboarding exam has been approved in this course."
-msgstr ""
+msgstr "Twój egzamin wprowadzający został zatwierdzony w tym kursie."
 
 #: static/proctoring/js/views/proctored_exam_info.js:39
 msgid "Your onboarding exam has been rejected. Please retry onboarding."
 msgstr ""
+"Twój egzamin wprowadzający został odrzucony. Proszę spróbować ponownie."
 
 #: static/proctoring/js/views/proctored_exam_info.js:43
 msgid ""
 "An error has occurred during your onboarding exam. Please retry onboarding."
 msgstr ""
+"Wystąpił błąd podczas egzaminu wprowadzającego. Proszę spróbować ponownie."
 
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
-msgstr ""
+msgstr "Zatwierdzono w innym kursie"
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
-msgstr ""
+msgstr "Twój egzamin wprowadzający został zatwierdzony w innym kursie."
 
 #: static/proctoring/js/views/proctored_exam_info.js:49
 msgid ""
@@ -234,10 +242,11 @@ msgid ""
 "onboarding exam in order to ensure that your setup still meets the "
 "requirements for proctoring."
 msgstr ""
+"Jeśli Twoje urządzenie uległo zmianie, zalecamy ukończenie egzaminu wprowadzającego dla tego kursu, aby upewnić się, że Twoja konfiguracja nadal spełnia wymagania nadzoru."
 
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
-msgstr ""
+msgstr "Wygasa wkrótce"
 
 #: static/proctoring/js/views/proctored_exam_info.js:57
 msgid ""
@@ -245,61 +254,64 @@ msgid ""
 "is expiring soon. Please complete onboarding again to ensure that you will "
 "be able to continue taking proctored exams."
 msgstr ""
+"Twój profil wdrożeniowy został zatwierdzony. Jednakże Twój status wdrożenia wkrótce wygaśnie. Proszę ponownie ukończyć wdrożenie, aby upewnić się, że będziesz mógł kontynuować zdawanie egzaminów nadzorowanych."
 
 #: static/proctoring/js/views/proctored_exam_info.js:64
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:38
 msgid "Expired"
-msgstr ""
+msgstr "Wygasł"
 
 #: static/proctoring/js/views/proctored_exam_info.js:66
 msgid ""
 "Your onboarding status has expired. Please complete onboarding again to "
 "continue taking proctored exams."
 msgstr ""
+"Twój status wdrożenia wygasł. Proszę ponownie ukończyć wdrożenie, aby kontynuować zdawanie egzaminów nadzorowanych."
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:30
 msgid "Setup Started"
-msgstr ""
+msgstr "Rozpoczęto konfigurację"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:31
 msgid "Onboarding Started"
-msgstr ""
+msgstr "Rozpoczęto wdrożenie"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:40
 msgid "Onboarding Reset Failed Due to Past Due Exam"
-msgstr ""
+msgstr "Resetowanie wdrożenia nie powiodło się z powodu zaległego egzaminu"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:42
 msgid "Audit"
-msgstr ""
+msgstr "Słuchacz"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:43
 msgid "Honor"
-msgstr ""
+msgstr "Z wyróżnieniem"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:44
 msgid "Professional"
-msgstr ""
+msgstr "Profesjonalista"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:45
 msgid "No ID Professional"
-msgstr ""
+msgstr "Profesjonalista bez dowodu tożsamości"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:46
 msgid "Credit"
-msgstr ""
+msgstr "Kredyt"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:47
 msgid "Master's"
-msgstr ""
+msgstr "Magisterskie"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:48
 msgid "Executive Education"
-msgstr ""
+msgstr "Edukacja dla kadry kierowniczej"
 
 #: static/proctoring/js/views/proctored_exam_view.js:153
 msgid ""
-"Are you sure you want to leave this page? \n"
-"To pass your proctored exam you must also pass the online proctoring session "
-"review."
+"Are you sure you want to leave this page?\n"
+"To pass your proctored exam you must also pass the online proctoring session review."
 msgstr ""
+"Czy na pewno chcesz opuścić tę stronę?\n"
+" Aby zdać egzamin nadzorowany, musisz również przejść pomyślnie weryfikację sesji nadzoru online."
