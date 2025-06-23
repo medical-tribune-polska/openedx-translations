@@ -22,38 +22,40 @@ msgid ""
 "BlockCompletion.objects.submit_batch_completion should not be called when "
 "the feature is disabled."
 msgstr ""
+"BlockCompletion.objects.submit_batch_completion nie powinno być wywoływane, gdy "
+"funkcja jest wyłączona."
 
 #: api/v1/views.py:89
 #, python-brace-format
 msgid "Key '{key}' not found."
-msgstr ""
+msgstr "Klucz '{key}' nie znaleziony."
 
 #: api/v1/views.py:97
 msgid "User is not enrolled in course."
-msgstr ""
+msgstr "Użytkownik nie jest zapisany na kurs."
 
 #: api/v1/views.py:115
 msgid "Invalid learning context key: {}"
-msgstr ""
+msgstr "Nieprawidłowy klucz kontekstu uczenia się: {}"
 
 #: api/v1/views.py:124
 msgid "Invalid block key: {}"
-msgstr ""
+msgstr "Nieprawidłowy klucz bloku: {}"
 
 #: api/v1/views.py:132
 #, python-brace-format
 msgid "Block with key: '{key}' is not in context {context}"
-msgstr ""
+msgstr "Blok z kluczem: '{key}' nie znajduje się w kontekście {context}"
 
 #: api/v1/views.py:174
 msgid " "
-msgstr ""
+msgstr " "
 
 #: api/v1/views.py:189
 msgid "ok"
-msgstr ""
+msgstr "ok"
 
 #: models.py:33
 #, python-brace-format
 msgid "{value} must be between 0.0 and 1.0"
-msgstr ""
+msgstr "{value} musi mieścić się w przedziale od 0,0 do 1,0"

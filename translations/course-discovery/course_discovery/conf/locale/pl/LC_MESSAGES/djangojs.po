@@ -23,4 +23,4 @@ msgstr ""
 
 #: static/js/catalogs-change-form.js:17
 msgid "Preview"
-msgstr ""
+msgstr "Podgląd"
