@@ -1088,6 +1088,114 @@ msgstr ""
 "Przyznaj użytkownikowi uprawnienia do tworzenia kursów we WSZYSTKICH "
 "organizacjach"
 
+#: cms/djangoapps/import_from_modulestore/data.py:17
+msgid "Waiting to stage content"
+msgstr "Oczekiwanie na przygotowanie zawartości"
+
+#: cms/djangoapps/import_from_modulestore/data.py:18
+msgid "Staging content for import"
+msgstr "Przygotowanie zawartości do zaimportowania"
+
+#: cms/djangoapps/import_from_modulestore/data.py:19
+msgid "Failed to stage content"
+msgstr "Nie udało się przygotować zawartości"
+
+#: cms/djangoapps/import_from_modulestore/data.py:20
+msgid "Content is staged and ready for import"
+msgstr "Zawartość jest przygotowana i gotowa do zaimportowania"
+
+#: cms/djangoapps/import_from_modulestore/data.py:21
+msgid "Importing staged content"
+msgstr "Importowanie przygotowanej zawartości"
+
+#: cms/djangoapps/import_from_modulestore/data.py:22
+msgid "Failed to import staged content"
+msgstr "Nie udało się zaimportować przygotowanej zawartości"
+
+#: cms/djangoapps/import_from_modulestore/data.py:23
+msgid "Successfully imported content"
+msgstr "Udało się zaimportować przygotowaną zawartość"
+
+#: cms/djangoapps/import_from_modulestore/data.py:24
+msgid "Canceled"
+msgstr "Anulowano"
+
+#: cms/djangoapps/import_from_modulestore/models.py:38
+msgid "The modulestore course"
+msgstr "Kurs modulstore"
+
+#: cms/djangoapps/import_from_modulestore/models.py:42
+msgid "Import from modulestore"
+msgstr "Zaimportuj z modulstore"
+
+#: cms/djangoapps/import_from_modulestore/models.py:43
+msgid "Imports from modulestore"
+msgstr "Importy z modulestore"
+
+#: cms/djangoapps/import_from_modulestore/models.py:72
+msgid "Original usage key/ID of the thing that has been imported."
+msgstr "Oryginalny klucz/identyfikator użytkowania rzeczy, która została zaimportowana."
+
+#: cms/djangoapps/import_from_modulestore/models.py:129
+msgid ""
+"The original Usage key of the highest-level component that was saved in "
+"StagedContent."
+msgstr ""
+"Oryginalny klucz użycia najwyższego poziomu komponentu, który został zapisany w "
+"StageContent."
+
+#: cms/djangoapps/maintenance/views.py:32
+msgid "Edit Announcements"
+msgstr "Edytuj ogłoszenia"
+
+#: cms/djangoapps/maintenance/views.py:35
+msgid ""
+"This view shows the announcement editor to create or alter announcements "
+"that are shown on the rightside of the dashboard."
+msgstr ""
+"Ten widok pokazuje edytora ogłoszeń, w którym można tworzyć lub zmieniać ogłoszenia "
+"wyświetlane po prawej stronie pulpitu nawigacyjnego."
+
+#: cms/djangoapps/maintenance/views.py:43
+msgid "Please provide course id."
+msgstr "Proszę podaj id kursu"
+
+#: cms/djangoapps/maintenance/views.py:44
+msgid "Invalid course key."
+msgstr "Nieprawidłowe id kursu"
+
+#: cms/djangoapps/maintenance/views.py:45
+msgid "No matching course found."
+msgstr "Nie znaleziono pasującego kursu"
+
+#: cms/templates/maintenance/_force_publish_course.html:24
+msgid "Force Publish Course"
+msgstr "Wymuś Publikację Kursu"
+
+#: cms/djangoapps/maintenance/views.py:38
+msgid ""
+"Sometimes the draft and published branches of a course can get out of sync. "
+"Force publish course command resets the published branch of a course to "
+"point to the draft branch, effectively force publishing the course. This "
+"view dry runs the force publish command"
+msgstr ""
+"Czasami wersje robocza i opublikowana gałęzi kursu mogą się rozsynchronizować. "
+"Polecenie wymuszonej publikacji kursu resetuje opublikowaną gałąź kursu, "
+"aby wskazywała na gałąź roboczą, co skutecznie wymusza opublikowanie kursu. Ten widok "
+"uruchamia na sucho polecenie wymuszonej publikacji"
+
+#: cms/djangoapps/maintenance/views.py:45
+msgid "Edit Announcements"
+msgstr "Edytuj Powiadomienia"
+
+#: cms/djangoapps/maintenance/views.py:48
+msgid ""
+"This view shows the announcement editor to create or alter announcements "
+"that are shown on the rightside of the dashboard."
+msgstr ""
+"Ten widok pokazuje edytora ogłoszeń, aby tworzyć lub zmieniać ogłoszenia "
+"wyświetlane po prawej stronie pulpitu nawigacyjnego."
+
 #: cms/djangoapps/models/settings/course_metadata.py:225
 #, python-brace-format
 msgid "Incorrect format for field '{name}'. {detailed_message}"
@@ -9497,7 +9605,9 @@ msgid ""
 "process your personal data in accordance                   with the "
 "{privacy_policy_link_start}Privacy Policy{privacy_policy_link_end}."
 msgstr ""
-"Tworząc konto, zgadzasz się na {terms_of_service_link_start}{terms_of_service}{terms_of_service_link_end} i potwierdzasz, że {platform_name} oraz każdy Członek przetwarzają Twoje dane osobowe zgodnie z {privacy_policy_link_start}Polityką Prywatności{privacy_policy_link_end}."
+"Tworząc konto, zgadzasz się na {terms_of_service_link_start}{terms_of_service}{terms_of_service_link_end}"
+"                   i potwierdzasz, że {platform_name} oraz każdy Członek "
+"przetwarzają Twoje dane osobowe zgodnie z {privacy_policy_link_start}Polityką Prywatności{privacy_policy_link_end}."
 
 #. Translators: "Terms of service" is a legal document users must agree to
 #. in order to register a new account."
