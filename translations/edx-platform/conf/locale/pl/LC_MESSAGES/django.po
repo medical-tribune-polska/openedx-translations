@@ -18106,11 +18106,46 @@ msgstr "Ostrzeżenia:"
 msgid "{platform_name} {studio_name}: Task Status Update"
 msgstr "{platform_name} {studio_name}: Aktualizacja statusu zadania"
 
+#: cms/templates/maintenance/_announcement_delete.html:8
+#: cms/templates/maintenance/_announcement_delete.html:11
+msgid "Delete Announcement"
+msgstr "Usuń Ogłoszenie"
+
+#: cms/templates/maintenance/_announcement_delete.html:22
+msgid "Are you sure you want to delete this Announcement?"
+msgstr "Czy na pewno chcesz usunąć to ogłoszenie?"
+
+#: cms/templates/maintenance/_announcement_delete.html:35
+msgid "Confirm"
+msgstr "Potwierdź"
+
+#: cms/templates/maintenance/_announcement_edit.html:8
+#: cms/templates/maintenance/_announcement_edit.html:11
+msgid "Edit Announcement"
+msgstr "Edytuj Ogłoszenie"
+
 #: cms/templates/maintenance/_announcement_edit.html:26
 #: lms/templates/problem.html:37 lms/templates/problem.html:38
 #: lms/templates/word_cloud.html:40
 msgid "Save"
 msgstr "Zapisz"
+
+#: cms/templates/maintenance/_announcement_index.html:42
+msgid "Create New"
+msgstr "Stwórz nowy"
+
+#: cms/templates/maintenance/_announcement_index.html:47
+msgid "previous"
+msgstr "poprzedni"
+
+#: cms/templates/maintenance/_announcement_index.html:53
+msgid "next"
+msgstr "następny"
+
+#: cms/templates/maintenance/base.html:14
+#: cms/templates/maintenance/index.html:8
+msgid "Panel utrzymania i konserwacji"
+msgstr "Pulpit"
 
 #: cms/templates/registration/activation_complete.html:22
 msgid "Thanks for activating your account."
