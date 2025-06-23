@@ -3215,7 +3215,7 @@ msgstr ""
 
 #: lms/static/js/dashboard/legacy.js:103 lms/static/js/dashboard/legacy.js:106
 msgid ""
-"Are you sure you want to unenroll from the verified {certNameLong} track of"
+"Are you sure you want to unenroll from the verified {certNameLong}  track of"
 " {courseName} ({courseNumber})?"
 msgstr ""
 "Czy na pewno chcesz zrezygnować z weryfikowanej ścieżki {certNameLong} kursu "
@@ -9233,10 +9233,6 @@ msgstr "Usuń podsekcję %(subsectionDisplayName)s"
 msgid "Remove unit %(unitName)s"
 msgstr "Usuń jednostkę %(unitName)s"
 
-#: lms/templates/ccx/schedule.underscore:109
-msgid "remove"
-msgstr "Usuń"
-
 #: lms/templates/courseware/proctored-exam-controls.underscore:3
 msgid "Mark Exam As Completed"
 msgstr "Oznacz egzamin jako ukończony"
@@ -10260,10 +10256,6 @@ msgstr "Użyj danych uwierzytelniających mojej instytucji/kampusu"
 #: lms/templates/student_account/register.underscore:45
 msgid "or create a new one here"
 msgstr "lub utwórz nowe tutaj"
-
-#: lms/templates/student_account/register.underscore:50
-msgid "Create an Account"
-msgstr "Utwórz konto"
 
 #: lms/templates/student_account/register.underscore:63
 msgid "Support education research by providing additional information"
