@@ -7,94 +7,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"POT-Creation-Date: 2025-06-13 08:00+0000\n"
+"PO-Revision-Date: 2025-06-13 09:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: recommender.py:314
+#: recommender.py:313
 msgid "Invalid location URL provided"
-msgstr ""
+msgstr "Podano nieprawidłowy adres URL lokalizacji"
 
-#: recommender.py:325
+#: recommender.py:324
 msgid "The resource you are attempting to provide already exists"
-msgstr ""
+msgstr "Zasób, który próbujesz udostępnić, już istnieje"
 
-#: recommender.py:338
+#: recommender.py:337
 msgid ""
-"The resource you are attempting to provide has been disallowed by the staff. "
-"Reason: "
-msgstr ""
+"The resource you are attempting to provide has been disallowed by the staff."
+" Reason: "
+msgstr "Zasób, który próbujesz udostępnić, został zablokowany przez personel. Powód: "
 
-#: recommender.py:355
+#: recommender.py:354
 msgid "The selected resource does not exist"
-msgstr ""
+msgstr "Wybrany zasób nie istnieje"
 
-#: recommender.py:403
+#: recommender.py:402
 msgid "Size of uploaded file exceeds threshold"
-msgstr ""
+msgstr "Rozmiar przesłanego pliku przekracza limit"
 
-#: recommender.py:414
+#: recommender.py:413
 msgid "The configuration of pyfs is not properly set"
-msgstr ""
+msgstr "Konfiguracja pyfs nie jest prawidłowo ustawiona"
 
-#: recommender.py:753
+#: recommender.py:752
 msgid "Endorse resource without permission"
-msgstr ""
+msgstr "Zatwierdź zasób bez pozwolenia"
 
-#: recommender.py:797
+#: recommender.py:796
 msgid "You don't have the permission to remove this resource"
-msgstr ""
-
-#: recommender.py:848
+msgstr "Nie masz uprawnień do usunięcia tego zasobu."
+#: recommender.py:847
 msgid "Only staff can import resources"
-msgstr ""
+msgstr "Tylko personel może importować zasoby"
 
-#: recommender.py:859 recommender.py:886
-msgid "Please submit the JSON file obtained with the download resources button"
-msgstr ""
-
-#: recommender.py:899
+#: recommender.py:858 recommender.py:885
+msgid ""
+"Please submit the JSON file obtained with the download resources button"
+msgstr "Prześlij plik JSON uzyskany za pomocą przycisku pobierania zasobów."
+#: recommender.py:898
 msgid "Tried to access flagged resources without staff permission"
-msgstr ""
+msgstr "Próbowano uzyskać dostęp do oflagowanych zasobów bez zgody personelu"
 
-#: templates/recommender.html:85
+#: templates/recommender.html:83
 msgid "This is a list of recommended resources. If you\\"
-msgstr ""
+msgstr "To jest lista polecanych zasobów. Jeśli Ty\\"
 
-#: templates/recommender.html:86 static/js/src/cats.js:158
+#: templates/recommender.html:84 static/js/src/cats.js:158
 msgid "Show related resources"
-msgstr ""
+msgstr "Pokaż powiązane zasoby"
 
-#: templates/recommender.html:93
+#: templates/recommender.html:91
 msgid ""
 "This will be a list of resources your fellow students thought might be "
 "helpful, but it is empty currently. If you find useful resources, either on "
 "edx.org or elsewhere, please add it."
 msgstr ""
-
-#: templates/recommender.html:120
+"To będzie lista zasobów, które Twoi koledzy studenci uznali za pomocne, "
+"ale obecnie jest pusta. Jeśli znajdziesz przydatne zasoby, czy to na "
+"edx.org, czy gdzie indziej, dodaj je."
+#: templates/recommender.html:118
 msgid "Add new resource &gt;&gt;"
-msgstr ""
-
-#: templates/recommender.html:121
+msgstr "Dodaj nowy zasób &gt;&gt;"
+#: templates/recommender.html:119
 msgid "Download resources"
-msgstr ""
+msgstr "Pobierz zasoby"
 
-#: templates/recommender.html:122 templates/recommender.html:148
+#: templates/recommender.html:120 templates/recommender.html:146
 msgid "Upload resources"
-msgstr ""
+msgstr "Prześlij zasoby"
 
-#: templates/recommender.html:124
+#: templates/recommender.html:122
 msgid "mode"
-msgstr ""
+msgstr "tryb"
 
-#: templates/recommender.html:133
+#: templates/recommender.html:131
 msgid ""
 "This is a list of resources your fellow students thought might be helpful. "
 "If you find another useful resource, either on edx.org or elsewhere, please "
@@ -103,290 +103,306 @@ msgid ""
 "so helpful, downvote it. If it has issues (illegal material, incorrect, "
 "etc.), please flag it and let us know the reason."
 msgstr ""
-
-#: templates/recommender.html:141
+"To jest lista zasobów, które Twoi koledzy studenci uznali za pomocne. "
+"Jeśli znajdziesz inny przydatny zasób, czy to na edx.org, czy gdzie indziej, "
+"dodaj go. Jeśli możesz poprawić opis lub podgląd zasobu, zrób to. "
+"Jeśli uważasz, że zasób jest pomocny, zagłosuj na niego. Jeśli nie jest "
+"tak pomocny, zagłosuj przeciw. Jeśli ma problemy (nielegalne materiały, "
+"nieprawidłowe itp.), oznacz go i podaj nam powód."
+#: templates/recommender.html:139
 msgid "cancel and go back to resource list"
-msgstr ""
+msgstr "Anuluj i wróć do listy zasobów"
 
-#: templates/recommender.html:141
+#: templates/recommender.html:139
 msgid "&lt; Related resources"
-msgstr ""
+msgstr "&lt; Powiązane zasoby"
 
-#: templates/recommender.html:147
+#: templates/recommender.html:145
 msgid "Resources (in JSON format):"
-msgstr ""
+msgstr "Zasoby (w formacie JSON):"
 
-#: templates/recommender.html:147
+#: templates/recommender.html:145
 msgid "Provide a file of resource list in JSON format"
-msgstr ""
+msgstr "Podaj plik z listą zasobów w formacie JSON"
 
-#: templates/recommender.html:153 templates/recommender.html:163
-#: templates/recommender.html:173
+#: templates/recommender.html:151 templates/recommender.html:161
+#: templates/recommender.html:171
 msgid "Reason"
-msgstr ""
+msgstr "Powód"
 
-#: templates/recommender.html:157
+#: templates/recommender.html:155
 msgid "Reason for why this resource should be removed"
-msgstr ""
+msgstr "Powód, dla którego ten zasób powinien zostać usunięty"
 
-#: templates/recommender.html:167
+#: templates/recommender.html:165
 msgid "Reason for why this resource should be endorsed"
-msgstr ""
+msgstr "Powód, dla którego ten zasób powinien zostać zatwierdzony"
 
-#: templates/recommender.html:177
+#: templates/recommender.html:175
 msgid "Reason for why this resource should be flagged"
-msgstr ""
+msgstr "Powód, dla którego ten zasób powinien zostać oznaczony"
+
+#: templates/recommender.html:181 templates/recommender.html:206
+msgid "Title"
+msgstr "Tytuł"
 
 #: templates/recommender.html:183 templates/recommender.html:208
-msgid "Title"
-msgstr ""
+msgid "Provide a resource title, required"
+msgstr "Podaj tytuł zasobu, wymagane"
 
 #: templates/recommender.html:185 templates/recommender.html:210
-msgid "Provide a resource title, required"
-msgstr ""
-
-#: templates/recommender.html:187 templates/recommender.html:212
 msgid ""
 "Provide a meaningful title so other students know whether this is useful to "
 "them"
 msgstr ""
-
-#: templates/recommender.html:189
+"Podaj znaczący tytuł, aby inni studenci wiedzieli, czy jest to dla nich "
+"przydatne"
+#: templates/recommender.html:187
 msgid "Location"
-msgstr ""
+msgstr "Lokalizacja"
 
-#: templates/recommender.html:191 templates/recommender.html:216
+#: templates/recommender.html:189 templates/recommender.html:214
 msgid "Provide a resource location in url, required"
-msgstr ""
+msgstr "Podaj lokalizację zasobu w adresie URL, wymagane"
 
-#: templates/recommender.html:195 templates/recommender.html:220
+#: templates/recommender.html:193 templates/recommender.html:218
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
-#: templates/recommender.html:199 templates/recommender.html:224
+#: templates/recommender.html:197 templates/recommender.html:222
 msgid ""
 "Provide a meaningful description so other students know whether this is "
 "useful to them"
 msgstr ""
-
-#: templates/recommender.html:202
+"Podaj znaczący opis, aby inni studenci wiedzieli, czy jest to dla nich "
+"przydatne"
+#: templates/recommender.html:200
 msgid "Preview screenshot:"
-msgstr ""
+msgstr "Podgląd zrzutu ekranu:"
 
-#: templates/recommender.html:202
+#: templates/recommender.html:200
 msgid "Provide a resource screenshot"
-msgstr ""
+msgstr "Podaj zrzut ekranu zasobu"
 
-#: templates/recommender.html:203
+#: templates/recommender.html:201
 msgid "Save change"
-msgstr ""
+msgstr "Zapisz zmianę"
 
-#: templates/recommender.html:222
+#: templates/recommender.html:220
 msgid "Provide a resource description"
-msgstr ""
+msgstr "Podaj opis zasobu"
 
-#: templates/recommender.html:227
+#: templates/recommender.html:225
 msgid "Provide a file of resource screenshot"
-msgstr ""
+msgstr "Podaj plik zrzutu ekranu zasobu"
 
-#: templates/recommender.html:228
+#: templates/recommender.html:226
 msgid "Add resource"
-msgstr ""
+msgstr "Dodaj zasób"
 
 #: templates/recommenderstudio.html:6
 msgid "Configuration setting"
-msgstr ""
+msgstr "Ustawienia konfiguracji"
 
 #: templates/recommenderstudio.html:9
-msgid "Set the student-view, client side configurations for RecommenderXblock."
+msgid ""
+"Set the student-view, client side configurations for RecommenderXblock."
 msgstr ""
-
+"Ustaw konfiguracje po stronie klienta dla widoku studenta dla RecommenderXblock."
 #: templates/recommenderstudio.html:12 templates/recommenderstudio.html:18
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #: templates/recommenderstudio.html:13 templates/recommenderstudio.html:19
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #: templates/recommenderstudio.html:14
 msgid ""
 "Do you want to take users on a little tour when they see the "
 "RecommenderXBlock first time?"
 msgstr ""
-
+"Czy chcesz zabrać użytkowników na krótką wycieczkę, gdy po raz pierwszy "
+"zobaczą RecommenderXBlock?"
 #: templates/recommenderstudio.html:21
 msgid "Do you want to disable the UX functions which are under development?"
-msgstr ""
-
+msgstr "Czy chcesz wyłączyć funkcje UX, które są w fazie rozwoju?"
 #: templates/recommenderstudio.html:36
 msgid "How many resources you want to show in each page of the resource list?"
 msgstr ""
-
+"Ile zasobów chcesz wyświetlić na każdej stronie listy zasobów?"
 #: templates/recommenderstudio.html:46
 msgid ""
 "How many page icons in pagination control (i.e., page range)? The icons for "
 "pages from (current page - page range) to (current page + page range) will "
 "be shown."
 msgstr ""
-
+"Ile ikon stron w kontrolce paginacji (tj. zakres stron)? Zostaną wyświetlone "
+"ikony dla stron od (bieżąca strona - zakres stron) do (bieżąca strona + "
+"zakres stron)."
 #: static/js/src/cats.js:65
 msgid ""
-"Recommend a new resource which may be helpful to other students solving this "
-"problem"
+"Recommend a new resource which may be helpful to other students solving this"
+" problem"
 msgstr ""
-
+"Poleć nowy zasób, który może być pomocny dla innych studentów rozwiązujących "
+"ten problem"
 #: static/js/src/cats.js:66
 msgid "Edit this resource"
-msgstr ""
+msgstr "Edytuj ten zasób"
 
 #: static/js/src/cats.js:67
 msgid "Upvote if the resource is helpful"
-msgstr ""
-
+msgstr "Głosuj za, jeśli zasób jest pomocny"
 #: static/js/src/cats.js:68
 msgid "Downvote if the resource is not helpful"
-msgstr ""
-
+msgstr "Głosuj przeciw, jeśli zasób nie jest pomocny"
 #: static/js/src/cats.js:69
 msgid "Votes"
-msgstr ""
+msgstr "Głosy"
 
 #: static/js/src/cats.js:70
 msgid "Resource title"
-msgstr ""
+msgstr "Tytuł zasobu"
 
 #: static/js/src/cats.js:71
 msgid "Remove this resource and give the reason why you do that"
-msgstr ""
-
+msgstr "Usuń ten zasób i podaj powód"
 #: static/js/src/cats.js:72
 msgid "Preview image (typically, a screenshot)"
-msgstr ""
+msgstr "Obraz podglądu (zazwyczaj zrzut ekranu)"
 
 #: static/js/src/cats.js:73 static/js/src/cats.js:77
 msgid ""
-"Give a short (1-3 sentence) summary of the resource; ideally, this should be "
-"concise, but give enough detail to let students know whether this resources "
-"is useful to them"
+"Give a short (1-3 sentence) summary of the resource; ideally, this should be"
+" concise, but give enough detail to let students know whether this resources"
+" is useful to them"
 msgstr ""
-
+"Podaj krótkie (1-3 zdania) podsumowanie zasobu; idealnie, powinno być zwięzłe,"
+" ale zawierać wystarczająco szczegółów, aby studenci wiedzieli, czy ten "
+"zasób jest dla nich przydatny"
 #: static/js/src/cats.js:74 static/js/src/cats.js:78
 msgid "Cut-and-paste the URL of the resource."
-msgstr ""
-
+msgstr "Wytnij i wklej adres URL zasobu."
 #: static/js/src/cats.js:75 static/js/src/cats.js:79
 msgid ""
 "Give a paragraph of summary of the resource; the summary should be more "
 "detailed than you gave in Title"
 msgstr ""
+"Podaj akapit podsumowania zasobu; podsumowanie powinno być bardziej "
+"szczegółowe niż to, które podałeś w Tytule"
 
 #: static/js/src/cats.js:76 static/js/src/cats.js:80
 msgid ""
 "Upload a preview screenshot (in GIF/PNG/JPG) of the resource; ideally, this "
 "should let students know whether this resources is useful to them"
 msgstr ""
-
+"Prześlij zrzut ekranu podglądu (w formacie GIF/PNG/JPG) zasobu; idealnie,"
+"powinien on pozwolić studentom dowiedzieć się, czy ten zasób jest dla nich "
+"przydatny."
 #: static/js/src/cats.js:81
 msgid "Go back to the main list"
-msgstr ""
+msgstr "Wróć do głównej listy"
 
 #: static/js/src/cats.js:82
 msgid "Give a meaningful reason for why this resource should be removed"
 msgstr ""
-
+"Podaj sensowny powód, dla którego ten zasób powinien zostać usunięty."
 #: static/js/src/cats.js:83
 msgid "Flag this resource as problematic and give your reason"
-msgstr ""
-
+msgstr "Oznacz ten zasób jako problematyczny i podaj swój powód."
 #: static/js/src/cats.js:84
 msgid "Delete this resource"
-msgstr ""
+msgstr "Usuń ten zasób"
 
 #: static/js/src/cats.js:85
 msgid "Show a list of student-recommented related resources"
 msgstr ""
+"Pokaż listę powiązanych zasobów polecanych przez studentów"
 
 #: static/js/src/cats.js:86
 msgid "Hide the recommendations list"
-msgstr ""
+msgstr "Ukryj listę rekomendacji"
 
 #: static/js/src/cats.js:87
 msgid "Check the icon to endorse this resource"
-msgstr ""
-
+msgstr "Zaznacz ikonę, aby zatwierdzić ten zasób."
 #: static/js/src/cats.js:88
 msgid "This resource is endorsed by staff"
-msgstr ""
-
+msgstr "Ten zasób jest zatwierdzony przez personel."
 #: static/js/src/cats.js:89
 msgid "Click to view resources for removal"
-msgstr ""
+msgstr "Kliknij, aby wyświetlić zasoby do usunięcia"
 
 #: static/js/src/cats.js:90
 msgid "Click to view resources in ordinary decreasing-vote order"
 msgstr ""
+"Kliknij, aby wyświetlić zasoby w zwykłej kolejności malejącej liczby głosów"
 
 #: static/js/src/cats.js:93
-msgid "Here is a list of reasons why students think this resource problematic:"
+msgid ""
+"Here is a list of reasons why students think this resource problematic:"
 msgstr ""
+"Oto lista powodów, dla których studenci uważają ten zasób za problematyczny:"
 
 #: static/js/src/cats.js:94
 msgid "The reason why it is endorsed is:"
-msgstr ""
+msgstr "Powód, dla którego został zatwierdzony, to:"
 
 #: static/js/src/cats.js:95
 msgid "Resource: "
-msgstr ""
+msgstr "Zasób: "
 
 #: static/js/src/cats.js:96
 msgid "votes"
-msgstr ""
+msgstr "głosów"
 
 #: static/js/src/cats.js:104
 msgid ""
 "The content you typed has not been submitted yet. Are you sure to go back?"
 msgstr ""
-
+"Wpisana treść nie została jeszcze przesłana. Czy na pewno chcesz wrócić?"
 #: static/js/src/cats.js:107 static/js/src/cats.js:199
 msgid "Import resources"
-msgstr ""
+msgstr "Importuj zasoby"
 
 #: static/js/src/cats.js:108
 msgid "Suggest resource"
-msgstr ""
+msgstr "Zaproponuj zasób"
 
 #: static/js/src/cats.js:109 static/js/src/cats.js:207
 msgid "Edit existing resource"
-msgstr ""
+msgstr "Edytuj istniejący zasób"
 
 #: static/js/src/cats.js:110
 msgid "Flag Resource"
-msgstr ""
+msgstr "Oznacz zasób"
 
 #: static/js/src/cats.js:111
 msgid "Endorse Resource"
-msgstr ""
+msgstr "Zatwierdź zasób"
 
 #: static/js/src/cats.js:112
 msgid "Remove Resource"
-msgstr ""
+msgstr "Usuń zasób"
 
 #: static/js/src/cats.js:116
 msgid "Upload resources in JSON format to the database."
-msgstr ""
-
+msgstr "Prześlij zasoby w formacie JSON do bazy danych."
 #: static/js/src/cats.js:117
 msgid ""
 "Suggest a resource which can help other students with this problem. Please "
 "do not give the answer directly."
 msgstr ""
-
+"Zaproponuj zasób, który może pomóc innym studentom w rozwiązaniu tego "
+"problemu. Proszę nie podawaj odpowiedzi bezpośrednio."
 #: static/js/src/cats.js:118
 msgid ""
 "Edit the resource and make it more helpful for other students with this "
 "problem. Please do not give the answer directly."
 msgstr ""
+"Edytuj zasób i spraw, aby był bardziej pomocny dla innych studentów "
+"z tym problemem. Proszę nie podawaj odpowiedzi bezpośrednio."
 
 #: static/js/src/cats.js:119
 msgid ""
@@ -394,75 +410,75 @@ msgid ""
 "resources, and remove inappropriate ones (spam, incorrect, abusive, etc.). "
 "Giving a clear reason will help us do this efficiently."
 msgstr ""
-
+"Dlaczego chcesz oflagować ten zasób? Personel sprawdzi wszystkie oflagowane "
+"zasoby i usunie nieodpowiednie (spam, nieprawidłowe, obraźliwe itp.). "
+"Podanie jasnego powodu pomoże nam w tym efektywnie."
 #: static/js/src/cats.js:120
 msgid "Endorse this resource and give the reason why you do that."
-msgstr ""
-
+msgstr "Zatwierdź ten zasób i podaj powód, dla którego to robisz."
 #: static/js/src/cats.js:121
 msgid "Remove this resource and give the reason why you do that."
-msgstr ""
-
+msgstr "Usuń ten zasób i podaj powód, dla którego to robisz."
 #: static/js/src/cats.js:157
 msgid "Hide related resources"
-msgstr ""
+msgstr "Ukryj powiązane zasoby"
 
 #: static/js/src/cats.js:191
 msgid "From page {fromPage} To page {toPage}"
-msgstr ""
+msgstr "Od strony {fromPage} do strony {toPage}"
 
 #: static/js/src/cats.js:196
 msgid "Export resources"
-msgstr ""
+msgstr "Eksportuj zasoby"
 
 #: static/js/src/cats.js:198
 msgid "Entering import resource mode"
-msgstr ""
+msgstr "Wchodzę w tryb importowania zasobów"
 
 #: static/js/src/cats.js:202
 msgid "Entering add resource mode"
-msgstr ""
+msgstr "Wchodzę w tryb dodawania zasobów"
 
 #: static/js/src/cats.js:203
 msgid "Add new resource"
-msgstr ""
+msgstr "Dodaj nowy zasób"
 
 #: static/js/src/cats.js:206
 msgid "Entering edit resource mode"
-msgstr ""
+msgstr "Wchodzę w tryb edycji zasobów"
 
 #: static/js/src/cats.js:210
 msgid "Entering flag resource mode"
-msgstr ""
+msgstr "Wchodzę w tryb oznaczania zasobów"
 
 #: static/js/src/cats.js:211
 msgid "Flag resource"
-msgstr ""
+msgstr "Oznacz zasób"
 
 #: static/js/src/cats.js:212
 msgid "Unflag resource"
-msgstr ""
+msgstr "Odznacz zasób"
 
 #: static/js/src/cats.js:215
 msgid "Endorse resource"
-msgstr ""
+msgstr "Zatwierdź zasób"
 
 #: static/js/src/cats.js:216
 msgid "Unendorse resource"
-msgstr ""
+msgstr "Cofnij zatwierdzenie zasobu"
 
 #: static/js/src/cats.js:218
 msgid "Remove resource"
-msgstr ""
+msgstr "Usuń zasób"
 
 #: static/js/src/cats.js:219
 msgid "Hovering resource"
-msgstr ""
+msgstr "Zasób najechania"
 
 #: static/js/src/cats.js:220
 msgid "A resource was clicked"
-msgstr ""
+msgstr "Kliknięto zasób"
 
 #: static/js/src/cats.js:221
 msgid "Back to resource list mode"
-msgstr ""
+msgstr "Powrót do trybu listy zasobów"
