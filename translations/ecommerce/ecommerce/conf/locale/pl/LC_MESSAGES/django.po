@@ -1269,7 +1269,7 @@ msgstr ""
 
 #: extensions/payment/constants.py:18
 msgid "Discover"
-msgstr ""
+msgstr "Odkryj"
 
 #: extensions/payment/constants.py:24
 msgid "JCB"

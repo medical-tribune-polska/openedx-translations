@@ -1184,18 +1184,6 @@ msgstr ""
 "aby wskazywała na gałąź roboczą, co skutecznie wymusza opublikowanie kursu. Ten widok "
 "uruchamia na sucho polecenie wymuszonej publikacji"
 
-#: cms/djangoapps/maintenance/views.py:45
-msgid "Edit Announcements"
-msgstr "Edytuj Powiadomienia"
-
-#: cms/djangoapps/maintenance/views.py:48
-msgid ""
-"This view shows the announcement editor to create or alter announcements "
-"that are shown on the rightside of the dashboard."
-msgstr ""
-"Ten widok pokazuje edytora ogłoszeń, aby tworzyć lub zmieniać ogłoszenia "
-"wyświetlane po prawej stronie pulpitu nawigacyjnego."
-
 #: cms/djangoapps/models/settings/course_metadata.py:225
 #, python-brace-format
 msgid "Incorrect format for field '{name}'. {detailed_message}"
