@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2023-06-13 09:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,47 +19,46 @@ msgstr ""
 
 #: mixins/grading.py:72
 msgid "We could not execute your query; please try again."
-msgstr ""
-
+msgstr "Nie udało nam się wykonać zapytania; Proszę spróbować ponownie."
 #: mixins/grading.py:89
 msgid "Weight"
-msgstr ""
+msgstr "Waga"
 
 #: mixins/grading.py:91
 msgid "This assigns an integer value representing the weight of this problem"
-msgstr ""
+msgstr "Przypisuje to wartość całkowitą reprezentującą wagę tego problemu"
 
 #: mixins/grading.py:170
 msgid "Display Name"
-msgstr ""
+msgstr "Nazwa wyświetlana"
 
 #: mixins/grading.py:171
 msgid "The display name for this component."
-msgstr ""
+msgstr "Nazwa wyświetlana dla tego komponentu."
 
 #: mixins/grading.py:172
 msgid "SQL Problem"
-msgstr ""
+msgstr "Problem SQL"
 
 #: mixins/grading.py:176
 msgid "Dataset"
-msgstr ""
+msgstr "Zbiór danych"
 
 #: mixins/grading.py:177
 msgid "Which initial dataset/database to be used for queries"
-msgstr ""
+msgstr "Jaki początkowy zestaw danych/baza danych ma być użyty do zapytań"
 
 #: mixins/grading.py:183
 msgid "Answer Query"
-msgstr ""
+msgstr "Odpowiedź na zapytanie"
 
 #: mixins/grading.py:184
 msgid "A correct response SQL query"
-msgstr ""
+msgstr "Poprawne zapytanie SQL"
 
 #: mixins/grading.py:190
 msgid "Verify Query"
-msgstr ""
+msgstr "Weryfikacja zapytania"
 
 #: mixins/grading.py:192
 msgid ""
@@ -67,40 +66,43 @@ msgid ""
 "the database (UPDATE, INSERT, DELETE, etc.). Only enter a single SELECT "
 "query here, which is used for matching the answer"
 msgstr ""
+"Dodatkowe zapytanie SQL weryfikujące, do użycia, jeśli zapytanie odpowiedzi "
+"modyfikuje bazę danych (UPDATE, INSERT, DELETE itp.). Wprowadź tutaj tylko "
+"jedno zapytanie SELECT, które służy do dopasowania odpowiedzi"
 
 #: mixins/grading.py:202
 msgid "Modification query statements"
-msgstr ""
+msgstr "Instrukcje zapytania modyfikującego"
 
 #: mixins/grading.py:204
 msgid ""
 "Optional SQL statements, to be executed after the user-submitted query, but "
 "before the verify_query."
 msgstr ""
-
+"Opcjonalne instrukcje SQL, do wykonania po zapytaniu przesłanym przez "
+"użytkownika, ale przed zapytaniem weryfikującym."
 #: mixins/grading.py:212
 msgid "Is Ordered?"
-msgstr ""
+msgstr "Czy jest uporządkowane?"
 
 #: mixins/grading.py:213
 msgid "Should results be in order?"
-msgstr ""
+msgstr "Czy wyniki powinny być uporządkowane?"
 
 #: mixins/grading.py:228
 msgid "Prompt"
-msgstr ""
+msgstr "Monituj"
 
 #: mixins/grading.py:229
 msgid "Explanatory text to accompany the problem"
-msgstr ""
-
+msgstr "Tekst objaśniający do problemu."
 #: mixins/grading.py:234
 msgid "Submission Query"
-msgstr ""
+msgstr "Zapytanie zgłoszeniowe"
 
 #: mixins/grading.py:235
 msgid "A Submission Query"
-msgstr ""
+msgstr "Zapytanie zgłoszeniowe"
 
 #: templates/view.html:6
 #, python-format
@@ -113,56 +115,69 @@ msgid_plural ""
 "            %(score_weighted)s/%(max_score)s points (graded)\n"
 "        "
 msgstr[0] ""
+"\n"
+"            %(score_weighted)s / %(max_score)s punkt (oceniono)\n"
+"        "
 msgstr[1] ""
+"\n"
+"            %(score_weighted)s / %(max_score)s punktów (oceniono)\n"
+"        "
+msgstr[2] ""
+"\n"
+"            %(score_weighted)s / %(max_score)s punktów (oceniono)\n"
+"        "
 
 #: templates/view.html:12
 msgid "0 points (ungraded)"
-msgstr ""
+msgstr "0 punktów (nieocenione)"
 
 #: templates/view.html:21
 msgid "Note:"
-msgstr ""
+msgstr "Uwaga:"
 
 #: templates/view.html:22
 msgid ""
 "Your queries are executed using SQLite, so you must conform to the SQL "
 "constructs supported by SQLite."
 msgstr ""
-
+"Twoje zapytania są wykonywane przy użyciu SQLite, więc musisz dostosować się"
+" do konstrukcji SQL obsługiwanych przez SQLite."
 #: templates/view.html:27
 msgid "Press ESC then TAB or click outside of the code editor to exit"
-msgstr ""
+msgstr "Naciśnij ESC, następnie TAB lub kliknij poza edytorem kodu, aby wyjść"
 
 #: templates/view.html:33
 msgid "Submit"
-msgstr ""
+msgstr "Wyślij"
 
 #: templates/view.html:40
 msgid "Show Answer"
-msgstr ""
+msgstr "Pokaż odpowiedź"
 
 #: templates/view.html:50
 msgid "Correct"
-msgstr ""
+msgstr "Poprawne"
 
 #: templates/view.html:52
 msgid "Incorrect"
-msgstr ""
+msgstr "Niepoprawne"
 
 #: templates/view.html:55
 msgid "Unanswered"
-msgstr ""
+msgstr "Bez odpowiedzi"
 
 #: templates/view.html:63
 msgid ""
 "To check your data modification statement, we ran the following query after "
 "your modification:"
 msgstr ""
+"Aby sprawdzić twoją instrukcję modyfikacji danych, wykonaliśmy następujące "
+"zapytanie po twojej modyfikacji:"
 
 #: templates/view.html:75
 msgid "Your Query Result:"
-msgstr ""
+msgstr "Wynik twojego zapytania:"
 
 #: templates/view.html:80
 msgid "Expected Query Result:"
-msgstr ""
+msgstr "Oczekiwany wynik zapytania:"
