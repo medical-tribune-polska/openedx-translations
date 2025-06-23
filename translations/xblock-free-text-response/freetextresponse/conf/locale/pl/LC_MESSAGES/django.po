@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"POT-Creation-Date: 2025-06-13 08:00+0000\n"
+"PO-Revision-Date: 2025-06-13 09:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,182 +19,203 @@ msgstr ""
 
 #: models.py:39
 msgid "Display Correctness?"
-msgstr ""
+msgstr "Wyświetlić poprawność?"
 
 #: models.py:41
 msgid ""
 "This is a flag that indicates if the indicator icon should be displayed "
 "after a student enters their response"
 msgstr ""
+"Jest to flaga, która wskazuje, czy ikona wskaźnika powinna być wyświetlana "
+"po wprowadzeniu odpowiedzi przez studenta"
 
 #: models.py:49
 msgid "Display Other Student Responses"
-msgstr ""
+msgstr "Wyświetl odpowiedzi innych studentów"
 
 #: models.py:51
 msgid ""
 "This will display other student responses to the student after they submit "
 "their response."
 msgstr ""
+"Spowoduje to wyświetlenie studentowi odpowiedzi innych studentów po tym, jak "
+"prześlą swoją odpowiedź."
 
 #: models.py:60
 msgid "System selected answers to give to students"
 msgstr ""
+"System wybrał odpowiedzi do przekazania studentom"
 
 #: models.py:63
 msgid "Display Name"
-msgstr ""
+msgstr "Nazwa wyświetlana"
 
 #: models.py:65
 msgid "This is the title for this question type"
-msgstr ""
+msgstr "To jest tytuł dla tego typu pytania"
 
 #: models.py:71
 msgid "Full-Credit Key Phrases"
-msgstr ""
+msgstr "Frazy kluczowe do uzyskania pełnej punktacji"
 
 #: models.py:73
 msgid ""
 "This is a list of words or phrases, one of which must be present in order "
 "for the student's answer to receive full credit"
 msgstr ""
+"Jest to lista słów lub fraz, z których jedna musi być obecna, aby "
+"odpowiedź studenta otrzymała pełne punkty"
 
 #: models.py:81
 msgid "Half-Credit Key Phrases"
-msgstr ""
+msgstr "Frazy kluczowe do uzyskania połowicznej punktacji"
 
 #: models.py:83
 msgid ""
 "This is a list of words or phrases, one of which must be present in order "
 "for the student's answer to receive half credit"
 msgstr ""
+"Jest to lista słów lub fraz, z których jedna musi być obecna, aby "
+"odpowiedź studenta otrzymała połowę punktów"
 
 #: models.py:91
 msgid "Maximum Number of Attempts"
-msgstr ""
+msgstr "Maksymalna liczba prób"
 
 #: models.py:93
 msgid ""
 "This is the maximum number of times a student is allowed to attempt the "
 "problem"
 msgstr ""
+"Jest to maksymalna liczba razy, ile student może próbować rozwiązać "
+"problem"
 
 #: models.py:101
 msgid "Maximum Word Count"
-msgstr ""
+msgstr "Maksymalna liczba słów"
 
 #: models.py:103
 msgid "This is the maximum number of words allowed for this question"
-msgstr ""
+msgstr "To jest maksymalna liczba słów dozwolona dla tego pytania"
 
 #: models.py:111
 msgid "Minimum Word Count"
-msgstr ""
+msgstr "Minimalna liczba słów"
 
 #: models.py:113
 msgid "This is the minimum number of words required for this question"
-msgstr ""
+msgstr "To jest minimalna liczba słów wymagana dla tego pytania"
 
 #: models.py:121
 msgid "Prompt"
-msgstr ""
+msgstr "Monit"
 
 #: models.py:123
 msgid ""
 "This is the prompt students will see when asked to enter their response"
 msgstr ""
+"Jest to monit, który studenci zobaczą, gdy zostaną poproszeni o wprowadzenie"
+" swojej odpowiedzi"
 
 #: models.py:131
 msgid "Submission Received Message"
-msgstr ""
+msgstr "Wiadomość o otrzymaniu zgłoszenia"
 
 #: models.py:133
 msgid "This is the message students will see upon submitting their response"
-msgstr ""
+msgstr "To jest wiadomość, którą studenci zobaczą po przesłaniu swojej odpowiedzi"
 
 #: models.py:140
 msgid "Weight"
-msgstr ""
+msgstr "Waga"
 
 #: models.py:142
 msgid "This assigns an integer value representing the weight of this problem"
-msgstr ""
+msgstr "Przypisuje to wartość całkowitą reprezentującą wagę tego problemu"
 
 #: models.py:150
 msgid "Draft Received Message"
-msgstr ""
+msgstr "Wiadomość o otrzymaniu wersji roboczej"
 
 #: models.py:152
 msgid "This is the message students will see upon submitting a draft response"
 msgstr ""
+"Jest to wiadomość, którą studenci zobaczą po przesłaniu roboczej wersji "
+"odpowiedzi"
 
 #: templates/view.html:15
 msgid ""
 "Allow my response to possibly be visible by other learners after submitting "
 "their response"
 msgstr ""
+"Zezwól na to, aby moja odpowiedź była widoczna dla innych uczących się po "
+"przesłaniu ich odpowiedzi"
 
 #: templates/view.html:21 templates/view.html:24
 msgid "Checking..."
-msgstr ""
+msgstr "Sprawdzanie..."
 
 #: templates/view.html:21 templates/view.html:22
 msgid "Submit"
-msgstr ""
+msgstr "Wyślij"
 
 #: templates/view.html:24 templates/view.html:25
 msgid "Save"
-msgstr ""
+msgstr "Zapisz"
 
 #: templates/view.html:34
 msgid "Hide"
-msgstr ""
+msgstr "Ukryj"
 
 #: templates/view.html:35
 msgid "Show"
-msgstr ""
+msgstr "Pokaż"
 
 #: templates/view.html:36
 msgid "peer responses"
-msgstr ""
+msgstr "odpowiedzi rówieśników"
 
 #: templates/view.html:38
 msgid "Submissions by others"
-msgstr ""
+msgstr "Zgłoszenia od innych"
 
 #: templates/view.html:39 templates/view.html:43
 msgid "No responses to show at this time"
-msgstr ""
+msgstr "Brak odpowiedzi do wyświetlenia w tym momencie"
 
 #: views.py:126
 #, python-brace-format
 msgid "{weight} point possible"
 msgid_plural "{weight} points possible"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{weight} możliwych punktów"
+msgstr[1] "{weight} możliwych punktów"
+msgstr[2] "{weight} możliwych punktów"
 
 #: views.py:134
 #, python-brace-format
 msgid "{score_string}/{weight} point"
 msgid_plural "{score_string}/{weight} points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{score_string}/{weight} punktów"
+msgstr[1] "{score_string}/{weight} punktów"
+msgstr[2] "{score_string}/{weight} punktów"
 
 #: views.py:147
 #, python-brace-format
 msgid "You have used {count_attempts} of {max_attempts} submission"
 msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Wykorzystałeś {count_attempts} z {max_attempts} możliwych zgłoszeń"
+msgstr[1] "Wykorzystałeś {count_attempts} z {max_attempts} możliwych zgłoszeń"
+msgstr[2] "Wykorzystałeś {count_attempts} z {max_attempts} możliwych zgłoszeń"
 
 #: views.py:171
 #, python-brace-format
 msgid "Your response must be between {min} and {max} word."
 msgid_plural "Your response must be between {min} and {max} words."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Twoja odpowiedź musi zawierać od {min} do {max} słów."
+msgstr[1] "Twoja odpowiedź musi zawierać od {min} do {max} słów."
+msgstr[2] "Twoja odpowiedź musi zawierać od {min} do {max} słów."
 
 #: views.py:267
 #, python-brace-format
 msgid "Invalid Word Count. {word_count_message}"
-msgstr ""
+msgstr "Nieprawidłowa liczba słów. {word_count_message}"
