@@ -9238,7 +9238,7 @@ msgstr ""
 "Nieprawidłowy adres e-mail lub hasło.{li_start}Masz {remaining_attempts} więcej "
 "prób logowania przed tymczasowym zablokowaniem "
 "konta.{li_end}{li_start}Jeśli zapomniałeś hasła, kliknij "
-"{link_start}tutaj{link_end] aby je zresetować.{li_end}"
+"{link_start}tutaj{link_end} aby je zresetować.{li_end}"
 
 #: openedx/core/djangoapps/user_authn/views/login.py:393
 #, python-brace-format
