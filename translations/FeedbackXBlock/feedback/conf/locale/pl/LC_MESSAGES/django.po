@@ -118,7 +118,8 @@ msgid ""
 "This may be helpful either for course improvement, or to give students a "
 "chance to reflect on what they have done."
 msgstr ""
-"Ten XBlock pozwala zbierać opinie studentów na temat fragmentów kursu. Może to być przydatne zarówno do ulepszania kursu, jak i do umożliwienia studentom zastanowienia się nad tym, co zrobili." [cite: 8, 9]
+"Ten XBlock pozwala zbierać opinie studentów na temat fragmentów kursu. Może to być przydatne "
+"zarówno do ulepszania kursu, jak i do umożliwienia studentom zastanowienia się nad tym, co zrobili."
 
 #: templates/html/studio_view.html:9
 msgid "Display name"
