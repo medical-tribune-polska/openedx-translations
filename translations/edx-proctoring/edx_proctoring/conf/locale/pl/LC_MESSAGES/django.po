@@ -975,6 +975,7 @@ msgstr ""
 "\n"
 "          Ze względów bezpieczeństwa i integralności egzaminu prosimy o zalogowanie się na konto edX. "
 "Następnie przekierujemy Cię do środowiska nadzorowania RPNow.\n"
+"       "
 
 #: templates/proctored_exam/instructions.html:100
 #: templates/proctored_exam/proctoring_opt_out_button.html:5
