@@ -43,11 +43,11 @@
   },
   "pgn.ChipCarousel.scrollToNext": {
     "developer_comment": "",
-    "string": ""
+    "string": "انتقل إلى التالي"
   },
   "pgn.ChipCarousel.scrollToPrevious": {
     "developer_comment": "",
-    "string": ""
+    "string": "انتقل إلى السابق"
   },
   "pgn.DataTable.BaseSelectionStatus.allSelectedText": {
     "developer_comment": "Text for all selected label",
@@ -128,6 +128,10 @@
   "pgn.FormAutosuggest.iconButtonOpened": {
     "developer_comment": "A message shown in case when the autosuggest menu is closed.",
     "string": "فتح قائمة الخيارات"
+  },
+  "pgn.Modal.closeButon": {
+    "developer_comment": "",
+    "string": ""
   },
   "pgn.ProductTour.Checkpoint.bottom-position-text": {
     "developer_comment": "",

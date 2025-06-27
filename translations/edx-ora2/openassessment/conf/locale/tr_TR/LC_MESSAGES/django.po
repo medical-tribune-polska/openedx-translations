@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-15 00:38+0000\n"
+"POT-Creation-Date: 2025-06-25 00:36+0000\n"
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
 "Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/open-edx/teams/6205/tr_TR/)\n"
@@ -1462,6 +1462,26 @@ msgstr "İşlem Sürüyor"
 msgid "Enter your team's response to the prompt."
 msgstr "Soruya takımınızın yanıtını girin."
 
+#: templates/legacy/response/oa_response.html:68
+msgid ""
+"\n"
+"                        Your work will save automatically and you can return to complete your team's response at any time before the due date\n"
+"                      "
+msgstr ""
+"\n"
+"                         Çalışmanız otomatik olarak kaydedilecek ve son tarihten önce istediğiniz zaman ekibinizin yanıtını tamamlamak için geri dönebilirsiniz.\n"
+"                      "
+
+#: templates/legacy/response/oa_response.html:81
+msgid ""
+"\n"
+"                        Your work will save automatically and you can return to complete your team's response at any time.\n"
+"                      "
+msgstr ""
+"\n"
+"                         Çalışmanız otomatik olarak kaydedilecek ve istediğiniz zaman ekibinizin yanıtını tamamlamak için geri dönebilirsiniz.\n"
+"                      "
+
 #: templates/legacy/response/oa_response.html:86
 msgid ""
 "After you submit a response on behalf of your team, it cannot be edited."
@@ -1717,6 +1737,14 @@ msgstr "Yanıtınız"
 msgid "Your Uploaded Files"
 msgstr "Yüklenen Dosyalarınız"
 
+#: templates/legacy/response/oa_response_submitted.html:32
+msgid ""
+"Your response has been submitted. You will receive your grade after all "
+"steps are complete and your response is fully assessed."
+msgstr ""
+"Yanıtınız gönderildi. Tüm adımlar tamamlandıktan ve yanıtınız tam olarak "
+"değerlendirildikten sonra notunuzu alacaksınız."
+
 #: templates/legacy/response/oa_response_submitted.html:63
 msgid "We could not reset your response"
 msgstr "Yanıtınızı sıfırlayamadık"
@@ -1886,6 +1914,10 @@ msgstr ""
 msgid "Learner Response"
 msgstr "Öğrenci Yanıtı"
 
+#: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:39
+msgid "The teams's response to the prompt above"
+msgstr "Takımların yukarıdaki prompta yanıtı"
+
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:41
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:32
 #: templates/legacy/staff_area/oa_student_info.html:57
@@ -1901,9 +1933,26 @@ msgstr "Değerlendirmeyi teslim et"
 msgid "Submit assessment and continue grading"
 msgstr "Değerlendirmeyi gönder ve notlandırmaya devam et"
 
+#: templates/legacy/staff_area/oa_staff_override_assessment.html:7
+msgid "Override this learner's current grade using the problem's rubric."
+msgstr ""
+"Problemin dereceli değerlendirme anahtarını kullanarak bu öğrencinin mevcut "
+"notunu geçersiz kılın."
+
+#: templates/legacy/staff_area/oa_staff_override_assessment.html:9
+msgid "Override this team's current grade using the problem's rubric."
+msgstr ""
+"Problemin dereceli değerlendirme anahtarını kullanarak bu takımın mevcut "
+"notunu geçersiz kılın."
+
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:27
 msgid "Team Response"
 msgstr "Takım Yanıtı"
+
+#: templates/legacy/staff_area/oa_staff_override_assessment.html:34
+#: templates/legacy/staff_area/oa_student_info.html:59
+msgid "The team's response to the prompt above"
+msgstr "Ekibin yukarıdaki prompta yanıtı"
 
 #: templates/legacy/staff_area/oa_student_info.html:11
 #, python-format
@@ -2008,6 +2057,24 @@ msgstr ""
 #: templates/legacy/staff_area/oa_student_info.html:119
 msgid "Final Grade Details"
 msgstr "Final Notu Ayrıntıları"
+
+#: templates/legacy/staff_area/oa_student_info.html:139
+#, python-format
+msgid ""
+"\n"
+"                                        %(assessment_label)s - %(points)s point\n"
+"                                    "
+msgid_plural ""
+"\n"
+"                                        %(assessment_label)s - %(points)s points\n"
+"                                    "
+msgstr[0] ""
+"\n"
+"                                         %(assessment_label)s - %(points)s puan\n"
+"                                    "
+msgstr[1] ""
+"\n"
+"                                         %(assessment_label)s - %(points)s puan"
 
 #: templates/legacy/staff_area/oa_student_info.html:154
 msgid "Feedback Recorded"
@@ -2397,9 +2464,23 @@ msgstr "Sıfırlanacak bir gönderim yok."
 msgid "Submission reset successfully."
 msgstr "Gönderim başarıyla sıfırlandı."
 
+#: xblock/rubric_reuse_mixin.py:62
+msgid "You must specify a block id from which to copy a rubric."
+msgstr ""
+"Dereceli puanlama anahtarının kopyalanacağı block kimliğini belirtmeniz "
+"gerekir."
+
 #: xblock/rubric_reuse_mixin.py:66
 msgid "Invalid block id."
 msgstr "Geçersiz block kimliği."
+
+#: xblock/rubric_reuse_mixin.py:72
+#, python-brace-format
+msgid ""
+"No Open Response Assessment found in {course_id} with block id {block_id}"
+msgstr ""
+"{course_id} {block_id} block kimliğine sahip Açık Yanıt Değerlendirmesi "
+"bulunamadı"
 
 #: xblock/staff_area_mixin.py:42
 msgid "You do not have permission to schedule training"
@@ -2465,6 +2546,10 @@ msgstr "Gönderimi kaldırmak için geçerli bir sebep girin."
 msgid "Submission not found"
 msgstr "Gönderim bulunamadı"
 
+#: xblock/staff_area_mixin.py:725
+msgid "Submission for team assignment has no associated team submission"
+msgstr "Takım ödevi gönderimine ilişkili bir takım ataması yok"
+
 #: xblock/staff_area_mixin.py:754
 msgid ""
 "The learner submission has been removed from peer assessment. The learner "
@@ -2474,6 +2559,16 @@ msgstr ""
 "Öğrenci gönderisi kişi değerlendirme sayfasından kaldırıldı. Eğer siz "
 "öğrencinin denemesini sıfırlayıp tekrar cevap göndermesine izin vermezseniz "
 "öğrenci sıfır puan alacak."
+
+#: xblock/staff_area_mixin.py:789
+msgid ""
+"The team’s submission has been removed from grading. The team receives a "
+"grade of zero unless you delete a team member’s state for the problem to "
+"allow the team to resubmit a response."
+msgstr ""
+"Takımın gönderimi notlandırmadan kaldırıldı. Ekibin yeniden yanıt "
+"göndermesine olanak sağlamak amacıyla bir ekip üyesinin sorunla ilgili "
+"durumunu silmediğiniz sürece ekip sıfır notu alır."
 
 #: xblock/studio_mixin.py:247 xblock/studio_mixin.py:259
 msgid "Error updating XBlock configuration"
@@ -2649,6 +2744,10 @@ msgstr "Problem yayımlandıktan sonra seçeneklerin sayısı değiştirilemez."
 #: xblock/utils/validation.py:253
 msgid "Point values cannot be changed after a problem is released."
 msgstr "Problem yayımlandıktan sonra nokta değerleri değiştirilemez."
+
+#: xblock/utils/validation.py:304
+msgid "Learner training must have at least one training example."
+msgstr "Öğrenci eğitiminde en az bir eğitim örneği bulunmalıdır."
 
 #: xblock/utils/validation.py:369
 msgid "Leaderboard number is invalid."
