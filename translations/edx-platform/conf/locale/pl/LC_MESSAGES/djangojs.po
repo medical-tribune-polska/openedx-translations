@@ -3245,6 +3245,13 @@ msgstr ""
 "Nie można ustalić, czy powinniśmy zwrócić Ci pieniądze z powodu błędu systemu. "
 "Proszę spróbować ponownie później."
 
+#: lms/static/js/discovery/views/search_form.js:47
+#, javascript-format
+msgid "Viewing %s course"
+msgid_plural "Viewing %s courses"
+msgstr[0] "Podgląd %s kursu"
+msgstr[1] "Podgląd %s kursów"
+
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
 msgid "We couldn't find any results for \"%s\"."
