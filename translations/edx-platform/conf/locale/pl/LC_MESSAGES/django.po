@@ -15234,7 +15234,10 @@ msgid ""
 "{em_start}Hide{em_end} option. Grades for hidden sections, subsections, and "
 "units are not included in grade calculations."
 msgstr ""
-"Aby sekcja, podsekcja lub jednostka była niedostępna dla uczniów, wybierz ikonę Konfiguruj dla tego poziomu, a następnie wybierz odpowiednią opcję {em_start}Ukryj{em_end}. Oceny za ukryte sekcje, podsekcje i jednostki nie są wliczane do obliczeń ocen."
+"Aby sekcja, podsekcja lub jednostka była niedostępna dla uczniów, wybierz "
+"ikonę Konfiguruj dla tego poziomu, a następnie wybierz odpowiednią "
+"opcję {em_start}Ukryj{em_end}. Oceny za ukryte sekcje, podsekcje i "
+"jednostki nie są wliczane do obliczeń ocen."
 
 #: cms/templates/course_outline.html:320
 #, python-brace-format
@@ -15244,7 +15247,10 @@ msgid ""
 "{em_start}Hide content after due date{em_end}. Grades for the subsection "
 "remain included in grade calculations."
 msgstr ""
-"Aby ukryć zawartość podsekcji przed uczniami po upływie terminu podsekcji, wybierz ikonę Konfiguruj dla podsekcji, a następnie wybierz opcję {em_start}Ukryj zawartość po terminie{em_end}. Oceny za podsekcję pozostają uwzględnione w obliczeniach ocen."
+"Aby ukryć zawartość podsekcji przed uczniami po upływie terminu podsekcji, "
+"wybierz ikonę Konfiguruj dla podsekcji, a następnie wybierz opcję "
+"{em_start}Ukryj zawartość po terminie{em_end}. Oceny za podsekcję "
+"pozostają uwzględnione w obliczeniach ocen."
 
 #: cms/templates/course_outline.html:322
 msgid "Learn more about content visibility settings"
