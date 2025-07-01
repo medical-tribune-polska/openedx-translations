@@ -24227,6 +24227,9 @@ msgstr ""
 msgid "My Courses"
 msgstr "Moje kursy"
 
+msgid "Discover"
+msgstr "Odkryj"
+
 #: lms/templates/lti_provider/user-auth-error.html:11
 msgid "There was an error when loading this module!"
 msgstr "Wystąpił błąd podczas ładowania tego modułu!"
