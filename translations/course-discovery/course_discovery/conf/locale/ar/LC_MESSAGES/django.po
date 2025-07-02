@@ -10,14 +10,15 @@
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Menna Mamdouh <menna.mamdouh@notionwave.com>, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Sulaiman Muthanna, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-24 00:33+0000\n"
+"POT-Creation-Date: 2025-07-01 00:36+0000\n"
 "PO-Revision-Date: 2023-01-26 15:39+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"Last-Translator: Sulaiman Muthanna, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -540,9 +541,37 @@ msgstr "تجريبي"
 msgid "other"
 msgstr "أخرى"
 
+#: apps/course_metadata/choices.py:54
+msgid "Course Create"
+msgstr "أَنشِئ مُقَرَّراً"
+
+#: apps/course_metadata/choices.py:55
+msgid "Partial Update"
+msgstr "تَحديث جُزئِي"
+
+#: apps/course_metadata/choices.py:64
+msgid "Pending"
+msgstr "قيد الإنتِظار "
+
 #: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
 msgid "Verified"
 msgstr "موثَّقة"
+
+#: apps/course_metadata/choices.py:66
+msgid "Processing"
+msgstr "جارِ المُعَالَجة"
+
+#: apps/course_metadata/choices.py:67
+msgid "Completed"
+msgstr "مُكتَمِل"
+
+#: apps/course_metadata/choices.py:68
+msgid "Failed"
+msgstr "فَشِل"
+
+#: apps/course_metadata/choices.py:69
+msgid "Partially Completed"
+msgstr "مُكتَمِل جُزئِياً"
 
 #: apps/course_metadata/choices.py:74
 msgid "Honor"
@@ -1909,6 +1938,10 @@ msgstr ""
 msgid "Course uuids"
 msgstr "معرّف هوية المستخدم العالمي للمساق"
 
+#: apps/course_metadata/models.py:5042
+msgid "User who uploaded the file"
+msgstr "المُستَخدِم الذي رَفَع المَلَف"
+
 #: apps/course_metadata/salesforce.py:78
 msgid "Attempted to query Salesforce with no client for partner={}"
 msgstr "تمت محاولة البحث عن فريق المبيعات من دون عميل للشريك ={}"
@@ -1976,6 +2009,21 @@ msgid ""
 msgstr ""
 "قام %(user_name)sبكتابة التعليق التالي على %(course_name)s%(date)sفي "
 "%(time)s"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:7
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:3
+msgid "Hi Course Team,"
+msgstr "مرحباً بفَريق المُقَرَّر،"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:25
+msgid "You can review and modify the course end settings here:"
+msgstr "بإمكانِك أنْ تُراجِع وتُعَدِّل أعدادات نِهاية المُقَرَّر مِن هنا:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:47
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:34
+msgid "Thanks"
+msgstr "شُكراً"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:9
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
