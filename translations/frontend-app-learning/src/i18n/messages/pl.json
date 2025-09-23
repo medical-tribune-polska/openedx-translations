@@ -468,7 +468,7 @@
   "learn.lockPaywall.example.alt": "Przykładowy certyfikat",
   "learn.lockPaywall.list.intro": "Podczas uaktualniania:",
   "learn.course.sequence.navigation.mobile.menu": "{current} of {total}",
-  "learn.sequence.navigation.next.button": "Dalej",
+  "learn.sequence.navigation.next.button": "Następny",
   "learn.sequence.navigation.next.up.button": "Następny w górę: {title}",
   "learn.sequence.navigation.previous.button": "Poprzedni",
   "courseOutline.loading": "Ładowanie...",
