@@ -2434,11 +2434,13 @@ msgid_plural ""
 "                                    "
 
 msgstr[0] ""
+"\n"
 "%(assessment_label)s - %(points)s "
 "punkt\n"
 "                                    "
 
 msgstr[1] ""
+"\n"
 "%(assessment_label)s - %(points)s "
 "punkty\n"
 "                                    "
@@ -2605,6 +2607,7 @@ msgstr ""
 "datetime=\"%(start_date)s\" data-string=\"dostępne {date} (za "
 "%(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
 "language=\"%(user_language)s\"></span>\n"
+"            "
 
 #.Translators: This string displays a date to the user, then tells them the time until that date.
 #Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
