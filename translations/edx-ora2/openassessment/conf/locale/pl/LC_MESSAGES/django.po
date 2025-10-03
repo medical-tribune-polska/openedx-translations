@@ -1813,6 +1813,7 @@ msgstr ""
 "                                      Nie będziesz częścią zgłoszenia Zespołu "
 "%(team_name)s w tym zadaniu i nie\n"
 "                                      otrzymasz oceny za ich zgłoszenie.\n"
+"                                  "
 
 #: templates/legacy/response/oa_response.html:224
 msgid "We could not save your progress"
@@ -1842,6 +1843,7 @@ msgstr ""
 "dodać\n"
 "                                  opisy do swoich plików, aby pomóc kolegom z "
 "zespołu je zidentyfikować.\n"
+"                              "
 
 #: templates/legacy/response/oa_response.html:261
 msgid "We could not upload files"
@@ -1914,6 +1916,7 @@ msgstr ""
 "target=\"_blank\" href=\"https://support.edx.org/hc/en-us/"
 "articles/360000191067-Submit-your-"
 "response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
+"                  "
 
 #: templates/legacy/response/oa_response.html:322
 msgid "We could not submit your response"
@@ -1938,6 +1941,7 @@ msgstr ""
 "\n"
 "                                Twoje zgłoszenie zostało anulowane przez "
 "%(removed_by_username)s dnia %(removed_datetime)s\n"
+"                            "
 
 #: templates/legacy/response/oa_response_cancelled.html:41
 #, python-format
@@ -1950,6 +1954,7 @@ msgstr ""
 "\n"
 "                                Twoje zgłoszenie zostało anulowane dnia "
 "%(removed_datetime)s\n"
+"                            "
 
 #: templates/legacy/response/oa_response_cancelled.html:48
 #, python-format
@@ -1960,6 +1965,7 @@ msgid ""
 msgstr ""
 "\n"
 "                            Komentarze: %(comments)s\n"
+"                        "
 
 #: templates/legacy/response/oa_response_closed.html:19
 #: templates/legacy/self/oa_self_closed.html:20
@@ -2018,6 +2024,7 @@ msgstr ""
 "                        Nadal musisz ukończyć kroki "
 "%(peer_start_tag)soceny koleżeńskiej%(end_tag)s i %(self_start_tag)s "
 "samooceny%(end_tag)s.\n"
+"                    "
 
 #: templates/legacy/response/oa_response_submitted.html:38
 #, python-format
@@ -2028,8 +2035,9 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"                      Nadal musisz ukończyć krok %(start_tag)soceny "
+"                      Nadal musisz ukończyć krok %(start_tag)s oceny "
 "koleżeńskiej%(end_tag)s.\n"
+"                    "
 
 #: templates/legacy/response/oa_response_submitted.html:42
 #, python-format
@@ -2041,6 +2049,7 @@ msgid ""
 msgstr ""
 "\n"
 "                        Nadal musisz ukończyć krok %(start_tag)ssamooceny%(end_tag)s.\n"
+"                    "
 
 #: templates/legacy/response/oa_response_submitted.html:63
 msgid "We could not reset your response"
@@ -2075,6 +2084,7 @@ msgstr ""
 "                            odpowiedzi na to zadanie z innym zespołem. "
 "Proszę skontaktuj się z personelem kursu, aby omówić twoje\n"
 "                            opcje dla tego zadania.\n"
+"                        "
 
 #: templates/legacy/self/oa_self_assessment.html:33
 msgid "Assess Your Response"
@@ -2097,6 +2107,7 @@ msgstr ""
 "datetime\" data-datetime=\"%(start_date)s\" data-string=\"dostępne {date} "
 "(za %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-"
 "language=\"%(user_language)s\"></span>\n"
+"           "
 
 #. Translators: This string displays a date to the user, then tells them the time until that date.  Example: "due August 13th, 2014 (in 5 days and 45 minutes)"
 #: templates/legacy/self/oa_self_assessment.html:48
@@ -2278,6 +2289,7 @@ msgid ""
 msgstr ""
 "\n"
 "                %(ungraded)s Dostępnych i %(in_progress)s Wyrejestrowanych\n"
+"            "
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:7
 msgid "Override this learner's current grade using the problem's rubric."
@@ -2305,6 +2317,7 @@ msgid ""
 msgstr ""
 "\n"
 "                    Przeglądanie ucznia: %(learner)s\n"
+"                "
 
 #: templates/legacy/staff_area/oa_student_info.html:15
 #, python-format
@@ -2335,6 +2348,7 @@ msgstr ""
 "\n"
 "                            Zgłoszenie ucznia usunięte przez "
 "%(removed_by_username)s dnia %(removed_datetime)s\n"
+"                        "
 
 #: templates/legacy/staff_area/oa_student_info.html:43
 #, python-format
@@ -2347,6 +2361,7 @@ msgstr ""
 "\n"
 "                            Zgłoszenie ucznia usunięte dnia "
 "%(removed_datetime)s\n"
+"                        "
 
 #: templates/legacy/staff_area/oa_student_info.html:50
 #, python-format
@@ -2357,6 +2372,7 @@ msgid ""
 msgstr ""
 "\n"
 "                        Komentarze: %(comments)s\n"
+"                    "
 
 #: templates/legacy/staff_area/oa_student_info.html:71
 msgid "Peer Assessments for This Learner"
@@ -2398,6 +2414,7 @@ msgstr ""
 "\n"
 "                            Ostateczna ocena: %(points_earned)s z "
 "%(points_possible)s\n"
+"                        "
 
 #: templates/legacy/staff_area/oa_student_info.html:119
 msgid "Final Grade Details"
@@ -2424,6 +2441,7 @@ msgstr[0] ""
 msgstr[1] ""
 "%(assessment_label)s - %(points)s "
 "punkty\n"
+"                                    "
 
 #: templates/legacy/staff_area/oa_student_info.html:154
 msgid "Feedback Recorded"
@@ -2536,6 +2554,7 @@ msgid ""
 msgstr ""
 "\n"
 "                            Ocena %(assessment_num)s:\n"
+"                        "
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:22
 msgid "Assessment Details"
@@ -2604,6 +2623,7 @@ msgstr ""
 "datetime=\"%(due_date)s\" data-string=\"termin {date} (za %(time_until)s)\" "
 "data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></"
 "span>\n"
+"            "
 
 #: templates/legacy/student_training/student_training.html:58
 #: templates/legacy/student_training/student_training.html:66
@@ -2624,7 +2644,6 @@ msgstr ""
 "które wybrał instruktor, przejdziesz do następnego kroku. Jeśli nie "
 "wybierzesz tych samych opcji, przejrzysz odpowiedź i spróbujesz ponownie."
 
-
 #: templates/legacy/student_training/student_training.html:69
 msgid ""
 "Your assessment differs from the instructor's assessment of this response. "
@@ -2634,7 +2653,6 @@ msgstr ""
 "Twoja ocena różni się od oceny instruktora dla tej odpowiedzi. Przejrzyj "
 "odpowiedź i zastanów się, dlaczego instruktor mógł ją ocenić inaczej. "
 "Następnie spróbuj ocenić ponownie."
-
 
 #: templates/legacy/student_training/student_training.html:76
 msgid "The response to the prompt above:"
@@ -2648,7 +2666,6 @@ msgstr "Wybrane Opcje Zgodne"
 msgid "The option you selected is the option that the instructor selected."
 msgstr "Wybrana przez ciebie opcja jest opcją, którą wybrał instruktor."
 
-
 #: templates/legacy/student_training/student_training.html:105
 msgid "Selected Options Differ"
 msgstr "Wybrane Opcje Różnią Się"
@@ -2656,7 +2673,6 @@ msgstr "Wybrane Opcje Różnią Się"
 #: templates/legacy/student_training/student_training.html:108
 msgid "The option you selected is not the option that the instructor selected."
 msgstr "Wybrana przez ciebie opcja nie jest opcją, którą wybrał instruktor."
-
 
 #: templates/legacy/student_training/student_training.html:144
 msgid "We could not check your assessment"
@@ -2675,7 +2691,6 @@ msgstr ""
 "Minął termin na wykonanie tego kroku. Ten krok jest teraz zamknięty. Nie "
 "możesz już kontynuować tego zadania, a otrzymasz ocenę Niekompletne."
 
-
 #: templates/legacy/student_training/student_training_error.html:18
 msgid "Error Loading Learner Training Examples"
 msgstr "Błąd Ładowania Przykładów Szkoleniowych dla Ucznia"
@@ -2684,7 +2699,6 @@ msgstr "Błąd Ładowania Przykładów Szkoleniowych dla Ucznia"
 msgid "The Learner Training Step of this assignment could not be loaded."
 msgstr "Krok Szkolenia Ucznia tego zadania nie mógł zostać załadowany."
 
-
 #: templates/openassessmentblock/base.html:69
 msgid "Loading Open Response Assessment..."
 msgstr "Ładowanie Oceny Otwartej Odpowiedzi..."
@@ -2692,7 +2706,6 @@ msgstr "Ładowanie Oceny Otwartej Odpowiedzi..."
 #: xblock/grade_mixin.py:78 xblock/leaderboard_mixin.py:61
 msgid "An unexpected error occurred."
 msgstr "Wystąpił nieoczekiwany błąd."
-
 
 #: xblock/grade_mixin.py:180
 msgid "Peer Assessment"
@@ -2705,7 +2718,6 @@ msgstr "Samoocena"
 #: xblock/grade_mixin.py:222
 msgid "Assessment feedback could not be saved."
 msgstr "Nie udało się zapisać opinii dotyczącej oceny."
-
 
 #: xblock/grade_mixin.py:233
 msgid "Feedback saved."
@@ -2752,11 +2764,9 @@ msgstr "Oczekiwanie na recenzje kolegów"
 msgid "The grade for this problem is determined by your Staff Grade."
 msgstr "Ocena za to zadanie jest określana przez Ocenę Personelu."
 
-
 #: xblock/grade_mixin.py:681
 msgid "The grade for this problem is determined by your Self Assessment."
 msgstr "Ocena za to zadanie jest określana przez twoją Samoocenę."
-
 
 #: xblock/grade_mixin.py:687
 #, python-brace-format
@@ -2765,13 +2775,11 @@ msgid ""
 "{total_points}."
 msgstr "Ukończyłeś to zadanie pomyślnie i otrzymałeś {earned_points}/{total_points}."
 
-
 #: xblock/grade_mixin.py:695
 msgid ""
 "You have not yet received all necessary peer reviews to determine your final "
 "grade."
 msgstr "Nie otrzymałeś jeszcze wszystkich niezbędnych recenzji kolegów, aby określić twoją ostateczną ocenę."
-
 
 #: xblock/grade_mixin.py:710
 msgid ""
@@ -2779,13 +2787,11 @@ msgid ""
 "Assessments."
 msgstr "Ocena za to zadanie jest określana przez medianę wyników twoich Ocen Koleżeńskich."
 
-
 #: xblock/grade_mixin.py:715
 msgid ""
 "The grade for this problem is determined by the mean score of your Peer "
 "Assessments."
 msgstr "Ocena za to zadanie jest określana przez średnią wyników twoich Ocen Koleżeńskich."
-
 
 #: xblock/openassesment_template_mixin.py:66
 msgid "Peer Assessment Only"
@@ -2811,7 +2817,6 @@ msgstr "Samoocena do Oceny Personelu"
 msgid "You can't reset your submission."
 msgstr "Nie możesz zresetować swojego zgłoszenia."
 
-
 #: xblock/openassessmentblock.py:1378
 msgid "The user does not exist."
 msgstr "Użytkownik nie istnieje."
@@ -2820,7 +2825,6 @@ msgstr "Użytkownik nie istnieje."
 msgid "There is no submission to reset."
 msgstr "Nie ma zgłoszenia do zresetowania."
 
-
 #: xblock/openassessmentblock.py:1383
 msgid "Submission reset successfully."
 msgstr "Zgłoszenie zresetowane pomyślnie."
@@ -2828,7 +2832,6 @@ msgstr "Zgłoszenie zresetowane pomyślnie."
 #: xblock/rubric_reuse_mixin.py:62
 msgid "You must specify a block id from which to copy a rubric."
 msgstr "Musisz określić identyfikator bloku, z którego ma zostać skopiowana rubryka."
-
 
 #: xblock/rubric_reuse_mixin.py:66
 msgid "Invalid block id."
@@ -2848,7 +2851,6 @@ msgstr "Nie masz uprawnień do planowania szkolenia"
 msgid "You do not have permission to reschedule tasks."
 msgstr "Nie masz uprawnień do zmiany harmonogramu zadań."
 
-
 #: xblock/staff_area_mixin.py:69
 msgid "You do not have permission to access the ORA staff area"
 msgstr "Nie masz uprawnień do dostępu do obszaru personelu ORA"
@@ -2857,11 +2859,9 @@ msgstr "Nie masz uprawnień do dostępu do obszaru personelu ORA"
 msgid "You do not have permission to access ORA learner information."
 msgstr "Nie masz uprawnień do dostępu do informacji o uczniu ORA."
 
-
 #: xblock/staff_area_mixin.py:71
 msgid "You do not have permission to access ORA staff grading."
 msgstr "Nie masz uprawnień do dostępu do oceniania przez personel ORA."
-
 
 #: xblock/staff_area_mixin.py:241
 msgid "Pending"
@@ -2887,16 +2887,13 @@ msgstr "Przesłano"
 msgid "Error getting learner information."
 msgstr "Błąd podczas pobierania informacji o uczniu."
 
-
 #: xblock/staff_area_mixin.py:384
 msgid "Error loading the checked out learner response."
 msgstr "Błąd podczas ładowania wyrejestrowanej odpowiedzi ucznia."
 
-
 #: xblock/staff_area_mixin.py:385
 msgid "No other learner responses are available for grading at this time."
 msgstr "W tej chwili nie są dostępne żadne inne odpowiedzi uczniów do oceniania."
-
 
 #: xblock/staff_area_mixin.py:387
 msgid "Error getting staff grade information."
@@ -2906,11 +2903,9 @@ msgstr "Błąd podczas pobierania informacji o ocenie personelu."
 msgid "Error getting staff grade ungraded and checked out counts."
 msgstr "Błąd podczas pobierania liczby nieocenionych i wyrejestrowanych ocen personelu."
 
-
 #: xblock/staff_area_mixin.py:703
 msgid "Please enter valid reason to remove the submission."
 msgstr "Wprowadź poprawny powód usunięcia zgłoszenia."
-
 
 #: xblock/staff_area_mixin.py:714
 msgid "Submission not found"
@@ -2930,7 +2925,6 @@ msgstr ""
 "ocenę zero, chyba że usuniesz stan ucznia dla tego zadania, aby umożliwić mu "
 "ponowne przesłanie odpowiedzi."
 
-
 #: xblock/staff_area_mixin.py:789
 msgid ""
 "The team’s submission has been removed from grading. The team receives a "
@@ -2940,7 +2934,6 @@ msgstr ""
 "Zgłoszenie zespołu zostało usunięte z oceniania. Zespół otrzymuje ocenę zero, "
 "chyba że usuniesz stan członka zespołu dla tego zadania, aby umożliwić "
 "zespołowi ponowne przesłanie odpowiedzi."
-
 
 #: xblock/studio_mixin.py:247 xblock/studio_mixin.py:259
 msgid "Error updating XBlock configuration"
@@ -2973,16 +2966,13 @@ msgstr "Pomyślnie zaktualizowano OpenAssessment XBlock"
 msgid "You must provide options selected in the assessment."
 msgstr "Musisz podać opcje wybrane w ocenie."
 
-
 #: xblock/utils/data_conversion.py:318
 msgid "You must provide overall feedback in the assessment."
 msgstr "Musisz podać ogólną opinię w ocenie."
 
-
 #: xblock/utils/data_conversion.py:321
 msgid "You must provide feedback for criteria in the assessment."
 msgstr "Musisz podać opinię dla kryteriów w ocenie."
-
 
 #: xblock/utils/resolve_dates.py:52
 #, python-brace-format
@@ -2992,7 +2982,6 @@ msgid ""
 msgstr ""
 "'{date}' to nieprawidłowy format daty. Upewnij się, że data jest w formacie YYYY-"
 "MM-DDTHH:MM:SS."
-
 
 #: xblock/utils/resolve_dates.py:57
 #, python-brace-format
@@ -3008,7 +2997,6 @@ msgstr ""
 "Data rozpoczęcia tego kroku '{start}' nie może być wcześniejsza niż data "
 "rozpoczęcia poprzedniego kroku '{prev}'."
 
-
 #: xblock/utils/resolve_dates.py:218
 #, python-brace-format
 msgid ""
@@ -3017,7 +3005,6 @@ msgid ""
 msgstr ""
 "Termin tego kroku '{due}' nie może być późniejszy niż termin następnego "
 "kroku '{prev}'."
-
 
 #: xblock/utils/resolve_dates.py:234
 #, python-brace-format
@@ -3028,22 +3015,18 @@ msgstr "Data rozpoczęcia '{start}' nie może być późniejsza niż termin '{du
 msgid "This problem must include at least one assessment."
 msgstr "To zadanie musi zawierać co najmniej jedną ocenę."
 
-
 #: xblock/utils/validation.py:124
 msgid "The assessment order you selected is invalid."
 msgstr "Wybrana kolejność ocen jest nieprawidłowa."
-
 
 #: xblock/utils/validation.py:134
 msgid ""
 "In peer assessment, the \"Must Grade\" value must be a positive integer."
 msgstr "W ocenie koleżeńskiej wartość \"Musi Ocenić\" musi być liczbą całkowitą dodatnią."
 
-
 #: xblock/utils/validation.py:137
 msgid "In peer assessment, the \"Graded By\" value must be a positive integer."
 msgstr "W ocenie koleżeńskiej wartość \"Oceniane Przez\" musi być liczbą całkowitą dodatnią."
-
 
 #: xblock/utils/validation.py:141
 msgid ""
@@ -3051,22 +3034,18 @@ msgid ""
 "to the \"Graded By\" value."
 msgstr "W ocenie koleżeńskiej wartość \"Musi Ocenić\" musi być większa lub równa wartości \"Oceniane Przez\"."
 
-
 #: xblock/utils/validation.py:150
 msgid "You must provide at least one example response for learner training."
 msgstr "Musisz podać co najmniej jedną przykładową odpowiedź do szkolenia ucznia."
-
 
 #: xblock/utils/validation.py:153
 msgid "Each example response for learner training must be unique."
 msgstr "Każda przykładowa odpowiedź do szkolenia ucznia musi być unikalna."
 
-
 #: xblock/utils/validation.py:160
 msgid ""
 "The \"required\" value must be true if staff assessment is the only step."
 msgstr "Wartość \"wymagane\" musi być prawdziwa, jeśli ocena personelu jest jedynym krokiem."
-
 
 #: xblock/utils/validation.py:164
 msgid ""
@@ -3074,19 +3053,16 @@ msgid ""
 "released."
 msgstr "Liczba ocen nie może być zmieniona po opublikowaniu zadania."
 
-
 #: xblock/utils/validation.py:169
 msgid ""
 "The assessment type cannot be changed after the problem has been released."
 msgstr "Typ oceny nie może być zmieniony po opublikowaniu zadania."
-
 
 #: xblock/utils/validation.py:176
 msgid ""
 "The grading strategy for peer assessments cannot be changed after the "
 "problem has been released."
 msgstr "Strategia oceniania dla ocen koleżeńskich nie może być zmieniona po opublikowaniu zadania."
-
 
 #: xblock/utils/validation.py:200
 msgid "This rubric definition is not valid."
@@ -3095,7 +3071,6 @@ msgstr "Ta definicja rubryki jest nieprawidłowa."
 #: xblock/utils/validation.py:203
 msgid "You must provide at least one prompt."
 msgstr "Musisz podać co najmniej jedną prośbę."
-
 
 #: xblock/utils/validation.py:209
 #, python-brace-format
@@ -3106,16 +3081,13 @@ msgstr "Opcje w '{criterion}' mają zduplikowane nazwy: {duplicates}"
 msgid "Criteria with no options must require written feedback."
 msgstr "Kryteria bez opcji muszą wymagać pisemnej opinii."
 
-
 #: xblock/utils/validation.py:226
 msgid "Prompts cannot be created or deleted after a problem is released."
 msgstr "Prośby nie mogą być tworzone ani usuwane po opublikowaniu zadania."
 
-
 #: xblock/utils/validation.py:230
 msgid "The number of criteria cannot be changed after a problem is released."
 msgstr "Liczba kryteriów nie może być zmieniona po opublikowaniu zadania."
-
 
 #: xblock/utils/validation.py:243
 msgid "Criteria names cannot be changed after a problem is released"
@@ -3125,11 +3097,9 @@ msgstr "Nazwy kryteriów nie mogą być zmienione po opublikowaniu zadania"
 msgid "The number of options cannot be changed after a problem is released."
 msgstr "Liczba opcji nie może być zmieniona po opublikowaniu zadania."
 
-
 #: xblock/utils/validation.py:253
 msgid "Point values cannot be changed after a problem is released."
 msgstr "Wartości punktowe nie mogą być zmienione po opublikowaniu zadania."
-
 
 #: xblock/utils/validation.py:304
 msgid "Learner training must have at least one training example."
@@ -3138,7 +3108,6 @@ msgstr "Szkolenie ucznia musi mieć co najmniej jeden przykład szkoleniowy."
 #: xblock/utils/validation.py:369
 msgid "Leaderboard number is invalid."
 msgstr "Liczba tablicy wyników jest nieprawidłowa."
-
 
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."
