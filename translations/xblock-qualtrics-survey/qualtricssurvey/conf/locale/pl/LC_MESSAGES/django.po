@@ -63,9 +63,9 @@ msgid ""
 " and letters, and should be entered in the following format: "
 "SV_###############"
 msgstr ""
-"To jest identyfikator, którego Qualtrics używa do ankiety, który może zawierać cyfry ”
-"i litery, i powinien zostać wprowadzony w następującym formacie: "
-"SV_################”
+"To jest identyfikator, którego Qualtrics używa do ankiety, który może zawierać cyfry"
+" i litery, i powinien zostać wprowadzony w następującym formacie: "
+"SV_################"
 
 #: models.py:67
 msgid "Your University:"
