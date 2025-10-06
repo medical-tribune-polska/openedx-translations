@@ -1640,14 +1640,11 @@ msgstr "Wprowadź odpowiedź Twojego zespołu na polecenie."
 #: templates/legacy/response/oa_response.html:68
 msgid ""
 "\n"
-"                          Your work will save automatically and you can return "
-"to complete your team's response at any time before the due date\n"
+"                          Your work will save automatically and you can return to complete your team's response at any time before the due date\n"
 "                      "
 msgstr ""
 "\n"
-"                          Twoja praca zostanie zapisana automatycznie i "
-"możesz wrócić, aby dokończyć odpowiedź swojego zespołu w dowolnym momencie "
-"przed upływem terminu\n"
+"                          Twoja praca zostanie zapisana automatycznie i możesz wrócić, aby dokończyć odpowiedź swojego zespołu w dowolnym momencie przed upływem terminu\n"
 "                      "
 
 #: templates/legacy/response/oa_response.html:81
