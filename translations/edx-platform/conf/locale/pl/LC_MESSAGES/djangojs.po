@@ -1192,6 +1192,10 @@ msgstr "Przenieś: {displayName}"
 msgid "Ignore"
 msgstr "Ignoruj"
 
+#: cms/static/js/views/modals/select_v2_library_content.js:59
+msgid "Add selected components"
+msgstr "Dodaj wybrane komponenty"
+
 #: cms/static/js/views/modals/validation_error_modal.js:16
 msgid "Validation Error While Saving"
 msgstr "Błąd walidacji podczas zapisywania"
