@@ -3525,7 +3525,7 @@ msgstr ""
 #: templates/oscar/dashboard/refunds/refund_list.html:91
 #: templates/oscar/dashboard/users/detail.html:155
 msgid "View"
-msgstr ""
+msgstr "Widok"
 
 #: templates/oscar/dashboard/orders/order_detail.html:189
 msgid "Basket total (excl. discounts)"
