@@ -12844,8 +12844,8 @@ msgstr[0] ""
 "                "
 msgstr[1] ""
 "\n"
-"                Uczniowie zobaczą wszystkie wybrane %(num_selected)y "
-"w losowej kolejności:\n"
+"                Uczniowie zobaczą wszystkie %(num_selected)s wybranych "
+"komponentów, w losowej kolejności:\n"
 "                "
 
 #: xmodule/templates/item_bank/author_view.html:32

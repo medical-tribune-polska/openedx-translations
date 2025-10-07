@@ -19,242 +19,242 @@ msgstr ""
 
 #: core/admin.py:25
 msgid "Personal info"
-msgstr ""
+msgstr "Informacje osobiste"
 
 #: core/admin.py:26
 msgid "Permissions"
-msgstr ""
+msgstr "Uprawnienia"
 
 #: core/admin.py:28
 msgid "Important dates"
-msgstr ""
+msgstr "Ważne daty"
 
-#. Translators: "Waffle" is the name of a third-party library. It should not
-#. be translated
+#.Translators: "Waffle" is the name of a third-party library. It should not
+#.be translated
 #: core/admin.py:35
 #, python-brace-format
 msgid ""
 "User administration has been disabled due to the load on the database. This "
 "functionality can be restored by activating the {switch_name} Waffle switch."
 " Be careful when re-activating this switch!"
-msgstr ""
+msgstr "Administracja użytkownikami została wyłączona z powodu obciążenia bazy danych. Tę funkcjonalność można przywrócić, aktywując przełącznik Waffle {switch_name}. Bądź ostrożny podczas ponownej aktywacji tego przełącznika!"
 
 #: core/models.py:41
 msgid "LMS base url for custom site/microsite"
-msgstr ""
+msgstr "Bazowy adres URL LMS dla niestandardowej witryny/mikrowitryny"
 
 #: core/models.py:42
 msgid "Root URL of this site's LMS (e.g. https://courses.stage.edx.org)"
-msgstr ""
+msgstr "Główny adres URL LMS tej witryny (np. https://courses.stage.edx.org)"
 
 #: core/models.py:47
 msgid "Path to custom site theme"
-msgstr ""
+msgstr "Ścieżka do niestandardowego motywu witryny"
 
 #: core/models.py:54
 msgid "Payment processors"
-msgstr ""
+msgstr "Procesory płatności"
 
 #: core/models.py:55
 msgid "Comma-separated list of processor names: 'cybersource,paypal'"
-msgstr ""
+msgstr "Lista nazw procesorów oddzielona przecinkami: 'cybersource,paypal'"
 
 #: core/models.py:61
 msgid "Client-side payment processor"
-msgstr ""
+msgstr "Procesor płatności po stronie klienta"
 
 #: core/models.py:62
 msgid "Processor that will be used for client-side payments"
-msgstr ""
+msgstr "Procesor, który będzie używany do płatności po stronie klienta"
 
 #: core/models.py:68
 msgid "OAuth settings"
-msgstr ""
+msgstr "Ustawienia OAuth"
 
 #: core/models.py:69
 msgid "JSON string containing OAuth backend settings."
-msgstr ""
+msgstr "Ciąg znaków JSON zawierający ustawienia zaplecza OAuth."
 
 #: core/models.py:75
 msgid "Segment key"
-msgstr ""
+msgstr "Klucz Segment"
 
 #: core/models.py:76
 msgid "Segment write/API key."
-msgstr ""
+msgstr "Klucz do zapisu/klucz API Segment."
 
 #: core/models.py:82
 msgid "From email"
-msgstr ""
+msgstr "Adres email nadawcy"
 
 #: core/models.py:83
 msgid "Address from which emails are sent."
-msgstr ""
+msgstr "Adres, z którego wysyłane są wiadomości e-mail."
 
 #: core/models.py:89
 msgid "Enable enrollment codes"
-msgstr ""
+msgstr "Włącz kody rejestracyjne"
 
 #: core/models.py:90
 msgid "Enable the creation of enrollment codes."
-msgstr ""
+msgstr "Włącz tworzenie kodów rejestracyjnych."
 
 #: core/models.py:95
 msgid "Payment support email"
-msgstr ""
+msgstr "Adres e-mail wsparcia płatności"
 
 #: core/models.py:96
 msgid "Contact email for payment support issues."
-msgstr ""
+msgstr "Kontaktowy adres e-mail w sprawach wsparcia płatności."
 
 #: core/models.py:102
 msgid "Payment support url"
-msgstr ""
+msgstr "Adres URL wsparcia płatności"
 
 #: core/models.py:103
 msgid "URL for payment support issues."
-msgstr ""
+msgstr "Adres URL dla spraw wsparcia płatności."
 
 #: core/models.py:108
 msgid "UTM Cookie Name"
-msgstr ""
+msgstr "Nazwa pliku cookie UTM"
 
 #: core/models.py:109
 msgid "Name of cookie storing UTM data."
-msgstr ""
+msgstr "Nazwa pliku cookie przechowującego dane UTM."
 
 #: core/models.py:115
 msgid "Affiliate Cookie Name"
-msgstr ""
+msgstr "Nazwa pliku cookie Partnera"
 
 #: core/models.py:116
 msgid "Name of cookie storing affiliate data."
-msgstr ""
+msgstr "Nazwa pliku cookie przechowującego dane partnera."
 
 #: core/models.py:122
 msgid "Send refund email notification"
-msgstr ""
+msgstr "Wyślij powiadomienie e-mail o zwrocie pieniędzy"
 
 #: core/models.py:127
 msgid "Enable SDN check"
-msgstr ""
+msgstr "Włącz sprawdzanie SDN"
 
 #: core/models.py:128
 msgid "Enable SDN check at checkout."
-msgstr ""
+msgstr "Włącz sprawdzanie SDN przy kasie."
 
 #: core/models.py:132
 msgid "[Deprecated] US Treasury SDN API URL"
-msgstr ""
+msgstr "[Przestarzałe] Adres URL API SDN Skarbu USA"
 
 #: core/models.py:137
 msgid "[Deprecated] US Treasury SDN API key"
-msgstr ""
+msgstr "[Przestarzałe] Klucz API SDN Skarbu USA"
 
 #: core/models.py:142
 msgid "SDN lists"
-msgstr ""
+msgstr "Listy SDN"
 
 #: core/models.py:143
 msgid "A comma-separated list of Treasury OFAC lists to check against."
-msgstr ""
+msgstr "Lista list OFAC Skarbu USA oddzielona przecinkami, które mają być sprawdzone."
 
 #: core/models.py:148
 msgid "Require Account Activation"
-msgstr ""
+msgstr "Wymagaj aktywacji konta"
 
 #: core/models.py:149
 msgid ""
 "Require users to activate their account before allowing them to redeem a "
 "coupon."
-msgstr ""
+msgstr "Wymagaj od użytkowników aktywacji konta, zanim pozwolimy im na wykorzystanie kuponu."
 
 #: core/models.py:153
 msgid "Optimizely snippet source URL"
-msgstr ""
+msgstr "Źródłowy adres URL fragmentu kodu Optimizely"
 
 #: core/models.py:154
 msgid "This script will be loaded on every page."
-msgstr ""
+msgstr "Ten skrypt zostanie załadowany na każdej stronie."
 
 #: core/models.py:159
 msgid "Base Cookie Domain"
-msgstr ""
+msgstr "Bazowa domena plików cookie"
 
 #: core/models.py:160
 msgid "Base cookie domain used to share cookies across services."
-msgstr ""
+msgstr "Bazowa domena plików cookie używana do udostępniania plików cookie między usługami."
 
 #: core/models.py:166
 msgid "Enable embargo check"
-msgstr ""
+msgstr "Włącz sprawdzanie embarga"
 
 #: core/models.py:167
 msgid "Enable embargo check at checkout."
-msgstr ""
+msgstr "Włącz sprawdzanie embarga przy kasie."
 
 #: core/models.py:171
 msgid "Discovery API URL"
-msgstr ""
+msgstr "Adres URL API Discovery"
 
-#. Translators: Do not translate "Apple Pay"
+#: Translators: Do not translate "Apple Pay"
 #: core/models.py:177
 msgid "Enable Apple Pay"
-msgstr ""
+msgstr "Włącz Apple Pay"
 
 #: core/models.py:181
 msgid "Enable Partial Program Offer"
-msgstr ""
+msgstr "Włącz częściową ofertę programu"
 
 #: core/models.py:182
 msgid ""
 "Enable the application of program offers to remaining unenrolled or "
 "unverified courses"
-msgstr ""
+msgstr "Włącz zastosowanie ofert programów do pozostałych niezarejestrowanych lub niezweryfikowanych kursów"
 
 #: core/models.py:187
 msgid "Hubspot Portal Secret Key"
-msgstr ""
+msgstr "Tajny klucz portalu Hubspot"
 
 #: core/models.py:188
 msgid "Secret key for Hubspot portal authentication"
-msgstr ""
+msgstr "Tajny klucz do uwierzytelniania w portalu Hubspot"
 
 #: core/models.py:193
 msgid "Enable Microfrontend for Basket Page"
-msgstr ""
+msgstr "Włącz mikrofrontend dla strony koszyka"
 
 #: core/models.py:194
 msgid ""
 "Use the microfrontend implementation of the basket page instead of the "
 "server-side template"
-msgstr ""
+msgstr "Użyj implementacji mikrofrontendu strony koszyka zamiast szablonu po stronie serwera"
 
 #: core/models.py:199
 msgid "Payment Microfrontend URL"
-msgstr ""
+msgstr "Adres URL mikrofrontendu płatności"
 
 #: core/models.py:200
 msgid ""
 "URL for the Payment Microfrontend (used if Enable Microfrontend for Basket "
 "Page is set)"
-msgstr ""
+msgstr "Adres URL mikrofrontendu płatności (używany, jeśli włączono mikrofrontend dla strony koszyka)"
 
 #: core/models.py:446
 msgid "last name"
-msgstr ""
+msgstr "nazwisko"
 
 #: core/models.py:449
 msgid "first name"
-msgstr ""
+msgstr "imię"
 
 #: core/models.py:450
 msgid "Full Name"
-msgstr ""
+msgstr "Pełne imię i nazwisko"
 
 #: core/models.py:456
 msgid "LMS user id"
-msgstr ""
+msgstr "ID użytkownika LMS"
 
 #: core/models.py:710 extensions/basket/models.py:130
 #: templates/oscar/dashboard/offers/offer_detail.html:62
@@ -263,162 +263,162 @@ msgstr ""
 #: templates/oscar/dashboard/orders/order_detail.html:31
 #: templates/oscar/dashboard/orders/order_detail.html:42
 msgid "Name"
-msgstr ""
+msgstr "Nazwa"
 
 #: core/models.py:712 extensions/offer/models.py:582
 msgid "EnterpriseCustomer UUID"
-msgstr ""
+msgstr "UUID Klienta Korporacyjnego"
 
 #: core/models.py:713 extensions/offer/models.py:452
 #: extensions/offer/models.py:676 extensions/offer/models.py:742
 msgid "UUID for an EnterpriseCustomer from the Enterprise Service."
-msgstr ""
+msgstr "UUID Klienta Korporacyjnego z Usługi Korporacyjnej."
 
 #: coupons/views.py:76 coupons/views.py:125
 msgid "Coupon does not exist."
-msgstr ""
+msgstr "Kupon nie istnieje."
 
 #: coupons/views.py:81
 msgid "This coupon code is not yet valid."
-msgstr ""
+msgstr "Ten kod kuponu nie jest jeszcze ważny."
 
 #: coupons/views.py:83
 msgid "This coupon code has expired."
-msgstr ""
+msgstr "Ten kod kuponu wygasł."
 
 #: coupons/views.py:95
 #, python-brace-format
 msgid "Product [{product}] not available for purchase."
-msgstr ""
+msgstr "Produkt [{product}] jest niedostępny w zakupie."
 
 #: coupons/views.py:100
 msgid "This coupon code is no longer available."
-msgstr ""
+msgstr "Ten kod kuponu nie jest już dostępny."
 
 #: coupons/views.py:120
 msgid "This coupon code is invalid."
-msgstr ""
+msgstr "Ten kod kuponu jest nieprawidłowy."
 
 #: coupons/views.py:127
 msgid "The voucher is not applicable to your current basket."
-msgstr ""
+msgstr "Kupon nie ma zastosowania do Twojego obecnego koszyka."
 
 #: coupons/views.py:137
 msgid "Welcome to edX"
-msgstr ""
+msgstr "Witaj w edX"
 
 #: coupons/views.py:138
 msgid ""
 "Please choose from the courses selected by your organization to start "
 "learning."
-msgstr ""
+msgstr "Wybierz spośród kursów wybranych przez Twoją organizację, aby rozpocząć naukę."
 
 #: coupons/views.py:168
 msgid "Code not provided."
-msgstr ""
+msgstr "Nie podano kodu."
 
 #: coupons/views.py:170
 msgid "SKU not provided."
-msgstr ""
+msgstr "Nie podano kodu SKU."
 
 #: coupons/views.py:181
 msgid "The product does not exist."
-msgstr ""
+msgstr "Produkt nie istnieje."
 
 #: coupons/views.py:195
 msgid "You are not eligible to use this coupon."
-msgstr ""
+msgstr "Nie jesteś uprawniony do użycia tego kuponu."
 
 #: coupons/views.py:210
 msgid "Couldn't find a matching Enterprise Customer for this coupon."
-msgstr ""
+msgstr "Nie można znaleźć pasującego Klienta Korporacyjnego dla tego kuponu."
 
 #: coupons/views.py:218
 msgid ""
 "This coupon is not valid for purchasing a program. Try using this on an "
 "individual course in the program. If you need assistance, contact edX "
 "support."
-msgstr ""
+msgstr "Ten kupon nie jest ważny przy zakupie programu. Spróbuj użyć go na pojedynczym kursie w programie. Jeśli potrzebujesz pomocy, skontaktuj się ze wsparciem edX."
 
 #: coupons/views.py:245
 msgid "Invalid data sharing consent token provided."
-msgstr ""
+msgstr "Podano nieprawidłowy token zgody na udostępnianie danych."
 
 #: coupons/views.py:265
 #, python-brace-format
 msgid "You have already purchased {course} seat."
-msgstr ""
+msgstr "Zakupiłeś już miejsce na kursie {course}."
 
 #: coupons/views.py:289
 #, python-brace-format
 msgid "A discount has been applied, courtesy of {enterprise_customer_name}."
-msgstr ""
+msgstr "Zastosowano zniżkę dzięki uprzejmości {enterprise_customer_name}."
 
 #: coupons/views.py:299
 msgid "This coupon code is not valid for this course. Try a different course."
-msgstr ""
+msgstr "Ten kod kuponu jest nieprawidłowy dla tego kursu. Spróbuj innego kursu."
 
 #: courses/models.py:33 extensions/basket/models.py:20
 #: extensions/offer/models.py:238 extensions/payment/models.py:68
 #: templates/oscar/dashboard/offers/summary.html:14
 msgid "Site"
-msgstr ""
+msgstr "Witryna"
 
 #: courses/models.py:40
 msgid ""
 "Last date/time on which verification for this product can be submitted."
-msgstr ""
+msgstr "Ostatnia data/godzina, do której można przesłać weryfikację dla tego produktu."
 
 #: courses/publishers.py:78
 #, python-brace-format
 msgid "Failed to publish commerce data for {course_id} to LMS."
-msgstr ""
+msgstr "Nie udało się opublikować danych handlowych dla {course_id} w LMS."
 
 #: courses/utils.py:138
 msgid "Audit"
-msgstr ""
+msgstr "Audyt"
 
 #: courses/utils.py:139
 msgid "Credit"
-msgstr ""
+msgstr "Kredyt"
 
 #: courses/utils.py:140
 msgid "Honor"
-msgstr ""
+msgstr "Honorowy"
 
 #: courses/utils.py:141
 msgid "Professional"
-msgstr ""
+msgstr "Profesjonalny"
 
 #: courses/utils.py:142
 msgid "Verified"
-msgstr ""
+msgstr "Zweryfikowany"
 
 #: courses/utils.py:143
 msgid "Executive Education"
-msgstr ""
+msgstr "Edukacja Wykonawcza"
 
 #: courses/utils.py:144
 msgid "Paid Executive Education"
-msgstr ""
+msgstr "Płatna Edukacja Wykonawcza"
 
 #: courses/utils.py:145
 msgid "Unpaid Executive Education"
-msgstr ""
+msgstr "Bezpłatna Edukacja Wykonawcza"
 
 #: courses/utils.py:146
 msgid "Paid Bootcamp"
-msgstr ""
+msgstr "Płatny Bootcamp"
 
 #: courses/utils.py:147
 msgid "Unpaid Bootcamp"
-msgstr ""
+msgstr "Bezpłatny Bootcamp"
 
 #: credit/views.py:40
 msgid ""
 "An error has occurred. We could not confirm that you are eligible for course"
 " credit. Try the transaction again."
-msgstr ""
+msgstr "Wystąpił błąd. Nie mogliśmy potwierdzić, że kwalifikujesz się do uzyskania kredytu za kurs. Spróbuj ponownie przeprowadzić transakcję."
 
 #: credit/views.py:61
 #, python-brace-format
@@ -427,33 +427,33 @@ msgid ""
 "currently enrolled in the course, please try again after all grading is "
 "complete. If you need additional assistance, please contact the {site_name} "
 "Support Team."
-msgstr ""
+msgstr "Kredyt nie jest obecnie dostępny dla \"{course_name}\". Jeśli jesteś obecnie zapisany na kurs, spróbuj ponownie po zakończeniu wszystkich ocen. Jeśli potrzebujesz dodatkowej pomocy, skontaktuj się z Zespołem Wsparcia {site_name}."
 
 #: credit/views.py:75
 msgid ""
 "An error has occurred. We could not confirm that the institution you "
 "selected offers this course credit. Try the transaction again."
-msgstr ""
+msgstr "Wystąpił błąd. Nie mogliśmy potwierdzić, że wybrana instytucja oferuje kredyt za ten kurs. Spróbuj ponownie przeprowadzić transakcję."
 
 #: enterprise/benefits.py:24
 #, python-format
 msgid "%d%% enterprise discount"
-msgstr ""
+msgstr "Zniżka korporacyjna %d%%"
 
 #: enterprise/benefits.py:36
 #, python-brace-format
 msgid "{value} fixed-price enterprise discount"
-msgstr ""
+msgstr "{value} zniżka korporacyjna o stałej cenie"
 
 #: enterprise/benefits.py:45 extensions/payment/models.py:86
 #: invoice/models.py:25 programs/constants.py:15
 msgid "Percentage"
-msgstr ""
+msgstr "Procent"
 
 #: enterprise/benefits.py:46 extensions/payment/models.py:87
 #: programs/constants.py:16
 msgid "Absolute"
-msgstr ""
+msgstr "Bezwzględna"
 
 #: enterprise/conditions.py:216
 #, python-brace-format
@@ -461,193 +461,193 @@ msgid ""
 "This coupon has been made available through {new_enterprise}. To redeem this"
 " coupon, you must first logout. When you log back in, please select "
 "{new_enterprise} as your enterprise and try again."
-msgstr ""
+msgstr "Ten kupon został udostępniony za pośrednictwem {new_enterprise}. Aby zrealizować ten kupon, musisz się najpierw wylogować. Po ponownym zalogowaniu, wybierz {new_enterprise} jako swoją firmę i spróbuj ponownie."
 
 #: enterprise/conditions.py:370
 msgid ""
 "This code is not valid with your email. Please login with the correct email "
 "assigned to the code or contact your Learning Manager for additional "
 "questions."
-msgstr ""
+msgstr "Ten kod jest nieprawidłowy dla Twojego adresu e-mail. Zaloguj się za pomocą poprawnego adresu e-mail przypisanego do kodu lub skontaktuj się ze swoim Menedżerem ds. Nauki w przypadku dodatkowych pytań."
 
 #: enterprise/forms.py:38
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:30
 msgid "Enterprise Customer UUID"
-msgstr ""
+msgstr "UUID Klienta Korporacyjnego"
 
 #: enterprise/forms.py:39
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:31
 msgid "Enterprise Customer Catalog UUID"
-msgstr ""
+msgstr "UUID Katalogu Klienta Korporacyjnego"
 
 #: enterprise/forms.py:40 programs/forms.py:23
 msgid "Discount Type"
-msgstr ""
+msgstr "Typ zniżki"
 
 #: enterprise/forms.py:42 programs/forms.py:25
 msgid "Discount Value"
-msgstr ""
+msgstr "Wartość zniżki"
 
 #: enterprise/forms.py:45
 msgid "Contract Discount Type"
-msgstr ""
+msgstr "Typ zniżki kontraktowej"
 
 #: enterprise/forms.py:48
 msgid "Contract Discount"
-msgstr ""
+msgstr "Zniżka kontraktowa"
 
 #: enterprise/forms.py:51
 msgid "Prepaid Invoice Amount"
-msgstr ""
+msgstr "Kwota faktury prepaid"
 
 #: enterprise/forms.py:53
 msgid "Salesforce Opportunity ID"
-msgstr ""
+msgstr "ID Szansy Sprzedażowej w Salesforce"
 
 #: enterprise/forms.py:55
 msgid "Salesforce Opportunity Line Item"
-msgstr ""
+msgstr "Pozycja Szansy Sprzedażowej w Salesforce"
 
 #: enterprise/forms.py:58
 msgid "Emails Addresses"
-msgstr ""
+msgstr "Adresy e-mail"
 
 #: enterprise/forms.py:59
 msgid "Comma separated emails which will receive the offer usage alerts"
-msgstr ""
+msgstr "Adresy e-mail oddzielone przecinkami, które będą otrzymywać powiadomienia o wykorzystaniu oferty"
 
 #: enterprise/forms.py:64
 msgid "Frequency for offer usage emails"
-msgstr ""
+msgstr "Częstotliwość wysyłania wiadomości e-mail dotyczących wykorzystania oferty"
 
 #: enterprise/forms.py:79
 msgid "The maximum number of enrollments that can redeem this offer."
-msgstr ""
+msgstr "Maksymalna liczba zapisów, które mogą skorzystać z tej oferty."
 
 #: enterprise/forms.py:80
 msgid "The maximum USD dollar amount that can be redeemed by this offer."
-msgstr ""
+msgstr "Maksymalna kwota w dolarach USD, którą można zrealizować za pomocą tej oferty."
 
 #: enterprise/forms.py:81
 msgid ""
 "The maximum number of enrollments, by a user, that can redeem this offer."
-msgstr ""
+msgstr "Maksymalna liczba zapisów, jaką może zrealizować użytkownik za pomocą tej oferty."
 
 #: enterprise/forms.py:82
 msgid ""
 "The maximum USD dollar amount that can be redeemed using this offer by a "
 "user."
-msgstr ""
+msgstr "Maksymalna kwota w dolarach USD, jaką może zrealizować użytkownik za pomocą tej oferty."
 
 #: enterprise/forms.py:85 programs/forms.py:35
 msgid "Start Date"
-msgstr ""
+msgstr "Data rozpoczęcia"
 
 #: enterprise/forms.py:86 programs/forms.py:36
 msgid "End Date"
-msgstr ""
+msgstr "Data zakończenia"
 
 #: enterprise/forms.py:87
 msgid "Enrollment Limit"
-msgstr ""
+msgstr "Limit zapisów"
 
 #: enterprise/forms.py:88
 msgid "Bookings Limit"
-msgstr ""
+msgstr "Limit rezerwacji"
 
 #: enterprise/forms.py:89
 msgid "Per User Enrollment Limit"
-msgstr ""
+msgstr "Limit zapisów na użytkownika"
 
 #: enterprise/forms.py:90
 msgid "Per User Bookings Limit"
-msgstr ""
+msgstr "Limit rezerwacji na użytkownika"
 
 #: enterprise/forms.py:152 enterprise/forms.py:220
 #, python-brace-format
 msgid ""
 "Ensure new value must be greater than or equal to "
 "consumed({offer_enrollments}) value."
-msgstr ""
+msgstr "Upewnij się, że nowa wartość musi być większa lub równa wartości wykorzystanej ({offer_enrollments})."
 
 #: enterprise/forms.py:166
 msgid ""
 "Salesforce Opportunity ID must be 18 alphanumeric characters and begin with "
 "006."
-msgstr ""
+msgstr "ID Szansy Sprzedażowej w Salesforce musi składać się z 18 znaków alfanumerycznych i zaczynać się od '006'."
 
 #: enterprise/forms.py:176
 msgid ""
 "The Salesforce Opportunity Line Item must be 18 alphanumeric characters and "
 "begin with '00k'."
-msgstr ""
+msgstr "Pozycja Szansy Sprzedażowej w Salesforce musi składać się z 18 znaków alfanumerycznych i zaczynać się od '00k'."
 
 #: enterprise/forms.py:184 enterprise/forms.py:232
 msgid "Ensure this value is greater than or equal to 0."
-msgstr ""
+msgstr "Upewnij się, że ta wartość jest większa lub równa 0."
 
 #: enterprise/forms.py:191 enterprise/forms.py:248
 #, python-brace-format
 msgid ""
 "Ensure new value must be greater than or equal to "
 "consumed({consumed_discount:.2f}) value."
-msgstr ""
+msgstr "Upewnij się, że nowa wartość musi być większa lub równa wartości wykorzystanej ({consumed_discount:.2f})."
 
 #: enterprise/forms.py:265
 #, python-brace-format
 msgid "Given email address {email} is not a valid email."
-msgstr ""
+msgstr "Podany adres e-mail {email} nie jest prawidłowym adresem e-mail."
 
 #: enterprise/forms.py:290
 msgid "An offer already exists for this Enterprise & Catalog combination."
-msgstr ""
+msgstr "Oferta dla tego połączenia Klienta Korporacyjnego i Katalogu już istnieje."
 
 #: enterprise/forms.py:293 enterprise/forms.py:302 programs/forms.py:73
 msgid "Percentage discounts cannot be greater than 100%."
-msgstr ""
+msgstr "Zniżki procentowe nie mogą być większe niż 100%."
 
 #: enterprise/forms.py:296 programs/forms.py:76
 msgid "A start date must be specified when specifying an end date."
-msgstr ""
+msgstr "Należy podać datę rozpoczęcia, jeśli podana jest data zakończenia."
 
 #: enterprise/forms.py:299 programs/forms.py:79
 msgid "The start date must occur before the end date."
-msgstr ""
+msgstr "Data rozpoczęcia musi przypadać przed datą zakończenia."
 
 #: enterprise/forms.py:307
 msgid "More than 2 digits after the decimal not allowed for absolute value."
-msgstr ""
+msgstr "Dla wartości bezwzględnej niedozwolone są więcej niż 2 cyfry po przecinku."
 
 #: enterprise/forms.py:312
 msgid "This field is required when contract discount type is absolute."
-msgstr ""
+msgstr "To pole jest wymagane, gdy typ zniżki kontraktowej jest bezwzględny."
 
 #: enterprise/forms.py:337
 msgid "Discount of type {} provided by {} for {}."
-msgstr ""
+msgstr "Zniżka typu {} dostarczona przez {} dla {}."
 
 #: enterprise/templates/enterprise/enterprise_coupon_app.html:5
 msgid "Enterprise Coupon Codes"
-msgstr ""
+msgstr "Kody Kuponów Korporacyjnych"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:9
 #, python-format
 msgid "Edit Enterprise Offer: %(enterprise_customer_name)s"
-msgstr ""
+msgstr "Edytuj Ofertę Korporacyjną: %(enterprise_customer_name)s"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:14
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:47
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:60
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:20
 msgid "Create Enterprise Offer"
-msgstr ""
+msgstr "Utwórz Ofertę Korporacyjną"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:30
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:6
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:17
 #: templates/edx/partials/_administration_menu.html:14
 msgid "Enterprise Offers"
-msgstr ""
+msgstr "Oferty Korporacyjne"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:34
 #: programs/templates/programs/programoffer_form.html:34
@@ -663,21 +663,21 @@ msgstr ""
 #: templates/oscar/dashboard/offers/summary.html:30
 #: templates/oscar/dashboard/orders/order_detail.html:720
 msgid "Edit"
-msgstr ""
+msgstr "Edytuj"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:36
 #: programs/templates/programs/programoffer_form.html:36
 msgid "Create"
-msgstr ""
+msgstr "Utwórz"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:45
 msgid "Edit Enterprise Offer"
-msgstr ""
+msgstr "Edytuj Ofertę Korporacyjną"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:58
 #: programs/templates/programs/programoffer_form.html:58
 msgid "Save Changes"
-msgstr ""
+msgstr "Zapisz Zmiany"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:62
 #: programs/templates/programs/programoffer_form.html:62
@@ -685,7 +685,7 @@ msgstr ""
 #: templates/oscar/dashboard/catalogue/product_update.html:322
 #: templates/oscar/dashboard/partials/refund_action_modal.html:20
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:76
 #, python-format
@@ -694,14 +694,17 @@ msgid ""
 "              %(platform_name)s Enterprise Offer Administration Tool\n"
 "              "
 msgstr ""
+"\n"
+"              Narzędzie Administracyjne Ofert Korporacyjnych %(platform_name)s\n"
+"              "
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:26
 msgid "Current enterprise offers"
-msgstr ""
+msgstr "Obecne oferty korporacyjne"
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:29
 msgid "Enterprise Customer Name"
-msgstr ""
+msgstr "Nazwa Klienta Korporacyjnego"
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:32
 #: programs/templates/programs/programoffer_list.html:31
@@ -709,22 +712,22 @@ msgstr ""
 #: templates/oscar/dashboard/orders/order_detail.html:658
 #: templates/oscar/dashboard/orders/order_detail.html:708
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:33
 #: programs/templates/programs/programoffer_list.html:32
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:34
 #: programs/templates/programs/programoffer_list.html:33
 msgid "Start"
-msgstr ""
+msgstr "Początek"
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:35
 #: programs/templates/programs/programoffer_list.html:34
 msgid "End"
-msgstr ""
+msgstr "Koniec"
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:64
 #, python-format
@@ -733,99 +736,102 @@ msgid ""
 "                %(platform_name)s Enterprise Offer Administration Tool\n"
 "              "
 msgstr ""
+"\n"
+"                Narzędzie Administracyjne Ofert Korporacyjnych %(platform_name)s\n"
+"              "
 
 #: enterprise/utils.py:239
 #, python-brace-format
 msgid "SKU {sku} does not exist."
-msgstr ""
+msgstr "SKU {sku} nie istnieje."
 
 #: enterprise/utils.py:248
 #, python-brace-format
 msgid "There is no Enterprise Customer associated with SKU {sku}."
-msgstr ""
+msgstr "Nie ma Klienta Korporacyjnego powiązanego z SKU {sku}."
 
 #: enterprise/utils.py:256
 #, python-brace-format
 msgid ""
 "If you have concerns about sharing your data, please contact your "
 "administrator at {enterprise}."
-msgstr ""
+msgstr "Jeśli masz obawy dotyczące udostępniania swoich danych, skontaktuj się z administratorem pod adresem {enterprise}."
 
 #: enterprise/utils.py:259
 #, python-brace-format
 msgid ""
 "If you have concerns about sharing your data, please contact your "
 "administrator at {enterprise} at {contact_info}."
-msgstr ""
+msgstr "Jeśli masz obawy dotyczące udostępniania swoich danych, skontaktuj się z administratorem pod adresem {enterprise} pod adresem {contact_info}."
 
 #: enterprise/utils.py:265
 #, python-brace-format
 msgid "Enrollment in {course_name} was not complete."
-msgstr ""
+msgstr "Zapis na kurs {course_name} nie został ukończony."
 
 #: enterprise/views.py:39
 msgid "Enterprise offer updated!"
-msgstr ""
+msgstr "Oferta korporacyjna zaktualizowana!"
 
 #: enterprise/views.py:62
 msgid "Enterprise offer created!"
-msgstr ""
+msgstr "Oferta korporacyjna utworzona!"
 
 #: extensions/api/exceptions.py:9
 msgid "You can't check out with an empty basket."
-msgstr ""
+msgstr "Nie możesz zrealizować zamówienia z pustym koszykiem."
 
 #: extensions/api/exceptions.py:12
 msgid ""
 "We couldn't locate the identification code necessary to find one of your "
 "products."
-msgstr ""
+msgstr "Nie udało nam się zlokalizować kodu identyfikacyjnego niezbędnego do znalezienia jednego z Twoich produktów."
 
 #: extensions/api/exceptions.py:15
 msgid "We couldn't find one of the products you're looking for."
-msgstr ""
+msgstr "Nie mogliśmy znaleźć jednego z produktów, których szukasz."
 
 #: extensions/api/exceptions.py:18
 msgid "One of the products you're trying to order is unavailable."
-msgstr ""
+msgstr "Jeden z produktów, które próbujesz zamówić, jest niedostępny."
 
 #: extensions/api/exceptions.py:21
 msgid ""
 "We couldn't find enough information about you to perform the calculation."
-msgstr ""
+msgstr "Nie mogliśmy znaleźć wystarczającej ilości informacji o Tobie, aby przeprowadzić obliczenia."
 
 #: extensions/api/serializers.py:261
 msgid "EXPIRED"
-msgstr ""
+msgstr "WYGASŁY"
 
 #: extensions/api/serializers.py:263
 msgid "INACTIVE"
-msgstr ""
+msgstr "NIEAKTYWNY"
 
 #: extensions/api/serializers.py:264
 msgid "ACTIVE"
-msgstr ""
+msgstr "AKTYWNY"
 
 #: extensions/api/serializers.py:705
 msgid "Products must have a certificate type."
-msgstr ""
+msgstr "Produkty muszą mieć typ certyfikatu."
 
 #: extensions/api/serializers.py:708 extensions/api/serializers.py:753
 msgid "Products must have a price."
-msgstr ""
+msgstr "Produkty muszą mieć cenę."
 
 #: extensions/api/serializers.py:715
 msgid "You need to provide a course UUID to create Course Entitlements."
-msgstr ""
+msgstr "Musisz podać UUID kursu, aby utworzyć Uprawnienia do Kursu."
 
 #: extensions/api/serializers.py:749
 msgid "Products must indicate whether ID verification is required."
-msgstr ""
+msgstr "Produkty muszą wskazywać, czy wymagana jest weryfikacja tożsamości."
 
 #: extensions/api/serializers.py:820
 #, python-brace-format
 msgid "Invalid product class [{product_class}] requested."
-msgstr ""
+msgstr "Zażądano nieprawidłowej klasy produktu [{product_class}]."
 
 #: extensions/api/serializers.py:859
 #, python-brace-format
@@ -833,152 +839,152 @@ msgid ""
 "Course [{course_id}] was not published to LMS because the switch "
 "[publish_course_modes_to_lms] is disabled. To avoid ghost SKUs, data has not"
 " been saved."
-msgstr ""
+msgstr "Kurs [{course_id}] nie został opublikowany w LMS, ponieważ przełącznik [publish_course_modes_to_lms] jest wyłączony. Aby uniknąć 'widmowych' SKU, dane nie zostały zapisane."
 
 #: extensions/api/serializers.py:1562
 msgid "Enrollment code"
-msgstr ""
+msgstr "Kod zapisu"
 
 #: extensions/api/serializers.py:1563
 msgid "Discount code"
-msgstr ""
+msgstr "Kod rabatowy"
 
 #: extensions/api/serializers.py:2060
 msgid "Invalid order number or order {} does not exists."
-msgstr ""
+msgstr "Nieprawidłowy numer zamówienia lub zamówienie {} nie istnieje."
 
 #: extensions/api/serializers.py:2115
 msgid "New coupon voucher assignment Failure. Error: {}"
-msgstr ""
+msgstr "Niepowodzenie przypisania nowego kuponu voucherowego. Błąd: {}"
 
 #: extensions/api/serializers.py:2133
 msgid ""
 "Your order {} can not be refunded as '{}' coupon are not supported to "
 "refund."
-msgstr ""
+msgstr "Zwrot pieniędzy za Twoje zamówienie {} nie może zostać zrealizowany, ponieważ kupony '{}' nie są obsługiwane przy zwrotach."
 
 #: extensions/api/serializers.py:2164
 msgid "Could note create new voucher for the order: {}"
-msgstr ""
+msgstr "Nie można utworzyć nowego vouchera dla zamówienia: {}"
 
 #: extensions/api/v2/views/baskets.py:445 extensions/basket/views.py:460
 #: extensions/iap/api/v1/views.py:131
 msgid "No SKUs provided."
-msgstr ""
+msgstr "Nie podano żadnych SKU."
 
 #: extensions/api/v2/views/baskets.py:456 extensions/basket/views.py:467
 #, python-brace-format
 msgid "Products with SKU(s) [{skus}] do not exist."
-msgstr ""
+msgstr "Produkty z SKU [{skus}] nie istnieją."
 
 #: extensions/api/v2/views/baskets.py:467
 msgid "Provide username or is_anonymous query param, but not both"
-msgstr ""
+msgstr "Podaj nazwę użytkownika lub parametr zapytania is_anonymous, ale nie oba."
 
 #: extensions/api/v2/views/products.py:54
 #, python-brace-format
 msgid "Product API only supports {http_method} for {product_class} products."
-msgstr ""
+msgstr "API Produktu obsługuje tylko metodę {http_method} dla produktów klasy {product_class}."
 
 #: extensions/api/v2/views/products.py:69
 #, python-brace-format
 msgid "Missing or bad value for: [{name}]."
-msgstr ""
+msgstr "Brakująca lub nieprawidłowa wartość dla: [{name}]."
 
 #: extensions/basket/models.py:119
 #, python-brace-format
 msgid "{id} - {status} basket (owner: {owner}, lines: {num_lines})"
-msgstr ""
+msgstr "{id} - {status} koszyk (właściciel: {owner}, linie: {num_lines})"
 
 #: extensions/basket/models.py:142 extensions/payment/models.py:28
 #: templates/oscar/basket/basket.html:9
 msgid "Basket"
-msgstr ""
+msgstr "Koszyk"
 
 #: extensions/basket/models.py:144
 msgid "Attribute Type"
-msgstr ""
+msgstr "Typ Atrybutu"
 
 #: extensions/basket/models.py:146
 msgid "Text Attribute"
-msgstr ""
+msgstr "Atrybut Tekstowy"
 
 #: extensions/basket/utils.py:155
 msgid ""
 "Due to export controls, we cannot allow you to access this course at this "
 "time."
-msgstr ""
+msgstr "Ze względu na kontrole eksportu nie możemy w tej chwili zezwolić Ci na dostęp do tego kursu."
 
 #: extensions/basket/utils.py:245
 msgid "Click here to just purchase an enrollment for yourself"
-msgstr ""
+msgstr "Kliknij tutaj, aby kupić zapis tylko dla siebie"
 
 #: extensions/basket/utils.py:248
 msgid "Click here to purchase multiple seats in this course"
-msgstr ""
+msgstr "Kliknij tutaj, aby kupić wiele miejsc na ten kurs"
 
 #: extensions/basket/utils.py:498
 #, python-brace-format
 msgid "Coupon code '{code}' has expired."
-msgstr ""
+msgstr "Kod kuponu '{code}' wygasł."
 
 #: extensions/basket/utils.py:502
 #, python-brace-format
 msgid "Coupon code '{code}' is not active."
-msgstr ""
+msgstr "Kod kuponu '{code}' nie jest aktywny."
 
 #: extensions/basket/utils.py:508
 #, python-brace-format
 msgid "Coupon code '{code}' is not available. {msg}"
-msgstr ""
+msgstr "Kod kuponu '{code}' jest niedostępny. {msg}"
 
 #: extensions/basket/utils.py:514
 #, python-brace-format
 msgid "Coupon code '{code}' is not valid for this basket."
-msgstr ""
+msgstr "Kod kuponu '{code}' jest nieprawidłowy dla tego koszyka."
 
 #: extensions/basket/utils.py:527
 #, python-brace-format
 msgid ""
 "Coupon code '{code}' is not valid for this basket for a bundled purchase."
-msgstr ""
+msgstr "Kod kuponu '{code}' jest nieprawidłowy dla tego koszyka w przypadku zakupu pakietowego."
 
 #: extensions/basket/utils.py:582
 #, python-brace-format
 msgid "Coupon code '{code}' added to basket."
-msgstr ""
+msgstr "Kod kuponu '{code}' dodany do koszyka."
 
 #: extensions/basket/utils.py:585
 #, python-brace-format
 msgid "Basket does not qualify for coupon code {code}."
-msgstr ""
+msgstr "Koszyk nie kwalifikuje się do kodu kuponu {code}."
 
 #: extensions/basket/views.py:206
 #, python-brace-format
 msgid "Could not apply the code '{code}'; it requires data sharing consent."
-msgstr ""
+msgstr "Nie można zastosować kodu '{code}'; wymaga on zgody na udostępnianie danych."
 
 #: extensions/basket/views.py:297
 msgid ""
 "After you complete your order you will be able to select course dates from "
 "your dashboard."
-msgstr ""
+msgstr "Po zakończeniu zamówienia będziesz mógł wybrać daty kursu ze swojego panelu nawigacyjnego."
 
 #: extensions/basket/views.py:312
 msgid ""
 "After you complete your order you will be automatically enrolled in the "
 "verified track of the course."
-msgstr ""
+msgstr "Po zakończeniu zamówienia zostaniesz automatycznie zapisany na zweryfikowaną ścieżkę kursu."
 
 #: extensions/basket/views.py:316
 msgid "After you complete your order you will receive credit for your course."
-msgstr ""
+msgstr "Po zakończeniu zamówienia otrzymasz zaliczenie za swój kurs."
 
 #: extensions/basket/views.py:319
 msgid ""
 "After you complete your order you will be automatically enrolled in the "
 "course."
-msgstr ""
+msgstr "Po zakończeniu zamówienia zostaniesz automatycznie zapisany na kurs."
 
 #: extensions/basket/views.py:323
 #, python-brace-format
@@ -996,6 +1002,7 @@ msgid ""
 "will receive an email at {user_email} with your enrollment code(s). "
 "{paragraph_end}"
 msgstr ""
+"{paragraph_start}Kupując, Ty i Twoja organizacja zgadzacie się na następujące warunki:{paragraph_end} {ul_start} {li_start}Każdy kod jest ważny dla jednego kursu, który obejmuje, i może być użyty tylko raz.{li_end} {li_start}Jesteś odpowiedzialny za dystrybucję kodów do swoich kursantów w organizacji.{li_end} {li_start}Każdy kod wygaśnie po roku od daty zakupu lub, jeśli wcześniej, po zamknięciu kursu.{li_end} {li_start}Jeśli kurs nie jest oznaczony jako we własnym tempie, powinieneś potwierdzić, że uruchomienie kursu jest dostępne przed wygaśnięciem. {li_end} {li_start}Nie możesz odsprzedawać kodów stronom trzecim.{li_end} {li_start}Wszystkie transakcje edX dla Biznesu są ostateczne i nie kwalifikują się do zwrotu pieniędzy.{li_end}{ul_end} {paragraph_start}Otrzymasz wiadomość e-mail na adres {user_email} z kodami zapisu. {paragraph_end}"
 
 #: extensions/basket/views.py:361
 #, python-brace-format
@@ -1004,84 +1011,84 @@ msgid ""
 "you are purchasing a single code for someone else, please continue with "
 "checkout. However, if you are the learner {link_start}go back{link_end} to "
 "enroll directly.{paragraph_end}"
-msgstr ""
+msgstr "{strong_start}Kupujesz tylko dla siebie?{strong_end}{paragraph_start}Jeśli kupujesz pojedynczy kod dla kogoś innego, kontynuuj proces realizacji zamówienia. Jeśli jednak jesteś kursantem, {link_start}wróć{link_end}, aby zapisać się bezpośrednio.{paragraph_end}"
 
 #: extensions/basket/views.py:439
 msgid "You have already purchased these products"
-msgstr ""
+msgstr "Kupiłeś już te produkty"
 
 #: extensions/basket/views.py:484
 msgid "No product is available to buy."
-msgstr ""
+msgstr "Żaden produkt nie jest dostępny do kupienia."
 
 #: extensions/basket/views.py:902
 msgid "quantity successfully updated"
-msgstr ""
+msgstr "ilość pomyślnie zaktualizowana"
 
 #: extensions/basket/views.py:921
 msgid ""
 "Your basket couldn't be updated. Please correct any validation errors below."
-msgstr ""
+msgstr "Nie można zaktualizować Twojego koszyka. Proszę poprawić wszelkie błędy walidacji poniżej."
 
 #: extensions/basket/views.py:975
 #, python-brace-format
 msgid "You have already added coupon code '{code}' to your basket."
-msgstr ""
+msgstr "Kod kuponu '{code}' został już dodany do Twojego koszyka."
 
 #: extensions/basket/views.py:1051
 #, python-brace-format
 msgid "Coupon code '{code}' does not exist."
-msgstr ""
+msgstr "Kod kuponu '{code}' nie istnieje."
 
 #: extensions/basket/views.py:1136
 #, python-format
 msgid "No coupon found with id '%s'"
-msgstr ""
+msgstr "Nie znaleziono kuponu o identyfikatorze '%s'"
 
 #: extensions/basket/views.py:1140
 #, python-format
 msgid "Coupon code '%s' was removed from your basket."
-msgstr ""
+msgstr "Kod kuponu '%s' został usunięty z Twojego koszyka."
 
 #: extensions/catalogue/models.py:70
 msgid "Last date/time on which this product can be purchased."
-msgstr ""
+msgstr "Ostatnia data/godzina, do której można kupić ten produkt."
 
 #: extensions/dashboard/forms.py:9
 #: templates/oscar/dashboard/refunds/refund_detail.html:50
 #: templates/oscar/dashboard/refunds/refund_list.html:60
 #: templates/oscar/dashboard/users/detail.html:40
 msgid "Username"
-msgstr ""
+msgstr "Nazwa użytkownika"
 
 #: extensions/dashboard/forms.py:10
 #: templates/oscar/dashboard/refunds/refund_list.html:61
 #: templates/oscar/dashboard/users/detail.html:48
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: extensions/dashboard/orders/views.py:74
 #, python-brace-format
 msgid ""
 "{link_start}Refund #{refund_id}{link_end} created! Click "
 "{link_start}here{link_end} to view it."
-msgstr ""
+msgstr "Zwrot {link_start}numeru #{refund_id}{link_end} został utworzony! Kliknij {link_start}tutaj{link_end}, aby go zobaczyć."
 
 #: extensions/dashboard/orders/views.py:78
 msgid ""
 "A refund cannot be created for these lines. They may have already been "
 "refunded."
-msgstr ""
+msgstr "Nie można utworzyć zwrotu dla tych pozycji. Mogły już zostać zwrócone."
 
 #: extensions/dashboard/refunds/apps.py:13
 msgid "Refunds Dashboard"
-msgstr ""
+msgstr "Panel Zwrotów"
 
 #: extensions/dashboard/refunds/forms.py:15
 #: templates/oscar/dashboard/partials/refund_table.html:9
 #: templates/oscar/dashboard/refunds/refund_list.html:56
 msgid "Refund ID"
-msgstr ""
+msgstr "ID Zwrotu"
 
 #: extensions/dashboard/refunds/forms.py:16 extensions/refund/models.py:72
 #: extensions/refund/models.py:316 extensions/voucher/utils.py:222
@@ -1098,77 +1105,77 @@ msgstr ""
 #: templates/oscar/dashboard/refunds/refund_list.html:59
 #: templates/oscar/dashboard/users/detail.html:142
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: extensions/dashboard/users/views.py:48
 msgid "Failed to retrieve enrollment data."
-msgstr ""
+msgstr "Nie udało się pobrać danych o zapisach."
 
 #: extensions/iap/models.py:14
 msgid ""
 "Number of times to retry failing IAP client actions (e.g., payment creation,"
 " payment execution)"
-msgstr ""
+msgstr "Liczba ponownych prób dla nieudanych akcji klienta IAP (np. tworzenie płatności, wykonanie płatności)"
 
 #: extensions/iap/models.py:21
 msgid "Past number of days to fetch Android refunds for."
-msgstr ""
+msgstr "Liczba dni wstecz, dla których mają być pobrane zwroty Androida."
 
 #: extensions/iap/models.py:27
 msgid "mobile team email"
-msgstr ""
+msgstr "adres e-mail zespołu mobilnego"
 
 #: extensions/iap/models.py:42
 msgid "Original Transaction ID"
-msgstr ""
+msgstr "Oryginalny ID Transakcji"
 
 #: extensions/offer/constants.py:32
 msgid "Day 3"
-msgstr ""
+msgstr "Dzień 3"
 
 #: extensions/offer/constants.py:33
 msgid "Day 10"
-msgstr ""
+msgstr "Dzień 10"
 
 #: extensions/offer/constants.py:34
 msgid "Day 19"
-msgstr ""
+msgstr "Dzień 19"
 
 #: extensions/offer/constants.py:40
 msgid "Assign"
-msgstr ""
+msgstr "Przypisz"
 
 #: extensions/offer/constants.py:41
 msgid "Remind"
-msgstr ""
+msgstr "Przypomnij"
 
 #: extensions/offer/constants.py:42
 msgid "Revoke"
-msgstr ""
+msgstr "Odwołaj"
 
 #: extensions/offer/constants.py:77
 msgid "Automatic"
-msgstr ""
+msgstr "Automatyczny"
 
 #: extensions/offer/constants.py:78
 msgid "Manual"
-msgstr ""
+msgstr "Ręczny"
 
 #: extensions/offer/models.py:447
 msgid "Course Catalog ID from the Discovery Service."
-msgstr ""
+msgstr "ID Katalogu Kursów z Usługi Discovery."
 
 #: extensions/offer/models.py:458
 msgid "UUID for an EnterpriseCustomerCatalog from the Enterprise Service."
-msgstr ""
+msgstr "UUID dla EnterpriseCustomerCatalog z Usługi Enterprise."
 
 #: extensions/offer/models.py:590
 msgid "EnterpriseCustomer Name"
-msgstr ""
+msgstr "Nazwa Klienta Korporacyjnego"
 
 #: extensions/offer/models.py:595
 msgid "EnterpriseCustomerCatalog UUID"
-msgstr ""
+msgstr "UUID Katalogu Klienta Korporacyjnego"
 
 #: extensions/offer/models.py:600 extensions/voucher/utils.py:53
 #: extensions/voucher/utils.py:190 extensions/voucher/utils.py:270
@@ -1176,49 +1183,49 @@ msgstr ""
 #: extensions/voucher/utils.py:341 programs/forms.py:22
 #: programs/templates/programs/programoffer_list.html:30
 msgid "Program UUID"
-msgstr ""
+msgstr "UUID Programu"
 
 #: extensions/offer/models.py:613
 msgid "Email to user pending."
-msgstr ""
+msgstr "Oczekująca wiadomość e-mail do użytkownika."
 
 #: extensions/offer/models.py:614
 msgid "Code successfully assigned to user."
-msgstr ""
+msgstr "Kod pomyślnie przypisany użytkownikowi."
 
 #: extensions/offer/models.py:615
 msgid "Code has been redeemed by user."
-msgstr ""
+msgstr "Kod został wykorzystany przez użytkownika."
 
 #: extensions/offer/models.py:616
 msgid "Email to user bounced."
-msgstr ""
+msgstr "Wiadomość e-mail do użytkownika odbita."
 
 #: extensions/offer/models.py:617
 msgid "Code has been revoked for this user."
-msgstr ""
+msgstr "Kod został odwołany dla tego użytkownika."
 
 #: extensions/offer/models.py:663
 msgid "Make a particular template version active."
-msgstr ""
+msgstr "Uaktywnij określoną wersję szablonu."
 
 #: extensions/offer/models.py:883
 msgid "Email has been sent."
-msgstr ""
+msgstr "Wiadomość e-mail została wysłana."
 
 #: extensions/offer/models.py:884
 msgid "This user should receive email"
-msgstr ""
+msgstr "Ten użytkownik powinien otrzymać wiadomość e-mail"
 
 #: extensions/offer/utils.py:97
 #, python-brace-format
 msgid "{benefit_value}%"
-msgstr ""
+msgstr "{benefit_value}%"
 
 #: extensions/offer/utils.py:100
 #, python-brace-format
 msgid "${benefit_value}"
-msgstr ""
+msgstr "${benefit_value}"
 
 #. Translators: "Waffle" is the name of a third-party library. It should not
 #. be translated
@@ -1228,76 +1235,76 @@ msgid ""
 "Order administration has been disabled due to the load on the database. This"
 " functionality can be restored by activating the {switch_name} Waffle "
 "switch. Be careful when re-activating this switch!"
-msgstr ""
+msgstr "Administracja zamówieniami została wyłączona z powodu obciążenia bazy danych. Tę funkcjonalność można przywrócić, aktywując przełącznik Waffle {switch_name}. Bądź ostrożny podczas ponownej aktywacji tego przełącznika!"
 
 #: extensions/order/benefits.py:22
 #, python-format
 msgid "%d%% discount for manual course enrollment order"
-msgstr ""
+msgstr "%d%% zniżki na ręczne zamówienie zapisu na kurs"
 
 #: extensions/order/models.py:39 extensions/payment/models.py:26
 msgid "Payment Processor"
-msgstr ""
+msgstr "Procesor Płatności"
 
 #: extensions/order/models.py:51
 msgid ""
 "It expect that the order numbers stuck in fulfillment error state will be"
 "             provided in a txt file format one per line."
-msgstr ""
+msgstr "Oczekuje się, że numery zamówień, które utknęły w stanie błędu realizacji, zostaną dostarczone w formacie pliku txt, po jednym na wiersz."
 
 #: extensions/partner/admin.py:28
 msgid "Click 'Save and Continue Editing' to add stock records"
-msgstr ""
+msgstr "Kliknij 'Zapisz i kontynuuj edycję', aby dodać rekordy magazynowe"
 
 #: extensions/partner/models.py:22
 #: templates/oscar/dashboard/catalogue/product_update.html:193
 #: templates/oscar/dashboard/orders/line_detail.html:71
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #: extensions/partner/models.py:23 settings/_oscar.py:276
 msgid "Partners"
-msgstr ""
+msgstr "Partnerzy"
 
 #: extensions/payment/constants.py:8
 msgid "American Express"
-msgstr ""
+msgstr "American Express"
 
 #: extensions/payment/constants.py:14
 msgid "Diners"
-msgstr ""
+msgstr "Diners"
 
 #: extensions/payment/constants.py:18
 msgid "Discover"
-msgstr "Odkryj"
+msgstr "Discover"
 
 #: extensions/payment/constants.py:24
 msgid "JCB"
-msgstr ""
+msgstr "JCB"
 
 #: extensions/payment/constants.py:28
 msgid "MasterCard"
-msgstr ""
+msgstr "MasterCard"
 
 #: extensions/payment/constants.py:34
 msgid "UnionPay"
-msgstr ""
+msgstr "UnionPay"
 
 #: extensions/payment/constants.py:38
 msgid "Unknown"
-msgstr ""
+msgstr "Nieznany"
 
 #: extensions/payment/constants.py:42
 msgid "Visa"
-msgstr ""
+msgstr "Visa"
 
 #: extensions/payment/exceptions.py:8
 msgid "We don't support the payment option you selected."
-msgstr ""
+msgstr "Nie obsługujemy wybranej opcji płatności."
 
 #: extensions/payment/forms.py:31
 msgid "Choose country"
-msgstr ""
+msgstr "Wybierz kraj"
 
 #. Translators: This is a string added next to the name of the required
 #. fields on the payment form. For example, the first name field is
@@ -1305,94 +1312,94 @@ msgstr ""
 #: extensions/payment/forms.py:105
 #, python-brace-format
 msgid "{label} (required)"
-msgstr ""
+msgstr "{label} (wymagane)"
 
 #: extensions/payment/forms.py:111
 msgid "Organization (required)"
-msgstr ""
+msgstr "Organizacja (wymagana)"
 
 #: extensions/payment/forms.py:124
 msgid ""
 "I am purchasing on behalf of my employer or other professional organization"
-msgstr ""
+msgstr "Dokonuję zakupu w imieniu mojego pracodawcy lub innej organizacji zawodowej"
 
 #: extensions/payment/forms.py:141 extensions/payment/forms.py:218
 #: extensions/payment/views/__init__.py:87
 msgid ""
 "There was a problem retrieving your basket. Refresh the page to try again."
-msgstr ""
+msgstr "Wystąpił problem z pobraniem Twojego koszyka. Odśwież stronę, aby spróbować ponownie."
 
 #: extensions/payment/forms.py:144
 msgid "First Name (required)"
-msgstr ""
+msgstr "Imię (wymagane)"
 
 #: extensions/payment/forms.py:145
 msgid "Last Name (required)"
-msgstr ""
+msgstr "Nazwisko (wymagane)"
 
 #: extensions/payment/forms.py:146
 msgid "Address (required)"
-msgstr ""
+msgstr "Adres (wymagany)"
 
 #: extensions/payment/forms.py:147
 msgid "Suite/Apartment Number"
-msgstr ""
+msgstr "Numer apartamentu/lokalu"
 
 #: extensions/payment/forms.py:148
 msgid "City (required)"
-msgstr ""
+msgstr "Miasto (wymagane)"
 
 #: extensions/payment/forms.py:151
 msgid "State/Province"
-msgstr ""
+msgstr "Stan/Prowincja"
 
 #: extensions/payment/forms.py:152
 msgid "Zip/Postal Code"
-msgstr ""
+msgstr "Kod pocztowy"
 
 #: extensions/payment/forms.py:153
 msgid "Country (required)"
-msgstr ""
+msgstr "Kraj (wymagany)"
 
 #: extensions/payment/forms.py:180 extensions/payment/forms.py:182
 #: extensions/payment/forms.py:193
 msgid "This field is required."
-msgstr ""
+msgstr "To pole jest wymagane."
 
 #: extensions/payment/forms.py:199
 msgid ""
 "Postal codes for the U.S. and Canada are limited to nine (9) characters."
-msgstr ""
+msgstr "Kody pocztowe dla USA i Kanady są ograniczone do dziewięciu (9) znaków."
 
 #: extensions/payment/models.py:27
 msgid "Transaction ID"
-msgstr ""
+msgstr "ID Transakcji"
 
 #: extensions/payment/models.py:36
 msgid "Payment Processor Response"
-msgstr ""
+msgstr "Odpowiedź Procesora Płatności"
 
 #: extensions/payment/models.py:37
 msgid "Payment Processor Responses"
-msgstr ""
+msgstr "Odpowiedzi Procesora Płatności"
 
 #: extensions/payment/models.py:54
 msgid ""
 "Number of times to retry failing Paypal client actions (e.g., payment "
 "creation, payment execution)"
-msgstr ""
+msgstr "Liczba ponownych prób dla nieudanych akcji klienta Paypal (np. tworzenie płatności, wykonanie płatności)"
 
 #: extensions/payment/models.py:112
 msgid "More than 10 digits before the decimal not allowed for fixed value."
-msgstr ""
+msgstr "Dla wartości stałej nie jest dozwolone więcej niż 10 cyfr przed przecinkiem."
 
 #: extensions/payment/models.py:118
 msgid "More than 2 digits after the decimal not allowed for fixed value."
-msgstr ""
+msgstr "Dla wartości stałej nie jest dozwolone więcej niż 2 cyfry po przecinku."
 
 #: extensions/payment/models.py:126
 msgid "Percentage greater than 100 not allowed."
-msgstr ""
+msgstr "Procent większy niż 100 nie jest dozwolony."
 
 #. Translators: This is a string placed in the middle of a truncated string
 #. to indicate that truncation has occurred. For example, if a title may only
@@ -1400,11 +1407,11 @@ msgstr ""
 #. truncated to "A Ve...itle".
 #: extensions/payment/utils.py:77
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: extensions/payment/views/cybersource.py:368
 msgid "transaction declined"
-msgstr ""
+msgstr "transakcja odrzucona"
 
 #. Translators: "Waffle" is the name of a third-party library. It should not
 #. be translated
@@ -1414,37 +1421,37 @@ msgid ""
 "Refund administration has been disabled due to the load on the database. "
 "This functionality can be restored by activating the {switch_name} Waffle "
 "switch. Be careful when re-activating this switch!"
-msgstr ""
+msgstr "Administracja zwrotami została wyłączona z powodu obciążenia bazy danych. Tę funkcjonalność można przywrócić, aktywując przełącznik Waffle {switch_name}. Bądź ostrożny podczas ponownej aktywacji tego przełącznika!"
 
 #: extensions/refund/models.py:67
 msgid "Order"
-msgstr ""
+msgstr "Zamówienie"
 
 #: extensions/refund/models.py:68
 #: templates/oscar/dashboard/orders/order_detail.html:707
 msgid "User"
-msgstr ""
+msgstr "Użytkownik"
 
 #: extensions/refund/models.py:69
 msgid "Total Credit (excl. tax)"
-msgstr ""
+msgstr "Całkowity Kredyt (bez podatku)"
 
 #: extensions/refund/models.py:70
 #: templates/oscar/dashboard/catalogue/product_update.html:200
 msgid "Currency"
-msgstr ""
+msgstr "Waluta"
 
 #: extensions/refund/models.py:308
 msgid "Refund"
-msgstr ""
+msgstr "Zwrot"
 
 #: extensions/refund/models.py:311
 msgid "Order Line"
-msgstr ""
+msgstr "Pozycja Zamówienia"
 
 #: extensions/refund/models.py:313
 msgid "Line Credit (excl. tax)"
-msgstr ""
+msgstr "Kredyt Pozycji (bez podatku)"
 
 #: extensions/refund/models.py:314 templates/edx/checkout/receipt.html:103
 #: templates/oscar/basket/partials/client_side_checkout_basket.html:30
@@ -1457,39 +1464,39 @@ msgstr ""
 #: templates/oscar/dashboard/orders/order_detail.html:131
 #: templates/oscar/dashboard/refunds/refund_detail.html:106
 msgid "Quantity"
-msgstr ""
+msgstr "Ilość"
 
 #: extensions/voucher/models.py:40
 msgid "Can be used once by one customer"
-msgstr ""
+msgstr "Może być użyty raz przez jednego klienta"
 
 #: extensions/voucher/models.py:41
 msgid "Can be used multiple times by multiple customers"
-msgstr ""
+msgstr "Może być użyty wiele razy przez wielu klientów"
 
 #: extensions/voucher/models.py:42
 msgid "Can only be used once per customer"
-msgstr ""
+msgstr "Może być użyty tylko raz na klienta"
 
 #: extensions/voucher/models.py:43
 msgid "Can be used multiple times by one customer"
-msgstr ""
+msgstr "Może być użyty wiele razy przez jednego klienta"
 
 #: extensions/voucher/models.py:45
 msgid "Usage"
-msgstr ""
+msgstr "Użycie"
 
 #: extensions/voucher/models.py:48
 msgid "Is Public Code Batch"
-msgstr ""
+msgstr "Jest Publiczną Partią Kodów"
 
 #: extensions/voucher/models.py:49
 msgid "Should this code batch be public or private for assignment."
-msgstr ""
+msgstr "Czy ta partia kodów powinna być publiczna, czy prywatna do przypisania."
 
 #: extensions/voucher/models.py:63
 msgid "This voucher is assigned to another user."
-msgstr ""
+msgstr "Ten voucher jest przypisany innemu użytkownikowi."
 
 #: extensions/voucher/utils.py:53 extensions/voucher/utils.py:192
 #: extensions/voucher/utils.py:271 extensions/voucher/utils.py:329
