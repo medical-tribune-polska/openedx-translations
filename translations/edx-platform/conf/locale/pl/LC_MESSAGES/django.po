@@ -12826,6 +12826,59 @@ msgstr ""
 msgid "External Discussion"
 msgstr "Zewnętrzne dyskusje"
 
+#: xmodule/templates/item_bank/author_view.html:8
+#: xmodule/templates/item_bank/author_view.html:18
+#, python-format
+msgid ""
+"\n"
+"                Learners will see the selected component:\n"
+"                "
+msgid_plural ""
+"\n"
+"                Learners will see all of the %(num_selected)s selected "
+"components, in random order:\n"
+"                "
+msgstr[0] ""
+"\n"
+"               Uczniowie zobaczą wybrany komponent:\n"
+"                "
+msgstr[1] ""
+"\n"
+"                Uczniowie zobaczą wszystkie wybrane %(num_selected)y "
+"w losowej kolejności:\n"
+"                "
+
+#: xmodule/templates/item_bank/author_view.html:32
+#, python-brace-format
+msgid ""
+"Press {link_start}View{link_end} to preview, sync/update, and/or remove the "
+"selected components."
+msgstr ""
+"Naciśnij {link_start}Wyświetl{link_end}, aby wyświetlić podgląd, zsynchronizować/zaktualizować i/lub usunąć "
+"wybrane komponenty."
+
+#: xmodule/templates/item_bank/author_view.html:38
+#, python-brace-format
+msgid ""
+"Press {link_start}Edit{link_end} to configure how many will be shown and "
+"other settings."
+msgstr ""
+"Naciśnij {link_start}Edytuj{link_end}, aby skonfigurować liczbę wyświetlanych elementów "
+"i inne ustawienia."
+
+#: xmodule/templates/item_bank/author_view.html:44
+msgid "You have not selected any components yet."
+msgstr "Nie wybrałeś jeszcze żadnych komponentów"
+
+#: xmodule/templates/item_bank/author_view_add.html:11
+#, python-brace-format
+msgid ""
+"{button_start}Add components{button_end} from a content library to this "
+"problem bank."
+msgstr ""
+"{button_start}Dodaj komponenty{button_end} z biblioteki treści do tego "
+"banku problemów."
+
 #: xmodule/vertical_block.py:45
 msgid "Enable in-context discussions for the Unit"
 msgstr "Włącz dyskusje w kontekście dla Jednostki"
