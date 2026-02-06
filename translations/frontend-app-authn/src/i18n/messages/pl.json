@@ -40,7 +40,7 @@
   "confirmation.support.link": "skontaktuj się z pomocą techniczną",
   "need.help.sign.in.text": "Potrzebujesz pomocy przy logowaniu?",
   "additional.help.text": "Aby uzyskać dodatkową pomoc, skontaktuj się z pomocą techniczną {platformName} pod adresem ",
-  "sign.in.text": "Zaloguj się",
+  "sign.in.text": "Zaloguj się danymi swojego konta podyplomie.pl",
   "extend.field.errors": "{emailError} poniżej.",
   "invalid.token.heading": "Nieprawidłowy link do resetowania hasła",
   "invalid.token.error.message": "Ten link do resetowania hasła jest nieprawidłowy. Być może został już użyty. Wprowadź swój adres e-mail poniżej, aby otrzymać nowy link.",
