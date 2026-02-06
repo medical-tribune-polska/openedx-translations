@@ -1,7 +1,7 @@
 {
   "error.notfound.message": "Strona, której szukasz, jest niedostępna lub w adresie URL występuje błąd. Sprawdź adres URL i spróbuj ponownie.",
   "institution.login.page.sub.heading": "Wybierz swoją instytucję z poniższej listy",
-  "logistration.sign.in": "Zaloguj się",
+  "logistration.sign.in": "Zaloguj się danymi swojego konta podyplomie.pl",
   "logistration.register": "Zarejestruj się",
   "enterprisetpa.title.heading": "Czy chcesz zalogować się przy użyciu danych logowania {providerName}?",
   "enterprisetpa.login.button.text": "Pokaż mi inne sposoby logowania lub rejestracji",
