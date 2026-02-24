@@ -154,7 +154,7 @@
   "learning.proctoringPanel.reviewRequirementsButton": "Przejrzyj instrukcje i wymagania systemowe",
   "learning.proctoringPanel.onboardingButtonPastDue": "Wdrażanie przeterminowane",
   "learning.outline.sequence-due-date-set": "{description} termin {assignmentDue}",
-  "learning.outline.sequence-due-date-not-set": "{description} termin",
+  "learning.outline.sequence-due-date-not-set": "{description}",
   "progress.header": "Twoje postępy",
   "progress.header.targetUser": "Postępy kursu dla {username}",
   "progress.link.studio": "Zobacz ocenianie w Studio",

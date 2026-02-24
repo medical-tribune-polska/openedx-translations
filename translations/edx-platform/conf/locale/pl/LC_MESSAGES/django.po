@@ -3639,6 +3639,13 @@ msgstr ""
 msgid "Disabled"
 msgstr "Wyłączone"
 
+#: lms/djangoapps/course_home_api/outline/serializers.py:33
+#, python-brace-format
+msgid "({number} Question)"
+msgid_plural "({number} Questions)"
+msgstr[0] "({number} pytanie)"
+msgstr[1] "({number} pytania)"
+
 #: lms/djangoapps/course_home_api/outline/views.py:293
 #, python-brace-format
 msgid ""
