@@ -10068,9 +10068,30 @@ msgstr "Pytanie {}"
 msgid "Incorrect"
 msgstr "Niepoprawne"
 
+#: xmodule/capa_block.py:1393
+#, python-brace-format
+msgid "Incorrect ({progress} point)"
+msgid_plural "Incorrect ({progress} points)"
+msgstr[0] "Niepoprawne ({progress} punkt)"
+msgstr[1] "Niepoprawne ({progress} punkty)"
+
 #: xmodule/capa/capa_problem.py:752 xmodule/capa_block.py:1407
 msgid "Correct"
 msgstr "Poprawne"
+
+#: xmodule/capa_block.py:1402
+#, python-brace-format
+msgid "Correct ({progress} point)"
+msgid_plural "Correct ({progress} points)"
+msgstr[0] "Poprawne ({progress} punkt)"
+msgstr[1] "Poprawne ({progress} punkty)"
+
+#: xmodule/capa_block.py:1411
+#, python-brace-format
+msgid "Partially correct ({progress} point)"
+msgid_plural "Partially correct ({progress} points)"
+msgstr[0] "Częściowo poprawne ({progress} punkt)"
+msgstr[1] "Częściowo poprawne ({progress} punkty)"
 
 #: xmodule/capa/inputtypes.py:89
 msgid "correct"
