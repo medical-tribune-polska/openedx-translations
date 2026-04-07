@@ -18625,12 +18625,12 @@ msgstr "DOWIEDZ SIĘ WIĘCEJ"
 #: lms/templates/course.html:29  lms/templates/course.html:39
 #: lms/templates/course.html:41
 msgid "Starts"
-msgstr "Zaczyna się"
+msgstr "Start"
 
 #: lms/templates/course.html:31
 #, python-brace-format
 msgid "Starts: {date}"
-msgstr "Zaczyna się: {date}"
+msgstr "Start: {date}"
 
 #: lms/templates/courses_list.html:22
 msgid "View all Courses"
@@ -21388,7 +21388,7 @@ msgstr "Kursy w {}"
 #: lms/templates/courseware/program_marketing.html:324
 #, python-brace-format
 msgid "Starts on {}"
-msgstr "Zaczyna się {}"
+msgstr "Start {}"
 
 #: lms/templates/courseware/progress.html:35
 #, python-brace-format
