@@ -4310,7 +4310,7 @@ msgstr "Przejdź do pulpitu nawigacyjnego"
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js:168
 msgid "(Self-paced) Starts {start}"
-msgstr "(Samodzielne) Rozpoczyna się {start}"
+msgstr "(Samodzielne) Start {start}"
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js:169
 msgid "(Self-paced) Started {start}"
@@ -4326,7 +4326,7 @@ msgstr "(Samodzielne) Zakończyło się {end}"
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js:179
 msgid "Starts {start}"
-msgstr "Rozpoczyna się {start}"
+msgstr "Start {start}"
 
 #: lms/static/js/learner_dashboard/models/course_card_model.js:180
 msgid "Started {start}"
@@ -9350,11 +9350,11 @@ msgstr "DOWIEDZ SIĘ WIĘCEJ"
 #: lms/templates/discovery/course_card.underscore:17
 #, python-format
 msgid "Starts: %(start_date)s"
-msgstr "Rozpoczyna się: %(start_date)s"
+msgstr "Start: %(start_date)s"
 
 #: lms/templates/discovery/course_card.underscore:26
 msgid "Starts"
-msgstr "Rozpoczyna się"
+msgstr "Start"
 
 #:lms/templates/discovery/filter_bar.underscore:3
 msgid "Clear All"

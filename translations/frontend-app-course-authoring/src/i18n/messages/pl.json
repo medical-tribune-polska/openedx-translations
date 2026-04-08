@@ -2297,7 +2297,7 @@
   "authoring.videoeditor.duration.stopTime.label": "Czas zatrzymania",
   "authoring.videoeditor.duration.hint": "Wprowadź godzinę w formacie GG:MM:SS",
   "authoring.videoeditor.duration.fullVideoLength": "Pełna długość filmu",
-  "authoring.videoeditor.duration.startsAt": "Rozpoczyna się o {startTime}",
+  "authoring.videoeditor.duration.startsAt": "Start o {startTime}",
   "authoring.videoeditor.duration.total": "Łącznie: {total}",
   "authoring.videoeditor.duration.custom": "Niestandardowe: {total}",
   "authoring.videoeditor.transcripts.empty": "Nie dodano żadnych transkryptów",

@@ -577,7 +577,7 @@ msgstr ""
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:298
 #: enterprise/views.py:1604
 msgid "Starts"
-msgstr "Rozpoczyna się"
+msgstr "Start"
 
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:228
 msgid "Enrollment Closed"

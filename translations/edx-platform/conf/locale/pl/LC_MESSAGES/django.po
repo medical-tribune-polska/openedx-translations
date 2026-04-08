@@ -21782,7 +21782,7 @@ msgstr "Rozpoczęto - {date}"
 #: lms/templates/dashboard/_dashboard_course_listing.html:151
 #, python-brace-format
 msgid "Starts - {date}"
-msgstr "Rozpoczyna się - {date}"
+msgstr "Start - {date}"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:162
 #, python-brace-format
